@@ -1,0 +1,373 @@
+{
+  "title": "International Coast Guard Fleet Review 2027",
+  "subtitle": "ICGFR 2027",
+  "date": "2027-02-17",
+  "time": "08:00–12:30 IST",
+  "location": "Chennai Coastline, Bay of Bengal",
+  "reviewing_authority": "President of India, Smt. Droupadi Murmu",
+  "host_authority": "Director General, Indian Coast Guard",
+  "about": "The International Coast Guard Fleet Review (ICGFR 2027) is the centrepiece event of the 5th Coast Guard Global Summit. For the first time in South Asia, coast guard and maritime law enforcement vessels from across the globe will assemble in the waters of the Bay of Bengal off Chennai, demonstrating the unity, strength, and collaborative spirit of the world's maritime community. The Fleet Review is a proud tradition that symbolises international solidarity on the high seas.",
+  "significance": "The 2027 review carries special significance as it coincides with the Golden Jubilee — 50 years of the Indian Coast Guard (est. 1 February 1977). It marks India's assumption of the CGGS Presidency and showcases the nation's growing maritime power and its commitment to regional peace and security under the SAGAR initiative.",
+  "history": [
+    {
+      "year": 2017,
+      "host": "Japan Coast Guard",
+      "location": "Yokohama, Japan",
+      "ships": 18,
+      "nations": 24,
+      "notes": "First-ever International Coast Guard Fleet Review, conducted alongside the inaugural CGGS in Tokyo Bay."
+    },
+    {
+      "year": 2019,
+      "host": "Republic of Korea Coast Guard",
+      "location": "Incheon, South Korea",
+      "ships": 22,
+      "nations": 30,
+      "notes": "Expanded participation from Southeast Asia and the Pacific. Historic joint search-and-rescue demonstration exercise."
+    },
+    {
+      "year": 2021,
+      "host": "Philippine Coast Guard",
+      "location": "Manila Bay, Philippines",
+      "ships": 26,
+      "nations": 37,
+      "notes": "First fleet review in ASEAN waters. Introduced environmental protection demonstration drill."
+    },
+    {
+      "year": 2025,
+      "host": "Italian Coast Guard",
+      "location": "Civitavecchia, Italy",
+      "ships": 31,
+      "nations": 42,
+      "notes": "First fleet review in European waters; integrated Mediterranean theatre ships and EU border patrol vessels."
+    },
+    {
+      "year": 2027,
+      "host": "Indian Coast Guard",
+      "location": "Chennai, Bay of Bengal, India",
+      "ships": 48,
+      "nations": 57,
+      "notes": "Largest ICGFR ever conducted. First in the Indian Ocean Region. Golden Jubilee of the Indian Coast Guard."
+    }
+  ],
+  "objectives": [
+    {
+      "title": "Demonstrate Maritime Unity",
+      "description": "Showcase the collective strength and cooperative spirit of coast guard agencies from across the globe."
+    },
+    {
+      "title": "Promote Interoperability",
+      "description": "Conduct joint tactical manoeuvres and SAR demonstrations to test and strengthen combined maritime capabilities."
+    },
+    {
+      "title": "Honour India's Maritime Heritage",
+      "description": "Celebrate 50 years of the Indian Coast Guard and India's strategic position in the Indian Ocean Region."
+    },
+    {
+      "title": "Signal Regional Stability",
+      "description": "Affirm India's SAGAR vision — Security and Growth for All in the Region — through visible maritime diplomacy."
+    },
+    {
+      "title": "Inspire Public Engagement",
+      "description": "Open select elements to the public and media to foster broader appreciation for maritime security."
+    }
+  ],
+  "statistics": {
+    "participating_nations": 57,
+    "vessels": 48,
+    "aircraft": 12,
+    "personnel": 4200,
+    "observers": 3000,
+    "duration_hours": 4.5
+  },
+  "programme": [
+    {
+      "time": "07:30",
+      "activity": "Delegates and dignitaries board Reviewing Vessel at Chennai Port Trust Wharf"
+    },
+    {
+      "time": "08:00",
+      "activity": "President of India arrives — Guard of Honour and National Salute"
+    },
+    {
+      "time": "08:15",
+      "activity": "Reviewing Vessel (ICGS Samudra Paheredar) departs wharf"
+    },
+    {
+      "time": "08:30",
+      "activity": "Fleet Review commences — vessels arranged in three columns off the Chennai coast"
+    },
+    {
+      "time": "08:30–10:30",
+      "activity": "Presidential Review of Fleet — steaming past all 48 vessels with gun salutes and coloured bunting"
+    },
+    {
+      "time": "10:30–11:15",
+      "activity": "Joint Maritime SAR Demonstration — multi-nation rescue exercise with helicopters and fast-attack craft"
+    },
+    {
+      "time": "11:15–11:45",
+      "activity": "Environmental Protection Drill — oil spill containment demonstration by Indian and Japanese vessels"
+    },
+    {
+      "time": "11:45–12:15",
+      "activity": "Aerial Display — Coast Guard dornier aircraft and helicopter flypast"
+    },
+    {
+      "time": "12:15–12:30",
+      "activity": "Ceremonial Close and Return to Port"
+    }
+  ],
+  "ships": [
+    {
+      "ship_id": "SHIP-001",
+      "name": "ICGS Samudra Paheredar",
+      "type": "Offshore Patrol Vessel",
+      "class": "Sarathi-class OPV",
+      "country": "India",
+      "country_code": "IN",
+      "displacement_tonnes": 2350,
+      "length_m": 105,
+      "crew": 125,
+      "commissioned": 2022,
+      "role": "Reviewing Vessel / Flagship",
+      "capabilities": ["SAR Operations", "Anti-Piracy", "Maritime Surveillance", "Pollution Response"],
+      "highlight": true,
+      "description": "Lead vessel of the Indian Coast Guard for ICGFR 2027. Purpose-built for long-range offshore patrol with advanced surveillance equipment.",
+      "image_url": "/ships/icgs_samudra_paheredar.jpg"
+    },
+    {
+      "ship_id": "SHIP-002",
+      "name": "ICGS Vikram",
+      "type": "Fast Patrol Vessel",
+      "class": "Vikram-class",
+      "country": "India",
+      "country_code": "IN",
+      "displacement_tonnes": 1400,
+      "length_m": 90,
+      "crew": 95,
+      "commissioned": 2020,
+      "role": "Escort Vessel",
+      "capabilities": ["High-Speed Interception", "Coast Patrol", "Anti-Smuggling"],
+      "highlight": false,
+      "description": "Advanced fast patrol vessel capable of sustained high-speed operations in offshore zones.",
+      "image_url": "/ships/icgs_vikram.jpg"
+    },
+    {
+      "ship_id": "SHIP-003",
+      "name": "JCG Akitsushima",
+      "type": "Patrol Vessel",
+      "class": "Akitsushima-class",
+      "country": "Japan",
+      "country_code": "JP",
+      "displacement_tonnes": 6500,
+      "length_m": 150,
+      "crew": 200,
+      "commissioned": 2013,
+      "role": "Fleet Participant",
+      "capabilities": ["Helicopter Operations", "Deep Ocean SAR", "Maritime Law Enforcement"],
+      "highlight": false,
+      "description": "Flagship of the Japan Coast Guard, equipped with two onboard helicopters and advanced command facilities.",
+      "image_url": "/ships/jcg_akitsushima.jpg"
+    },
+    {
+      "ship_id": "SHIP-004",
+      "name": "USCGC Midgett",
+      "type": "National Security Cutter",
+      "class": "Legend-class",
+      "country": "United States",
+      "country_code": "US",
+      "displacement_tonnes": 4500,
+      "length_m": 127,
+      "crew": 148,
+      "commissioned": 2019,
+      "role": "Fleet Participant",
+      "capabilities": ["Counter-narcotics", "Fisheries Enforcement", "SAR", "Icebreaking"],
+      "highlight": false,
+      "description": "One of the US Coast Guard's most capable cutters, representing America's commitment to global maritime security.",
+      "image_url": "/ships/uscgc_midgett.jpg"
+    },
+    {
+      "ship_id": "SHIP-005",
+      "name": "ICS Thaon di Revel",
+      "type": "Offshore Patrol Vessel",
+      "class": "Thaon di Revel-class",
+      "country": "Italy",
+      "country_code": "IT",
+      "displacement_tonnes": 1700,
+      "length_m": 93,
+      "crew": 110,
+      "commissioned": 2021,
+      "role": "Fleet Participant",
+      "capabilities": ["Mediterranean Patrol", "Migrant Rescue", "Anti-Smuggling"],
+      "highlight": false,
+      "description": "Italy's newest OPV, deployed extensively in Mediterranean SAR operations and border enforcement.",
+      "image_url": "/ships/ics_thaon.jpg"
+    },
+    {
+      "ship_id": "SHIP-006",
+      "name": "KCG Taean",
+      "type": "Pollution Control Vessel",
+      "class": "Taean-class",
+      "country": "Republic of Korea",
+      "country_code": "KR",
+      "displacement_tonnes": 5500,
+      "length_m": 130,
+      "crew": 85,
+      "commissioned": 2018,
+      "role": "Fleet Participant",
+      "capabilities": ["Oil Spill Response", "Environmental Monitoring", "Marine Research"],
+      "highlight": false,
+      "description": "South Korea's dedicated marine pollution response ship, featuring advanced oil recovery and dispersal systems.",
+      "image_url": "/ships/kcg_taean.jpg"
+    },
+    {
+      "ship_id": "SHIP-007",
+      "name": "PCG Teresa Magbanua",
+      "type": "Multi-Role Response Vessel",
+      "class": "MRRV 4850-class",
+      "country": "Philippines",
+      "country_code": "PH",
+      "displacement_tonnes": 4850,
+      "length_m": 120,
+      "crew": 140,
+      "commissioned": 2024,
+      "role": "Fleet Participant",
+      "capabilities": ["Humanitarian Assistance", "Disaster Response", "Maritime Law Enforcement"],
+      "highlight": false,
+      "description": "The Philippines Coast Guard's largest vessel, designed for comprehensive maritime security and disaster response missions.",
+      "image_url": "/ships/pcg_magbanua.jpg"
+    },
+    {
+      "ship_id": "SHIP-008",
+      "name": "MMEA KD Pekan",
+      "type": "Offshore Patrol Vessel",
+      "class": "OPV 70-class",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "displacement_tonnes": 1850,
+      "length_m": 70,
+      "crew": 75,
+      "commissioned": 2020,
+      "role": "Fleet Participant",
+      "capabilities": ["Straits of Malacca Patrol", "Anti-Piracy", "Fisheries Protection"],
+      "highlight": false,
+      "description": "Malaysian Maritime Enforcement Agency's modern OPV, patrolling one of the world's busiest shipping lanes.",
+      "image_url": "/ships/mmea_pekan.jpg"
+    },
+    {
+      "ship_id": "SHIP-009",
+      "name": "SLCG Nandimithra",
+      "type": "Advanced Offshore Patrol Vessel",
+      "class": "AOPV-class",
+      "country": "Sri Lanka",
+      "country_code": "LK",
+      "displacement_tonnes": 1200,
+      "length_m": 82,
+      "crew": 88,
+      "commissioned": 2023,
+      "role": "Fleet Participant",
+      "capabilities": ["Indian Ocean Patrol", "Maritime Security", "SAR"],
+      "highlight": false,
+      "description": "Sri Lanka Coast Guard's flagship, built to enhance maritime domain awareness in the Indian Ocean.",
+      "image_url": "/ships/slcg_nandimithra.jpg"
+    },
+    {
+      "ship_id": "SHIP-010",
+      "name": "BAS Tenaga",
+      "type": "Fast Intercept Craft",
+      "class": "Super Dvora-class",
+      "country": "Bangladesh",
+      "country_code": "BD",
+      "displacement_tonnes": 85,
+      "length_m": 25,
+      "crew": 18,
+      "commissioned": 2022,
+      "role": "Fleet Participant",
+      "capabilities": ["Bay of Bengal Patrol", "Anti-Smuggling", "SAR"],
+      "highlight": false,
+      "description": "Bangladesh Coast Guard's high-speed intercept vessel, part of a new fleet modernisation programme.",
+      "image_url": "/ships/bas_tenaga.jpg"
+    },
+    {
+      "ship_id": "SHIP-011",
+      "name": "CCG Haixun 09",
+      "type": "Comprehensive Rescue Vessel",
+      "class": "Haixun-class",
+      "country": "China",
+      "country_code": "CN",
+      "displacement_tonnes": 5418,
+      "length_m": 128,
+      "crew": 160,
+      "commissioned": 2014,
+      "role": "Fleet Participant",
+      "capabilities": ["Deep Ocean SAR", "Firefighting", "Emergency Towing"],
+      "highlight": false,
+      "description": "China Maritime Search and Rescue Centre's advanced rescue vessel with world-class salvage capabilities.",
+      "image_url": "/ships/ccg_haixun09.jpg"
+    },
+    {
+      "ship_id": "SHIP-012",
+      "name": "MV Rajhauns",
+      "type": "Hovercraft",
+      "class": "GRIFFON 8000TD",
+      "country": "India",
+      "country_code": "IN",
+      "displacement_tonnes": 8,
+      "length_m": 22,
+      "crew": 4,
+      "commissioned": 2021,
+      "role": "Demonstration Craft",
+      "capabilities": ["Amphibious SAR", "Inshore Patrol", "Disaster Response"],
+      "highlight": false,
+      "description": "Indian Coast Guard hovercraft capable of operating in shallow waters, beaches, and swampy terrain.",
+      "image_url": "/ships/mv_rajhauns.jpg"
+    }
+  ],
+  "participating_nations": [
+    {"country": "India", "code": "IN", "vessels": 6, "delegation_leader": "DG Paramesh Sivamani"},
+    {"country": "Japan", "code": "JP", "vessels": 4, "delegation_leader": "Vice Admiral Kanosue Hiroaki"},
+    {"country": "United States", "code": "US", "vessels": 3, "delegation_leader": "Vice Admiral Kevin Lunday"},
+    {"country": "Republic of Korea", "code": "KR", "vessels": 3, "delegation_leader": "Commissioner Kim Jun-seok"},
+    {"country": "Philippines", "code": "PH", "vessels": 2, "delegation_leader": "Admiral Ronnie Gil Gavan"},
+    {"country": "Italy", "code": "IT", "vessels": 2, "delegation_leader": "Vice Admiral Nicola Carlone"},
+    {"country": "Malaysia", "code": "MY", "vessels": 2, "delegation_leader": "Director General Ahmad Puzi"},
+    {"country": "China", "code": "CN", "vessels": 2, "delegation_leader": "Commissioner Wang Zhongcai"},
+    {"country": "Sri Lanka", "code": "LK", "vessels": 2, "delegation_leader": "DG Kapila Samarasinghe"},
+    {"country": "Bangladesh", "code": "BD", "vessels": 2, "delegation_leader": "Director General Abu Musa"},
+    {"country": "Australia", "code": "AU", "vessels": 2, "delegation_leader": "Commissioner Michael Outram"},
+    {"country": "United Kingdom", "code": "GB", "vessels": 1, "delegation_leader": "DG Kirsty Bashford"},
+    {"country": "France", "code": "FR", "vessels": 1, "delegation_leader": "Préfet Maritime Lacroix"},
+    {"country": "Germany", "code": "DE", "vessels": 1, "delegation_leader": "President Knut Jessen"},
+    {"country": "Canada", "code": "CA", "vessels": 1, "delegation_leader": "Commissioner Mario Pelletier"},
+    {"country": "Norway", "code": "NO", "vessels": 1, "delegation_leader": "Director General Pål Eirik Davidsen"},
+    {"country": "Indonesia", "code": "ID", "vessels": 2, "delegation_leader": "Chief Admiral Aan Kurnia"},
+    {"country": "Vietnam", "code": "VN", "vessels": 1, "delegation_leader": "Vice Admiral Nguyen Van Son"},
+    {"country": "Thailand", "code": "TH", "vessels": 1, "delegation_leader": "Admiral Adung Phan-iam"},
+    {"country": "Maldives", "code": "MV", "vessels": 1, "delegation_leader": "Brigadier General Ibrahim Hilal"},
+    {"country": "Pakistan", "code": "PK", "vessels": 1, "delegation_leader": "Director General Sohail Ahmed"},
+    {"country": "Myanmar", "code": "MM", "vessels": 1, "delegation_leader": "Rear Admiral Tin Aung Htike"},
+    {"country": "Brunei", "code": "BN", "vessels": 1, "delegation_leader": "Deputy Commissioner Omar Ali"},
+    {"country": "Singapore", "code": "SG", "vessels": 1, "delegation_leader": "Commissioner Tan Kai Wen"}
+  ],
+  "important_information": {
+    "dress_code": "Formal uniform for military delegates; business attire for civilians; traditional dress welcome.",
+    "viewing_areas": [
+      "Marina Beach (Public Viewing — Free Entry)",
+      "Chennai Port Trust VIP Gallery (Delegates Only — Passes Required)",
+      "Reviewing Vessel (Head of Delegation ticket required)"
+    ],
+    "transport": "Shuttle buses from ITC Grand Chola to all viewing areas depart from 06:00 IST.",
+    "photography": "Personal photography is permitted. Media with accreditation may use the designated press boat.",
+    "safety": "All viewing areas follow coast guard safety guidelines. Life jackets provided aboard all vessels.",
+    "contact": "Fleet Review Desk: fleetreview@cggs2027.in | +91-44-2345-6789"
+  },
+  "gallery": [
+    {"id": "FR-GAL-01", "caption": "ICG fleet assembled in formation", "category": "fleet"},
+    {"id": "FR-GAL-02", "caption": "Presidential review from ICGS Samudra Paheredar", "category": "ceremony"},
+    {"id": "FR-GAL-03", "caption": "Joint SAR demonstration exercise", "category": "demonstration"},
+    {"id": "FR-GAL-04", "caption": "International vessels from 57 nations", "category": "fleet"},
+    {"id": "FR-GAL-05", "caption": "Coast Guard aerial flypast over Chennai coast", "category": "aerial"},
+    {"id": "FR-GAL-06", "caption": "Oil spill containment demonstration", "category": "demonstration"}
+  ]
+}

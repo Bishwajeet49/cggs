@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* ── CGGS 2027 Design Tokens ────────────────────────────────── */
+@theme {
+  /* Navy Blue scale */
+  --color-navy:       #0D2154;
+  --color-navy-dark:  #06111E;
+  --color-navy-mid:   #112870;
+  --color-navy-light: #1E4090;
+  --color-navy-muted: #2A4A7A;
+
+  /* Gold scale */
+  --color-gold:       #C5A028;
+  --color-gold-dark:  #9A7A10;
+  --color-gold-light: #E0C048;
+  --color-gold-pale:  #F5E8A8;
+
+  /* Neutral */
+  --color-cream:      #F8F6F0;
+  --color-slate:      #6B7280;
+  --color-slate-light:#9CA3AF;
+
+  /* Status */
+  --color-success:    #16A34A;
+  --color-warning:    #D97706;
+  --color-error:      #DC2626;
+  --color-info:       #2563EB;
+}
+
+/* ── Typography tokens ──────────────────────────────────────── */
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ── Base styles ───────────────────────────────────────────── */
+:root {
+  --header-height: 72px;
+}
+
+body {
+  background: #ffffff;
+  color: #1a1a2e;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Custom utilities ──────────────────────────────────────── */
+.gradient-navy {
+  background: linear-gradient(135deg, #06111E 0%, #0D2154 50%, #112870 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #9A7A10 0%, #C5A028 50%, #E0C048 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(180deg, rgba(6,17,30,0.5) 0%, rgba(13,33,84,0.7) 100%);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(90deg, #C5A028, #E0C048, #C5A028);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #C5A028, transparent);
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #06111E; }
+::-webkit-scrollbar-thumb { background: #C5A028; border-radius: 3px; }
+
+/* ── Focus ring ────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid #C5A028;
+  outline-offset: 2px;
+}

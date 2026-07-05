@@ -1,0 +1,290 @@
+{
+    "summit": "5th Coast Guard Global Summit (CGGS 2027)",
+    "location": "Chennai, India",
+    "venue": "ITC Grand Chola & Chennai Coastline",
+    "time_zone": "IST (UTC+5:30)",
+    "currency": "INR",
+    "schedule": [
+      {
+        "day_number": 1,
+        "date": "2027-02-15",
+        "theme": "Global Maritime Diplomacy & Security Frameworks",
+        "events": [
+          {
+            "event_id": "CGGS-D1-01",
+            "start_time": "08:30",
+            "end_time": "09:30",
+            "type": "registration",
+            "title": "Delegate Registration & Security Clearance",
+            "description": "Biometric verification and kit distribution for international heads of delegations.",
+            "location": "Grand Ballroom Foyer, ITC Grand Chola",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D1-02",
+            "start_time": "09:30",
+            "end_time": "11:00",
+            "type": "plenary",
+            "title": "Inaugural Session & Presidential Handover Ceremony",
+            "description": "Official opening ceremony of the 5th CGGS. Keynote address by the Prime Minister of India and ceremonial handover of the CGGS Presidency from Italy/Japan to India.",
+            "location": "Rajendra Chola Hall",
+            "speakers": [
+              {
+                "name": "Narendra Modi",
+                "designation": "Prime Minister of India",
+                "country_org": "India",
+                "image_url": "/individuals/pm_mopdi.jpg"
+              },
+              {
+                "name": "DG Paramesh Sivamani",
+                "designation": "Director General, Indian Coast Guard",
+                "country_org": "India / CGGS President",
+                "image_url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg"
+              },
+              {
+                "name": "Vice Admiral Kanosue Hiroaki",
+                "designation": "Vice Commandant for Operations, Japan Coast Guard",
+                "country_org": "Japan / Secretariat",
+                "image_url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D1-03",
+            "start_time": "11:00",
+            "end_time": "11:30",
+            "type": "networking",
+            "title": "Networking Coffee Break & Official Family Photo",
+            "description": "Group photograph of all Heads of Delegations followed by morning refreshments.",
+            "location": "The Courtyard",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D1-04",
+            "start_time": "11:30",
+            "end_time": "13:00",
+            "type": "seminar",
+            "title": "World Coast Guard Seminar - Session I: Emerging Multilateral Threats",
+            "description": "Strategic evaluation of evolving transnational risks, maritime piracy patterns, and collaborative response strategies.",
+            "location": "Rajendra Chola Hall",
+            "speakers": [
+              {
+                "name": "Admiral Linda L. Fagan",
+                "designation": "Former Commandant, US Coast Guard",
+                "country_org": "United States",
+                "image_url": "/individuals/Admiral_Linda_L._Fagan_Coast_Guard_Vice_Commandant.jpg"
+              },
+              {
+                "name": "Vice Admiral Nicola Carlone",
+                "designation": "Former Commandant, Italian Coast Guard",
+                "country_org": "Italy",
+                "image_url": "/individuals/comandante-generale-nicola-carlone.jpg"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D1-05",
+            "start_time": "13:00",
+            "end_time": "14:30",
+            "type": "meal",
+            "title": "Official Welcome Luncheon",
+            "description": "Hosted by the Ministry of Defence, Government of India.",
+            "location": "Sangam Restaurant",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D1-06",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "type": "panel",
+            "title": "Panel Discussion: Digitalization of Maritime Domain Awareness (MDA)",
+            "description": "Integrating AI, satellite payloads, and automated tracking networks to suppress Illegal, Unreported, and Unregulated (IUU) fishing.",
+            "location": "Tanjore Hall",
+            "speakers": [
+              {
+                "name": "Rear Admiral Ronnie Tay",
+                "designation": "Chief of Coast Guard",
+                "country_org": "Singapore",
+                "image_url": "/individuals/Mr-Ronnie-Tay.jpg"
+              },
+              {
+                "name": "Dr. (Cdr.) Arnab Das",
+                "designation": "Director, Maritime Research Center",
+                "country_org": "India",
+                "image_url": "/individuals/Dr_Cdr_Arnab_Das.webp"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D1-07",
+            "start_time": "19:00",
+            "end_time": "21:30",
+            "type": "gala",
+            "title": "Presidential Welcome Dinner & Cultural Showcase",
+            "description": "A formal diplomatic dinner accompanied by traditional Indian cultural performances.",
+            "location": "Chola Lawns",
+            "speakers": []
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2027-02-16",
+        "theme": "Tactical Interoperability & Environmental Protection",
+        "events": [
+          {
+            "event_id": "CGGS-D2-01",
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "type": "seminar",
+            "title": "World Coast Guard Seminar - Session II: Guarding the Blue Environment",
+            "description": "Technical presentations detailing rapid response metrics for large-scale maritime oil spills and toxic waste containment.",
+            "location": "Rajendra Chola Hall",
+            "speakers": [
+                {
+                    "name": "Vice Admiral Kanosue Hiroaki",
+                    "designation": "Vice Commandant for Operations",
+                    "country_org": "Japan Coast Guard (JCG)",
+                    "image_url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg"
+                  },
+              {
+                "name": "Leendert Bal",
+                "designation": "Head of Operations, EMSA",
+                "country_org": "European Maritime Safety Agency",
+                "image_url": "/individuals/Leendert_Bal.png"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D2-02",
+            "start_time": "11:00",
+            "end_time": "11:30",
+            "type": "networking",
+            "title": "Morning Coffee Break",
+            "location": "The Courtyard",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D2-03",
+            "start_time": "11:30",
+            "end_time": "13:00",
+            "type": "presentation",
+            "title": "Special Session: Indian Coast Guard's Deep Sea Firefighting Protocols",
+            "description": "A direct iteration expanding on the 4th CGGS 'Guardians Against the Blaze' brief, highlighting real-time disaster management systems.",
+            "location": "Rajendra Chola Hall",
+            "speakers": [
+              {
+                "name": "Inspector General Yoginder Dhaka",
+                "designation": "Commander Eastern Region, ICG",
+                "country_org": "India",
+                "image_url": "/individuals/Inspector_General_Yoginder_Dhaka.jpg"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D2-04",
+            "start_time": "13:00",
+            "end_time": "14:30",
+            "type": "meal",
+            "title": "Networking Luncheon",
+            "location": "Sangam Restaurant",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D2-05",
+            "start_time": "14:30",
+            "end_time": "17:00",
+            "type": "bilateral",
+            "title": "Bilateral & Multilateral Side-Desk Assemblies",
+            "description": "Closed-door slots designated for signing country-specific MoUs and regional treaties like the India-Italy Strategic Action Plan updates.",
+            "location": "Executive Meeting Rooms 1-10",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D2-06",
+            "start_time": "19:30",
+            "end_time": "22:00",
+            "type": "gala",
+            "title": "Indian Coast Guard Golden Jubilee Gala Dinner",
+            "description": "Special ceremonial banquet commemorating the 50th Anniversary of the founding of the Indian Coast Guard (1977–2027).",
+            "location": "Grand Ballrooms A & B",
+            "speakers": [
+              {
+                "name": "Rajnath Singh",
+                "designation": "Minister of Defence",
+                "country_org": "India",
+                "image_url": "/individuals/Rajnath-Singh-India-Defense-Minister-2023.webp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_number": 3,
+        "date": "2027-02-17",
+        "theme": "Operational Synergy: International Fleet Review",
+        "events": [
+          {
+            "event_id": "CGGS-D3-01",
+            "start_time": "08:00",
+            "end_time": "12:30",
+            "type": "fleet_review",
+            "title": "International Coast Guard Fleet Review (ICGFR 2027)",
+            "description": "Grand maritime display off the Chennai Coast. Review of global Coast Guard ships, joint search & rescue (M-SAR) flypasts, and synchronized tactical maneuvers.",
+            "location": "Chennai Port Trust / Marina Coastal Waters",
+            "speakers": [
+              {
+                "name": "Droupadi Murmu",
+                "designation": "President of India / Supreme Commander of the Armed Forces",
+                "country_org": "India",
+                "image_url": "/individuals/president_murmur.jpg"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D3-02",
+            "start_time": "13:00",
+            "end_time": "14:30",
+            "type": "meal",
+            "title": "On-Board Debrief & Coastal Luncheon",
+            "description": "Casual debriefing lunch hosted aboard the ICG Capital Ship for all visiting delegation chiefs.",
+            "location": "ICGS Samudra Paheredar (At Sea)",
+            "speakers": []
+          },
+          {
+            "event_id": "CGGS-D3-03",
+            "start_time": "15:30",
+            "end_time": "17:00",
+            "type": "plenary",
+            "title": "Concluding Plenary & Signing of the Chennai Joint Declaration",
+            "description": "Formulation and collective signing of the global maritime code resolution. Closing remarks by the CGGS Secretariat.",
+            "location": "Rajendra Chola Hall",
+            "speakers": [
+              {
+                "name": "DG Paramesh Sivamani",
+                "designation": "Director General, Indian Coast Guard",
+                "country_org": "India",
+                "image_url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg"
+              },
+              {
+                "name": "Vice Admiral Kanosue Hiroaki",
+                "designation": "Vice Commandant for Operations, Japan Coast Guard",
+                "country_org": "Japan",
+                "image_url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg"
+              }
+            ]
+          },
+          {
+            "event_id": "CGGS-D3-04",
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "type": "press",
+            "title": "Joint Global Press Conference",
+            "description": "Media brief updating domestic and international press agencies on the outcomes of the 5th CGGS.",
+            "location": "Chanakya Media Centre",
+            "speakers": []
+          }
+        ]
+      }
+    ]
+}

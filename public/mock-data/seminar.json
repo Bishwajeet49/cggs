@@ -1,0 +1,327 @@
+{
+  "title": "World Coast Guard Seminar 2027",
+  "subtitle": "WCGS 2027",
+  "edition": "5th",
+  "dates": "15–16 February 2027",
+  "venue": "Rajendra Chola Hall, ITC Grand Chola, Chennai",
+  "theme": "Securing the Blue Economy: Maritime Governance for a Resilient Future",
+  "theme_description": "The 5th World Coast Guard Seminar brings together maritime law enforcement leaders, policymakers, and ocean scientists to forge actionable frameworks for the next decade of global maritime cooperation. Against a backdrop of escalating maritime threats, environmental degradation, and rapid technological change, the seminar charts a collective course for safer, greener, and more secure seas.",
+  "about": "The World Coast Guard Seminar is the flagship intellectual forum of the Coast Guard Global Summit. Running across Days 1 and 2 of the summit, it convenes heads of delegation and technical experts for three plenary sessions, strategic roundtables, and bilateral consultations. Outputs include the landmark Chennai Joint Declaration and multiple bilateral MoUs signed between member states.",
+  "objectives": [
+    {
+      "id": "OBJ-01",
+      "title": "Strengthen Multilateral Frameworks",
+      "description": "Review and reinforce existing international agreements on maritime safety, environmental protection, and law enforcement.",
+      "icon": "Shield"
+    },
+    {
+      "id": "OBJ-02",
+      "title": "Address Emerging Threats",
+      "description": "Develop unified responses to IUU fishing, cyber-maritime threats, human trafficking, and narcotics smuggling at sea.",
+      "icon": "AlertTriangle"
+    },
+    {
+      "id": "OBJ-03",
+      "title": "Advance Technology Adoption",
+      "description": "Promote the integration of AI, satellite surveillance, and automated vessel tracking in maritime domain awareness.",
+      "icon": "Cpu"
+    },
+    {
+      "id": "OBJ-04",
+      "title": "Protect Ocean Ecosystems",
+      "description": "Strengthen environmental response protocols for oil spills, hazardous cargo incidents, and marine pollution events.",
+      "icon": "Leaf"
+    },
+    {
+      "id": "OBJ-05",
+      "title": "Build Capacity",
+      "description": "Facilitate South-South cooperation and capacity building programmes between developed and emerging maritime nations.",
+      "icon": "Users"
+    },
+    {
+      "id": "OBJ-06",
+      "title": "Produce Actionable Outcomes",
+      "description": "Conclude with the Chennai Joint Declaration and binding bilateral action plans between member states.",
+      "icon": "FileText"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "WCGS-S01",
+      "session_number": "Session I",
+      "title": "Emerging Multilateral Threats",
+      "subtitle": "Day 1 — Plenary",
+      "date": "2027-02-15",
+      "time": "11:30–13:00",
+      "venue": "Rajendra Chola Hall",
+      "chair": "DG Paramesh Sivamani, Director General, Indian Coast Guard",
+      "description": "A strategic evaluation of evolving transnational maritime risks, encompassing piracy resurgence in the Gulf of Aden, cyber threats to vessel navigation systems, and escalating IUU fishing activities across the Indo-Pacific.",
+      "topics": [
+        "Maritime piracy: global trends and regional hotspots",
+        "Cyber resilience for coast guard vessels and infrastructure",
+        "IUU fishing: detection, deterrence, and international prosecution",
+        "Human trafficking at sea: coordinated response frameworks"
+      ],
+      "speakers": ["SPK-004", "SPK-005"],
+      "outcomes": "Development of the G-MAST (Global Maritime Security Threat) index and multilateral rapid-response protocol."
+    },
+    {
+      "session_id": "WCGS-S02",
+      "session_number": "Session II",
+      "title": "Guarding the Blue Environment",
+      "subtitle": "Day 2 — Plenary",
+      "date": "2027-02-16",
+      "time": "09:00–11:00",
+      "venue": "Rajendra Chola Hall",
+      "chair": "Vice Admiral Kanosue Hiroaki, Japan Coast Guard",
+      "description": "Technical and strategic presentations on marine environment protection. Covers large-scale oil spill response, hazardous and noxious substances management, plastic pollution enforcement, and the role of coast guards in protecting marine protected areas.",
+      "topics": [
+        "Tier 3 oil spill response: coordinated international deployment",
+        "HNS incidents: joint response and liability frameworks",
+        "Plastic pollution enforcement: boarding, seizure, and prosecution",
+        "Climate change and changing threat landscapes for coast guards"
+      ],
+      "speakers": ["SPK-008", "SPK-003"],
+      "outcomes": "Agreement on a multilateral Marine Environment Emergency Response Protocol (MEERP) with 48-hour deployment capability."
+    },
+    {
+      "session_id": "WCGS-S03",
+      "session_number": "Closing Plenary",
+      "title": "Chennai Joint Declaration & Strategic Roadmap",
+      "subtitle": "Day 3 — Concluding Session",
+      "date": "2027-02-17",
+      "time": "15:30–17:00",
+      "venue": "Rajendra Chola Hall",
+      "chair": "DG Paramesh Sivamani, Director General, Indian Coast Guard",
+      "description": "Collective signing of the 5th CGGS's landmark outcome document — the Chennai Joint Declaration on Maritime Governance and Security for 2027–2030. The declaration codifies commitments made across the seminar's three sessions.",
+      "topics": [
+        "Chennai Joint Declaration: text review and final adoption",
+        "Bilateral MoU signing ceremony",
+        "CGGS Secretariat: roadmap to the 6th edition (2029)",
+        "Closing remarks by host and outgoing presidency"
+      ],
+      "speakers": ["SPK-002", "SPK-003"],
+      "outcomes": "Formal adoption of the Chennai Joint Declaration by all 57 member delegations."
+    }
+  ],
+  "session_categories": [
+    {
+      "id": "CAT-01",
+      "name": "Maritime Security",
+      "color": "navy",
+      "description": "Counter-piracy, anti-trafficking, IUU fishing, and maritime law enforcement strategies.",
+      "session_count": 4
+    },
+    {
+      "id": "CAT-02",
+      "name": "Environmental Protection",
+      "color": "green",
+      "description": "Marine pollution response, climate adaptation, and ocean ecosystem preservation.",
+      "session_count": 3
+    },
+    {
+      "id": "CAT-03",
+      "name": "Technology & Innovation",
+      "color": "blue",
+      "description": "AI, satellite surveillance, automated tracking, and digital maritime domain awareness.",
+      "session_count": 2
+    },
+    {
+      "id": "CAT-04",
+      "name": "Diplomacy & Policy",
+      "color": "gold",
+      "description": "MoU negotiations, bilateral consultations, and multilateral treaty frameworks.",
+      "session_count": 5
+    },
+    {
+      "id": "CAT-05",
+      "name": "Capacity Building",
+      "color": "orange",
+      "description": "Training exchanges, South-South cooperation, and emerging maritime nation support.",
+      "session_count": 2
+    }
+  ],
+  "featured_speakers": [
+    {
+      "speaker_id": "WCGS-SPK-01",
+      "name": "DG Paramesh Sivamani",
+      "designation": "Director General",
+      "organization": "Indian Coast Guard",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg",
+      "bio": "Director General Paramesh Sivamani is the 26th Director General of the Indian Coast Guard and serves as the CGGS 2027 President. He has over 35 years of maritime service experience across operational command, SAR coordination, and international maritime diplomacy.",
+      "sessions": ["WCGS-S01", "WCGS-S03"],
+      "expertise": ["Maritime Security", "SAR Operations", "International Diplomacy"],
+      "keynote": true
+    },
+    {
+      "speaker_id": "WCGS-SPK-02",
+      "name": "Vice Admiral Kanosue Hiroaki",
+      "designation": "Vice Commandant for Operations",
+      "organization": "Japan Coast Guard",
+      "country": "Japan",
+      "country_code": "JP",
+      "image_url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg",
+      "bio": "Vice Admiral Hiroaki represents the Japan Coast Guard, which serves as the permanent Secretariat of the CGGS. He has been instrumental in building the CGGS framework since its inception in 2017 and brings unparalleled institutional knowledge to the 2027 edition.",
+      "sessions": ["WCGS-S02", "WCGS-S03"],
+      "expertise": ["CGGS Governance", "Maritime Law Enforcement", "Regional Security"],
+      "keynote": true
+    },
+    {
+      "speaker_id": "WCGS-SPK-03",
+      "name": "Admiral Linda L. Fagan",
+      "designation": "Former Commandant",
+      "organization": "United States Coast Guard",
+      "country": "United States",
+      "country_code": "US",
+      "image_url": "/individuals/Admiral_Linda_L._Fagan_Coast_Guard_Vice_Commandant.jpg",
+      "bio": "Admiral Fagan served as the 27th Commandant of the United States Coast Guard. Her expertise spans counter-narcotics operations in the Caribbean and Pacific, Arctic navigation safety, and large-scale humanitarian response operations.",
+      "sessions": ["WCGS-S01"],
+      "expertise": ["Counter-Narcotics", "Arctic Operations", "SAR Policy"],
+      "keynote": false
+    },
+    {
+      "speaker_id": "WCGS-SPK-04",
+      "name": "Vice Admiral Nicola Carlone",
+      "designation": "Commandant",
+      "organization": "Italian Coast Guard",
+      "country": "Italy",
+      "country_code": "IT",
+      "image_url": "/individuals/comandante-generale-nicola-carlone.jpg",
+      "bio": "Vice Admiral Carlone led the Italian Coast Guard during the historic 4th CGGS in Rome. He is widely recognised for transforming Mediterranean SAR operations and fostering EU-level maritime cooperation frameworks.",
+      "sessions": ["WCGS-S01"],
+      "expertise": ["Mediterranean SAR", "EU Maritime Policy", "Migration at Sea"],
+      "keynote": false
+    },
+    {
+      "speaker_id": "WCGS-SPK-05",
+      "name": "Rear Admiral Ronnie Tay",
+      "designation": "Chief of Coast Guard",
+      "organization": "Singapore Coast Guard",
+      "country": "Singapore",
+      "country_code": "SG",
+      "image_url": "/individuals/Mr-Ronnie-Tay.jpg",
+      "bio": "Rear Admiral Tay oversees one of the world's most technologically advanced coast guard operations in the Straits of Malacca. He is a leading voice on maritime digitalisation, port state control, and AI-integrated vessel tracking.",
+      "sessions": ["WCGS-S01"],
+      "expertise": ["Maritime Digitalisation", "AI and MDA", "Straits Security"],
+      "keynote": false
+    },
+    {
+      "speaker_id": "WCGS-SPK-06",
+      "name": "Leendert Bal",
+      "designation": "Head of Operations",
+      "organization": "European Maritime Safety Agency (EMSA)",
+      "country": "European Union",
+      "country_code": "EU",
+      "image_url": "/individuals/Leendert_Bal.png",
+      "bio": "Mr. Leendert Bal heads EMSA's operational division, coordinating pollution response, vessel monitoring, and maritime accident investigation across EU member states. He brings a unique multilateral perspective to ocean governance.",
+      "sessions": ["WCGS-S02"],
+      "expertise": ["Marine Pollution Response", "EMSA Frameworks", "Environmental Governance"],
+      "keynote": false
+    },
+    {
+      "speaker_id": "WCGS-SPK-07",
+      "name": "Inspector General Yoginder Dhaka",
+      "designation": "Commander Eastern Region",
+      "organization": "Indian Coast Guard",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/Inspector_General_Yoginder_Dhaka.jpg",
+      "bio": "IG Dhaka commands the Eastern Region of the Indian Coast Guard, which is responsible for the operational area encompassing the Bay of Bengal and the Andaman Sea. He will present ICG's pioneering deep-sea firefighting protocols.",
+      "sessions": ["WCGS-S02"],
+      "expertise": ["Firefighting at Sea", "Bay of Bengal Operations", "Disaster Management"],
+      "keynote": false
+    },
+    {
+      "speaker_id": "WCGS-SPK-08",
+      "name": "Dr. Arnab Das",
+      "designation": "Director, Maritime Research Center",
+      "organization": "National Maritime Foundation, India",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/Dr_Cdr_Arnab_Das.webp",
+      "bio": "Dr. Das leads maritime policy research at the National Maritime Foundation, with a focus on AI-driven maritime domain awareness, IUU fishing detection through satellite imagery, and Indian Ocean security architecture.",
+      "sessions": ["WCGS-S01"],
+      "expertise": ["AI in Maritime", "Satellite Surveillance", "IUU Fishing Policy"],
+      "keynote": false
+    }
+  ],
+  "topics": [
+    "Maritime Piracy and Counter-Piracy Operations",
+    "Cyber Threats to Maritime Infrastructure",
+    "IUU Fishing: Detection and Prosecution",
+    "Human Trafficking at Sea",
+    "Oil Spill Response and International Coordination",
+    "Marine Plastic Pollution Enforcement",
+    "AI and Maritime Domain Awareness",
+    "Satellite-Based Vessel Monitoring",
+    "Climate Change and Coast Guard Mandates",
+    "South-South Maritime Cooperation",
+    "Bilateral MoU Frameworks",
+    "Chennai Joint Declaration",
+    "Deep Sea Firefighting Protocols",
+    "Amphibious SAR Operations",
+    "Maritime Boundary Disputes and Enforcement"
+  ],
+  "venue_information": {
+    "name": "Rajendra Chola Hall",
+    "hotel": "ITC Grand Chola",
+    "address": "63, Mount Road (Anna Salai), Guindy, Chennai — 600 032",
+    "capacity": 600,
+    "facilities": [
+      "State-of-the-art audiovisual system with simultaneous interpretation (6 languages)",
+      "High-bandwidth Wi-Fi connectivity for 800 concurrent users",
+      "Dedicated press and media area with live feed",
+      "Business centre with printing, scanning, and secure document facilities",
+      "Green room and delegate lounge adjacent to main hall",
+      "Accessibility ramps and facilities for delegates with disabilities"
+    ],
+    "breakout_rooms": [
+      {"name": "Tanjore Hall", "capacity": 80, "purpose": "Panel discussions"},
+      {"name": "Executive Rooms 1–10", "capacity": 20, "purpose": "Bilateral meetings"},
+      {"name": "The Courtyard", "capacity": 200, "purpose": "Networking and refreshments"}
+    ],
+    "map_embed": "https://maps.google.com/?q=ITC+Grand+Chola+Chennai"
+  },
+  "faqs": [
+    {
+      "id": "FAQ-01",
+      "question": "Who can attend the World Coast Guard Seminar?",
+      "answer": "The WCGS is open to registered delegates with Head of Delegation, Official Delegate, or Observer status. All attendees must hold a valid CGGS 2027 delegate pass. Media professionals must possess accredited press passes."
+    },
+    {
+      "id": "FAQ-02",
+      "question": "Will the sessions be recorded or livestreamed?",
+      "answer": "Opening and closing plenary sessions will be livestreamed on the official CGGS 2027 website and YouTube channel. Bilateral meetings and roundtables are closed-door sessions. Full recordings will be available to registered delegates within 48 hours."
+    },
+    {
+      "id": "FAQ-03",
+      "question": "In which languages will sessions be conducted?",
+      "answer": "All plenary sessions will be conducted in English with simultaneous interpretation available in French, Spanish, Arabic, Japanese, and Hindi. Personal interpretation devices will be provided at the delegate registration desk."
+    },
+    {
+      "id": "FAQ-04",
+      "question": "How can delegations submit questions or papers?",
+      "answer": "Delegations wishing to submit position papers or questions for plenary sessions should contact the CGGS Secretariat at secretariat@cggs2027.in. The deadline for paper submissions is 31 January 2027."
+    },
+    {
+      "id": "FAQ-05",
+      "question": "What is the dress code for the seminar?",
+      "answer": "Military delegates are requested to attend in full service uniform. Civilian delegates and observers should wear formal business attire. Traditional national dress is equally welcome and respected."
+    },
+    {
+      "id": "FAQ-06",
+      "question": "Will bilateral meeting slots be available?",
+      "answer": "Yes. Dedicated bilateral meeting slots will be available in the Executive Meeting Rooms (1–10) on the afternoon of Day 2 (16 February 2027). Delegations should schedule bilateral meetings in advance through the delegate portal."
+    },
+    {
+      "id": "FAQ-07",
+      "question": "What outcomes will be produced by the Seminar?",
+      "answer": "The 5th WCGS is expected to produce three primary outcomes: (1) The Chennai Joint Declaration on Maritime Governance 2027–2030, (2) The G-MAST multilateral rapid-response protocol, and (3) Multiple bilateral MoUs between member states."
+    }
+  ],
+  "delegate_count": 1200,
+  "countries_represented": 57,
+  "papers_expected": 34
+}

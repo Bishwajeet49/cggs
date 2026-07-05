@@ -1,0 +1,52 @@
+---
+description: CGGS 2027 design system — Navy/White/Gold government summit aesthetic
+globs: "**/*.{tsx,css}"
+alwaysApply: false
+---
+
+# CGGS Design System
+
+## Palette
+
+Use **Navy Blue, White, Gold** only. Define tokens in `globals.css`:
+
+```css
+--color-navy: #0a1628;
+--color-gold: #c5a028;
+--color-white: #ffffff;
+```
+
+Do NOT use sky-blue, neon, or dark-slate dev palettes.
+
+## Aesthetic
+
+Premium government summit — authority, trust, prestige, maritime identity.
+
+References: World Governments Summit, WEF, COP, G20.
+
+**Avoid:** sports UI, gaming style, glassmorphism, cartoon graphics, heavy gradients, colorful icon packs.
+
+## Components
+
+- Hero section on every major page (title, subtitle, breadcrumb, background image)
+- Cards: image, title, description, action — for events, speakers, ships, news
+- Buttons: Primary (navy), Secondary (white + navy border), Accent (gold)
+- Forms: large labels, clear validation, large click targets
+- Tables: zebra rows, sticky headers (schedule, transport, accommodation)
+- Icons: outlined, simple, professional, consistent size
+
+## Layout
+
+- Grid: 12-col desktop, 8-col tablet, 4-col mobile
+- Generous whitespace, minimal shadows, small border radius
+- Sticky header with scroll appearance change
+
+## Motion
+
+Framer Motion: subtle fade, slide, scale only. No bounce, elastic, or long animations.
+
+## Accessibility
+
+WCAG AA — keyboard nav, high contrast, visible focus states, readable typography.
+
+Full spec: `02_DESIGN_SYSTEM.md`

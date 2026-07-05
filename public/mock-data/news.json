@@ -1,0 +1,48 @@
+{
+  "news": [
+    {
+      "news_id": "NEWS-001",
+      "title": "India Assumes CGGS Presidency — 5th Summit Confirmed for Chennai 2027",
+      "date": "2026-11-15",
+      "category": "Announcement",
+      "thumbnail": "/banners/banner-1.png",
+      "summary": "The Indian Coast Guard formally assumes the Presidency of the Coast Guard Global Summit from Italy and Japan, confirming Chennai as host city for the landmark 5th edition.",
+      "content": "In a historic ceremony at the Indian Coast Guard headquarters in New Delhi, Director General Paramesh Sivamani formally received the CGGS Presidency, marking India's first time hosting this prestigious international forum.",
+      "author": "CGGS Secretariat",
+      "tags": ["Presidency", "Chennai", "Announcement"]
+    },
+    {
+      "news_id": "NEWS-002",
+      "title": "Over 115 Nations Confirm Participation — Record Delegation for CGGS 2027",
+      "date": "2026-12-01",
+      "category": "Participation",
+      "thumbnail": "/banners/banner-2.png",
+      "summary": "The 5th Coast Guard Global Summit is set to be the largest in its history, with delegations confirmed from over 115 nations and international organisations.",
+      "content": "With registrations now open, CGGS 2027 has already received confirmations from coast guard chiefs and heads of delegation representing over 115 countries across Asia, Europe, the Americas and Africa.",
+      "author": "CGGS Media Cell",
+      "tags": ["Participation", "International", "Record"]
+    },
+    {
+      "news_id": "NEWS-003",
+      "title": "International Coast Guard Fleet Review to be Held off Chennai Coast",
+      "date": "2027-01-10",
+      "category": "Fleet Review",
+      "thumbnail": "/banners/banner-1.png",
+      "summary": "The International Coast Guard Fleet Review 2027 will feature warships and patrol vessels from participating nations in a grand maritime display off Marina Beach, Chennai.",
+      "content": "The Fleet Review is set to be one of the most significant maritime events hosted by India, showcasing the collective strength and interoperability of global coast guard forces in the waters of the Bay of Bengal.",
+      "author": "Fleet Review Committee",
+      "tags": ["Fleet Review", "Maritime", "Chennai"]
+    },
+    {
+      "news_id": "NEWS-004",
+      "title": "Golden Jubilee Gala: 50 Years of the Indian Coast Guard Celebrated at CGGS 2027",
+      "date": "2027-01-20",
+      "category": "Golden Jubilee",
+      "thumbnail": "/banners/banner-2.png",
+      "summary": "The 5th CGGS coincides with the Golden Jubilee of the Indian Coast Guard, founded on February 1, 1977. Special commemorative events mark 50 years of maritime service.",
+      "content": "The Indian Coast Guard celebrates its 50th anniversary in 2027, making the CGGS a doubly momentous occasion. The Golden Jubilee Gala Dinner on the evening of February 16 will be a historic event.",
+      "author": "ICG Golden Jubilee Committee",
+      "tags": ["Golden Jubilee", "ICG", "Anniversary"]
+    }
+  ]
+}

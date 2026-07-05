@@ -1,0 +1,35 @@
+---
+description: CGGS 2027 core project constraints — Phase 1 UI prototype scope and architecture
+alwaysApply: true
+---
+
+# CGGS 2027 Core Rules
+
+## Scope
+
+Phase 1 is a **UI prototype only**. Do not implement backend, authentication, database, APIs, payment, SMS, email, or QR generation.
+
+## Architecture
+
+- Two sections: **Public Website** (`(public)` route group) and **Delegate Portal** (`(portal)` route group)
+- Reuse `PublicLayout` and `DelegateLayout` — do not duplicate header/footer/sidebar per page
+- Match routes in `00_CGGS_2027_Project_Knowledge_Base.md` §4 Route Map
+- Non-implemented pages → polished Coming Soon placeholder within the correct layout
+
+## Data
+
+- Never hardcode summit business data (events, speakers, countries) in components
+- All content flows: Component → `services/*.ts` → `public/mock-data/*.json`
+- Structure code so JSON can be swapped for REST APIs with minimal UI changes
+
+## Code Quality
+
+- Component-driven, reusable UI in `src/components/`
+- TypeScript strict mode; types in `src/types/`
+- Path alias `@/*` for imports
+- WCAG AA accessibility, mobile-first responsive design
+- Use official assets from `public/logos/` and `public/banners/` — do not recreate logos
+
+## Reference
+
+Start with `00_CGGS_2027_Project_Knowledge_Base.md`. Active task: `current_task.md`.

@@ -1,0 +1,198 @@
+{
+  "title": "CGGS 2027 Exhibition Village",
+  "subtitle": "A World of Maritime Excellence",
+  "tagline": "Where Nations Connect, Cultures Celebrate, and Innovation Inspires",
+  "dates": "15–17 February 2027",
+  "timings": "10:00–20:00 IST (all three days)",
+  "location": "ITC Grand Chola Convention Precinct & Outdoor Grounds, Chennai",
+  "about": "The CGGS 2027 Exhibition Village is a vibrant, open-access showcase spread across the outdoor grounds and indoor halls of the ITC Grand Chola convention precinct. Bringing together government pavilions, defence technology exhibitors, cultural performers, maritime innovators, and artisanal stalls from 57 participating nations, the Village is the beating heart of the summit's public engagement. It is free to enter for all registered delegates and the general public during designated public hours.",
+  "statistics": {
+    "total_area_sqm": 12000,
+    "exhibitors": 84,
+    "participating_nations": 57,
+    "zones": 5,
+    "cultural_performances": 18,
+    "expected_footfall": 25000
+  },
+  "zones": [
+    {
+      "zone_id": "ZONE-01",
+      "name": "Cultural Heritage Area",
+      "short_name": "Cultural",
+      "icon": "Globe",
+      "color": "#8B4513",
+      "accent": "#FFD700",
+      "location": "Outdoor East Lawn — 3,500 sqm",
+      "description": "An immersive open-air celebration of maritime cultures from 57 nations. The Cultural Heritage Area features national pavilions, folk performances, traditional cuisine, artisanal crafts, and living heritage demonstrations that tell the story of humanity's relationship with the ocean.",
+      "highlights": [
+        "57 National Cultural Pavilions",
+        "Traditional maritime craft demonstrations",
+        "Folk music and dance performances on the Main Stage",
+        "World cuisine food court with 30+ stalls",
+        "Artisanal market featuring maritime-inspired handicrafts"
+      ],
+      "schedule": [
+        {"day": 1, "time": "10:00–20:00", "activity": "National pavilions open; artisanal market"},
+        {"day": 1, "time": "18:00–19:00", "activity": "Cultural Opening Ceremony: Traditional Indian Bharatanatyam & Classical Music"},
+        {"day": 2, "time": "11:00–13:00", "activity": "Japanese Taiko Drumming & Maritime Folk Performance"},
+        {"day": 2, "time": "16:00–18:00", "activity": "Pan-African Maritime Heritage Dance"},
+        {"day": 3, "time": "17:00–20:00", "activity": "Grand Cultural Finale: World Rhythm Festival"}
+      ],
+      "exhibitors": [
+        {"name": "India Cultural Pavilion", "country": "India", "code": "IN", "type": "national"},
+        {"name": "Japan Maritime Heritage", "country": "Japan", "code": "JP", "type": "national"},
+        {"name": "Philippines Artisanal Crafts", "country": "Philippines", "code": "PH", "type": "national"},
+        {"name": "Italy Gastronomic Experience", "country": "Italy", "code": "IT", "type": "national"},
+        {"name": "Korea Traditional Performance", "country": "Republic of Korea", "code": "KR", "type": "national"},
+        {"name": "Sri Lanka Cultural Showcase", "country": "Sri Lanka", "code": "LK", "type": "national"}
+      ]
+    },
+    {
+      "zone_id": "ZONE-02",
+      "name": "Technology Pavilion",
+      "short_name": "Technology",
+      "icon": "Cpu",
+      "color": "#0D2154",
+      "accent": "#C5A028",
+      "location": "Grand Exhibition Hall A — 2,800 sqm",
+      "description": "The Technology Pavilion is a state-of-the-art showcase of cutting-edge maritime technologies from leading defence and civilian technology firms. Interactive exhibits cover the full spectrum of maritime domain awareness, from satellite surveillance to autonomous underwater vehicles.",
+      "highlights": [
+        "Live maritime surveillance demonstrations",
+        "Autonomous Underwater Vehicle (AUV) display pool",
+        "AI-driven vessel tracking simulation",
+        "Next-generation SAR equipment showcase",
+        "Coast guard vessel scale models from 24 nations"
+      ],
+      "schedule": [
+        {"day": 1, "time": "10:00–20:00", "activity": "Full pavilion open; live demos every 90 minutes"},
+        {"day": 2, "time": "14:00–15:30", "activity": "AUV Live Demonstration in Outdoor Pool"},
+        {"day": 3, "time": "11:00–12:30", "activity": "Innovation Pitch: 10 maritime startups in 5-minute presentations"}
+      ],
+      "exhibitors": [
+        {"name": "BEL Maritime Systems", "country": "India", "code": "IN", "type": "defence"},
+        {"name": "NAVIC Maritime Solutions", "country": "India", "code": "IN", "type": "technology"},
+        {"name": "Furuno Electronics", "country": "Japan", "code": "JP", "type": "technology"},
+        {"name": "Kongsberg Digital", "country": "Norway", "code": "NO", "type": "technology"},
+        {"name": "Thales Naval Systems", "country": "France", "code": "FR", "type": "defence"},
+        {"name": "L3Harris Technologies", "country": "United States", "code": "US", "type": "defence"},
+        {"name": "Saab Maritime", "country": "Sweden", "code": "SE", "type": "technology"},
+        {"name": "Wärtsilä Corp", "country": "Finland", "code": "FI", "type": "technology"},
+        {"name": "ST Engineering", "country": "Singapore", "code": "SG", "type": "technology"}
+      ]
+    },
+    {
+      "zone_id": "ZONE-03",
+      "name": "Innovation Zone",
+      "short_name": "Innovation",
+      "icon": "Lightbulb",
+      "color": "#1E4090",
+      "accent": "#E0C048",
+      "location": "Exhibition Hall B — 1,500 sqm",
+      "description": "The CGGS 2027 Innovation Zone is a dedicated space for startups, research institutions, and academic bodies pushing the boundaries of ocean technology. Expect live demonstrations, rapid-fire pitches, hackathon results, and prototypes from the next generation of maritime innovators.",
+      "highlights": [
+        "Maritime Startup Showcase (24 startups)",
+        "Ocean Tech Hackathon results presentation",
+        "Wearable SAR beacon prototypes",
+        "Drone swarm search and rescue simulation",
+        "Biodegradable marine cleanup materials display"
+      ],
+      "schedule": [
+        {"day": 1, "time": "10:00–20:00", "activity": "Startup booths and prototype displays"},
+        {"day": 2, "time": "10:00–12:00", "activity": "Ocean Tech Hackathon Final — 8 Teams Present Solutions"},
+        {"day": 3, "time": "14:00–15:00", "activity": "Innovation Awards Ceremony — 3 categories"}
+      ],
+      "exhibitors": [
+        {"name": "OceanMind", "country": "United Kingdom", "code": "GB", "type": "startup"},
+        {"name": "Sea Machines Robotics", "country": "United States", "code": "US", "type": "startup"},
+        {"name": "Blue Minerals AI", "country": "India", "code": "IN", "type": "startup"},
+        {"name": "AquaNav Systems", "country": "Australia", "code": "AU", "type": "startup"},
+        {"name": "Clearbot", "country": "Singapore", "code": "SG", "type": "startup"},
+        {"name": "SUEX Diver Propulsion", "country": "Italy", "code": "IT", "type": "startup"},
+        {"name": "Greenseas Systems", "country": "Canada", "code": "CA", "type": "startup"}
+      ]
+    },
+    {
+      "zone_id": "ZONE-04",
+      "name": "Hospitality & Wellness Area",
+      "short_name": "Hospitality",
+      "icon": "Coffee",
+      "color": "#4A5568",
+      "accent": "#C5A028",
+      "location": "Outdoor West Lawn — 2,000 sqm",
+      "description": "A beautifully landscaped outdoor zone designed for rest, connection, and cultural exchange. The Hospitality Area features a signature delegate lounge, premium chai and coffee pavilions, wellness pods, and curated networking spaces for informal diplomatic conversations.",
+      "highlights": [
+        "Signature Coastal Café by ITC",
+        "Delegate Networking Lounge (badge access)",
+        "Wellness pods with traditional Indian therapies",
+        "Photo experience zone with naval backdrops",
+        "Gift and souvenir store with official CGGS 2027 merchandise"
+      ],
+      "schedule": [
+        {"day": 1, "time": "10:00–20:00", "activity": "Café, lounge and wellness pods open"},
+        {"day": 2, "time": "14:00–16:00", "activity": "Informal Heads of Delegation Networking Tea (Invitation Only)"},
+        {"day": 3, "time": "18:00–20:00", "activity": "Farewell Sundowner — open to all delegates"}
+      ],
+      "exhibitors": [
+        {"name": "ITC Signature Café", "country": "India", "code": "IN", "type": "hospitality"},
+        {"name": "Ayurvedic Wellness Centre", "country": "India", "code": "IN", "type": "wellness"},
+        {"name": "CGGS 2027 Official Store", "country": "India", "code": "IN", "type": "merchandise"}
+      ]
+    },
+    {
+      "zone_id": "ZONE-05",
+      "name": "Partner & Government Exhibition",
+      "short_name": "Partners",
+      "icon": "Handshake",
+      "color": "#2D3748",
+      "accent": "#C5A028",
+      "location": "Grand Exhibition Hall C — 2,200 sqm",
+      "description": "The Partner and Government Exhibition hosts pavilions from supporting international organisations, government ministries, and strategic corporate sponsors. This zone is an important space for policy visibility, institutional brand-building, and multi-stakeholder engagement.",
+      "highlights": [
+        "IMO (International Maritime Organization) Pavilion",
+        "INTERPOL Maritime Crime Programme",
+        "Ministry of Ports, Shipping & Waterways (India)",
+        "Ministry of Defence (India)",
+        "Strategic corporate sponsors — Reliance, TATA, Adani Ports"
+      ],
+      "schedule": [
+        {"day": 1, "time": "10:00–20:00", "activity": "All pavilions open"},
+        {"day": 2, "time": "10:00–11:00", "activity": "IMO Keynote: 'Ocean Governance in the Decade of Action'"},
+        {"day": 3, "time": "13:00–14:00", "activity": "MoD Press Briefing on ICG Golden Jubilee Milestones"}
+      ],
+      "exhibitors": [
+        {"name": "IMO Pavilion", "country": "International", "code": "XX", "type": "international_org"},
+        {"name": "INTERPOL Maritime Crime", "country": "International", "code": "XX", "type": "international_org"},
+        {"name": "Ministry of Ports, Shipping & Waterways", "country": "India", "code": "IN", "type": "government"},
+        {"name": "Ministry of Defence, India", "country": "India", "code": "IN", "type": "government"},
+        {"name": "Adani Ports & SEZ", "country": "India", "code": "IN", "type": "corporate"},
+        {"name": "TATA Advanced Systems", "country": "India", "code": "IN", "type": "corporate"},
+        {"name": "Reliance Industries Maritime", "country": "India", "code": "IN", "type": "corporate"},
+        {"name": "EMSA Pavilion", "country": "European Union", "code": "EU", "type": "international_org"}
+      ]
+    }
+  ],
+  "public_access_hours": {
+    "day1": "16:00–20:00",
+    "day2": "10:00–20:00",
+    "day3": "10:00–20:00"
+  },
+  "delegate_access_hours": "10:00–20:00 (all three days)",
+  "visitor_information": {
+    "entry": "Free entry for general public during public access hours. Delegate badge required at all times during delegate-only sessions.",
+    "transport": "CGGS 2027 shuttle buses from Chennai Egmore and Chennai Central stations. Auto and cab services available.",
+    "parking": "Designated parking available at the ITC Grand Chola rear lot. Pre-booking recommended via the delegate portal.",
+    "food": "The Cultural Heritage food court offers over 30 cuisines. The Signature Coastal Café serves curated meals and beverages.",
+    "accessibility": "Fully wheelchair-accessible. Mobility aids available on request at the main registration desk.",
+    "photography": "Personal photography encouraged throughout the village. Media with press passes may use the designated filming zones.",
+    "facilities": ["First Aid Post", "Lost & Found Desk", "Prayer and Quiet Room", "Nursing Room", "ATM"],
+    "contact": "village@cggs2027.in | +91-44-2345-6800"
+  },
+  "gallery": [
+    {"id": "VIL-GAL-01", "caption": "National pavilions of the Cultural Heritage Area", "zone": "Cultural"},
+    {"id": "VIL-GAL-02", "caption": "AUV demonstration in the Technology Pavilion pool", "zone": "Technology"},
+    {"id": "VIL-GAL-03", "caption": "Startup pitches at the Innovation Zone", "zone": "Innovation"},
+    {"id": "VIL-GAL-04", "caption": "Delegate lounge in the Hospitality Area", "zone": "Hospitality"},
+    {"id": "VIL-GAL-05", "caption": "IMO pavilion at the Partner Exhibition", "zone": "Partners"},
+    {"id": "VIL-GAL-06", "caption": "World Rhythm Festival — Grand Cultural Finale", "zone": "Cultural"}
+  ]
+}

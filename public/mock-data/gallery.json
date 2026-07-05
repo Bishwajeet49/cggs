@@ -1,0 +1,66 @@
+{
+  "albums": [
+    {
+      "album_id": "ALB-001",
+      "title": "Official Summit Banners",
+      "category": "official",
+      "images": [
+        {
+          "gallery_id": "IMG-001",
+          "url": "/banners/banner-1.png",
+          "caption": "5th Coast Guard Global Summit 2027 — Official Banner",
+          "album_id": "ALB-001"
+        },
+        {
+          "gallery_id": "IMG-002",
+          "url": "/banners/banner-2.png",
+          "caption": "CGGS 2027 — International Maritime Summit, Chennai",
+          "album_id": "ALB-001"
+        }
+      ]
+    },
+    {
+      "album_id": "ALB-002",
+      "title": "Key Personalities",
+      "category": "people",
+      "images": [
+        {
+          "gallery_id": "IMG-003",
+          "url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg",
+          "caption": "DG Paramesh Sivamani — Director General, Indian Coast Guard & CGGS 2027 President",
+          "album_id": "ALB-002"
+        },
+        {
+          "gallery_id": "IMG-004",
+          "url": "/individuals/president_murmur.jpg",
+          "caption": "Smt. Droupadi Murmu — President of India, Supreme Commander of Armed Forces",
+          "album_id": "ALB-002"
+        },
+        {
+          "gallery_id": "IMG-005",
+          "url": "/individuals/pm_mopdi.jpg",
+          "caption": "Shri Narendra Modi — Prime Minister of India",
+          "album_id": "ALB-002"
+        },
+        {
+          "gallery_id": "IMG-006",
+          "url": "/individuals/Rajnath-Singh-India-Defense-Minister-2023.webp",
+          "caption": "Shri Rajnath Singh — Minister of Defence, Government of India",
+          "album_id": "ALB-002"
+        },
+        {
+          "gallery_id": "IMG-007",
+          "url": "/individuals/Admiral_Linda_L._Fagan_Coast_Guard_Vice_Commandant.jpg",
+          "caption": "Admiral Linda L. Fagan — Former Commandant, United States Coast Guard",
+          "album_id": "ALB-002"
+        },
+        {
+          "gallery_id": "IMG-008",
+          "url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg",
+          "caption": "Vice Admiral Kanosue Hiroaki — Japan Coast Guard, CGGS Secretariat",
+          "album_id": "ALB-002"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "speakers": [
+    {
+      "speaker_id": "SPK-001",
+      "name": "Narendra Modi",
+      "designation": "Prime Minister of India",
+      "organization": "Government of India",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/pm_mopdi.jpg",
+      "bio": "The Prime Minister of India, delivering the keynote address at the Inaugural Session of the 5th Coast Guard Global Summit.",
+      "session": "Inaugural Session & Presidential Handover Ceremony",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-002",
+      "name": "DG Paramesh Sivamani",
+      "designation": "Director General, Indian Coast Guard",
+      "organization": "Indian Coast Guard",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg",
+      "bio": "Director General of the Indian Coast Guard and President of the 5th Coast Guard Global Summit 2027.",
+      "session": "Inaugural Session & Concluding Plenary",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-003",
+      "name": "Vice Admiral Kanosue Hiroaki",
+      "designation": "Vice Commandant for Operations",
+      "organization": "Japan Coast Guard",
+      "country": "Japan",
+      "country_code": "JP",
+      "image_url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg",
+      "bio": "Vice Commandant for Operations of the Japan Coast Guard, representing the permanent CGGS Secretariat.",
+      "session": "Multiple Sessions — CGGS Secretariat",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-004",
+      "name": "Admiral Linda L. Fagan",
+      "designation": "Former Commandant, US Coast Guard",
+      "organization": "United States Coast Guard",
+      "country": "United States",
+      "country_code": "US",
+      "image_url": "/individuals/Admiral_Linda_L._Fagan_Coast_Guard_Vice_Commandant.jpg",
+      "bio": "Former Commandant of the United States Coast Guard, speaking on emerging multilateral maritime threats.",
+      "session": "World Coast Guard Seminar — Session I",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-005",
+      "name": "Vice Admiral Nicola Carlone",
+      "designation": "Former Commandant, Italian Coast Guard",
+      "organization": "Italian Coast Guard (Guardia Costiera)",
+      "country": "Italy",
+      "country_code": "IT",
+      "image_url": "/individuals/comandante-generale-nicola-carlone.jpg",
+      "bio": "Former Commandant-General of the Italian Coast Guard, former CGGS co-chair at the 4th Summit in Rome.",
+      "session": "World Coast Guard Seminar — Session I",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-006",
+      "name": "Rear Admiral Ronnie Tay",
+      "designation": "Chief of Coast Guard",
+      "organization": "Singapore Coast Guard",
+      "country": "Singapore",
+      "country_code": "SG",
+      "image_url": "/individuals/Mr-Ronnie-Tay.jpg",
+      "bio": "Chief of Coast Guard, Singapore, presenting on AI and satellite integration for Maritime Domain Awareness.",
+      "session": "Panel Discussion: Digitalization of Maritime Domain Awareness",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-007",
+      "name": "Dr. (Cdr.) Arnab Das",
+      "designation": "Director, Maritime Research Center",
+      "organization": "Indian Coast Guard",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/Dr_Cdr_Arnab_Das.webp",
+      "bio": "Director of the Maritime Research Center and expert in IUU fishing suppression using automated tracking networks.",
+      "session": "Panel Discussion: Digitalization of MDA",
+      "day": 1
+    },
+    {
+      "speaker_id": "SPK-008",
+      "name": "Leendert Bal",
+      "designation": "Head of Operations, EMSA",
+      "organization": "European Maritime Safety Agency",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "image_url": "/individuals/Leendert_Bal.png",
+      "bio": "Head of Operations at the European Maritime Safety Agency, presenting on marine pollution rapid response metrics.",
+      "session": "World Coast Guard Seminar — Session II",
+      "day": 2
+    },
+    {
+      "speaker_id": "SPK-009",
+      "name": "Inspector General Yoginder Dhaka",
+      "designation": "Commander Eastern Region, ICG",
+      "organization": "Indian Coast Guard",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/Inspector_General_Yoginder_Dhaka.jpg",
+      "bio": "Inspector General and Commander of the Eastern Region, Indian Coast Guard, presenting ICG's deep sea firefighting protocols.",
+      "session": "Special Session: ICG Deep Sea Firefighting Protocols",
+      "day": 2
+    },
+    {
+      "speaker_id": "SPK-010",
+      "name": "Rajnath Singh",
+      "designation": "Minister of Defence",
+      "organization": "Ministry of Defence, Government of India",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/Rajnath-Singh-India-Defense-Minister-2023.webp",
+      "bio": "The Honourable Minister of Defence, Government of India, gracing the ICG Golden Jubilee Gala Dinner.",
+      "session": "ICG Golden Jubilee Gala Dinner",
+      "day": 2
+    },
+    {
+      "speaker_id": "SPK-011",
+      "name": "Droupadi Murmu",
+      "designation": "President of India",
+      "organization": "Government of India",
+      "country": "India",
+      "country_code": "IN",
+      "image_url": "/individuals/president_murmur.jpg",
+      "bio": "The Honourable President of India and Supreme Commander of the Armed Forces, presiding over the International Coast Guard Fleet Review.",
+      "session": "International Coast Guard Fleet Review (ICGFR 2027)",
+      "day": 3
+    }
+  ]
+}
