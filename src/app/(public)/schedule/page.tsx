@@ -687,7 +687,7 @@ export default function SchedulePage() {
       </EventHero>
 
       {/* Day Tabs */}
-      <div className="sticky top-[72px] z-30 bg-white border-b border-navy/10 shadow-sm">
+      <div className="sticky top-[52px] z-30 bg-white border-b border-navy/10 shadow-sm">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex overflow-x-auto scrollbar-hide">
             {days.map((day) => (

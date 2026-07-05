@@ -1,7 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import DelegateSidebar from "@/components/layout/DelegateSidebar";
+import { siteConfig } from "@/lib/site";
 import { Bell, LogOut } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Delegate Portal",
+    template: `%s | ${siteConfig.shortName} Portal`,
+  },
+  description: `Secure delegate portal for ${siteConfig.name} — manage schedule, travel, events, and registration.`,
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function PortalLayout({
   children,

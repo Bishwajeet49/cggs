@@ -35,7 +35,14 @@
 
 /* ── Base styles ───────────────────────────────────────────── */
 :root {
-  --header-height: 72px;
+  /* Mobile: logo + menu only (~64px). sm+: logo + title text (~72px). */
+  --header-height: 64px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --header-height: 72px;
+  }
 }
 
 body {
@@ -44,6 +51,11 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+}
+
+html {
+  overflow-x: clip;
 }
 
 /* ── Custom utilities ──────────────────────────────────────── */

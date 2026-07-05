@@ -99,7 +99,7 @@ export default function HeroCarousel() {
           prefersReducedMotion
             ? {}
             : {
-                transform: `translate(${mousePos.x * -8}px, ${mousePos.y * -6}px) scale(1.03)`,
+                transform: `translate(${mousePos.x * -8}px, ${mousePos.y * -6}px)`,
                 transition: "transform 0.4s cubic-bezier(0.25,0.46,0.45,0.94)",
               }
         }
@@ -168,8 +168,8 @@ export default function HeroCarousel() {
       />
 
       {/* ── CTA Buttons ──────────────────────────────────────────── */}
-      <div className="absolute inset-x-0 bottom-14 flex justify-center px-4">
-        <div className="flex flex-col sm:flex-row items-center gap-3">
+      <div className="absolute inset-x-0 bottom-14 hidden sm:flex justify-center px-4">
+        <div className="flex flex-row items-center gap-3">
           <Link
             href="/register"
             className="inline-flex items-center justify-center px-8 py-3 bg-gold text-navy text-sm font-bold rounded-sm hover:bg-gold-light transition-colors shadow-lg shadow-gold/20 min-w-[180px]"

@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export default function WelcomeSection() {
   return (
-    <section className="bg-white py-20">
+    <section className="overflow-x-clip bg-white py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Text */}
           <motion.div
-            initial={{ opacity: 0, x: -32 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
@@ -51,8 +51,8 @@ export default function WelcomeSection() {
 
           {/* Feature blocks */}
           <motion.div
-            initial={{ opacity: 0, x: 32 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.15 }}
             className="grid grid-cols-2 gap-4"

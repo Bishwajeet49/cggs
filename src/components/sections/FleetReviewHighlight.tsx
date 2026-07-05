@@ -12,8 +12,8 @@ export default function FleetReviewHighlight() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text */}
           <motion.div
-            initial={{ opacity: 0, x: -32 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
@@ -60,8 +60,8 @@ export default function FleetReviewHighlight() {
 
           {/* Image panel */}
           <motion.div
-            initial={{ opacity: 0, x: 32 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.15 }}
             className="relative"
@@ -77,7 +77,7 @@ export default function FleetReviewHighlight() {
               <div className="absolute inset-0 bg-navy/40" />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 bg-gold text-navy px-4 py-3 rounded-sm shadow-lg">
+            <div className="absolute bottom-0 left-0 bg-gold text-navy px-4 py-3 rounded-sm shadow-lg sm:-bottom-4 sm:-left-4">
               <p className="text-xs font-bold uppercase tracking-wider">ICGFR 2027</p>
               <p className="text-[10px] mt-0.5 font-medium">Chennai · Feb 17</p>
             </div>

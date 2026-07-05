@@ -39,13 +39,11 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? "bg-[#001738] shadow-lg shadow-black/40 py-2"
-            : "bg-[#001738] py-3"
+        className={`fixed top-0 left-0 right-0 z-50 flex min-h-[var(--header-height)] items-center bg-[#001738] transition-shadow duration-300 ${
+          scrolled ? "shadow-lg shadow-black/40" : ""
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6">
+        <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <Image

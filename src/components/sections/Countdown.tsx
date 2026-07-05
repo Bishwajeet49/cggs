@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const TARGET = new Date("2027-02-15T09:00:00+05:30");
@@ -19,23 +20,34 @@ function getRemaining() {
   return { days, hours, minutes, seconds };
 }
 
+function Colon() {
+  return (
+    <span
+      className="shrink-0 self-center pb-5 text-lg font-light text-gold/60 sm:pb-7 sm:text-3xl"
+      aria-hidden="true"
+    >
+      :
+    </span>
+  );
+}
+
 function Unit({ value, label }: { value: string; label: string }) {
   return (
-    <div className="flex flex-col items-center">
-      <div className="relative">
+    <div className="flex min-w-0 flex-1 flex-col items-center">
+      <div className="relative w-full">
         <motion.div
           key={value}
           initial={{ rotateX: -90, opacity: 0 }}
           animate={{ rotateX: 0, opacity: 1 }}
           transition={{ duration: 0.35, ease: "easeOut" }}
-          className="min-w-[72px] sm:min-w-[88px] h-16 sm:h-20 flex items-center justify-center bg-white/10 border border-gold/30 rounded-sm backdrop-blur-sm"
+          className="flex h-12 w-full items-center justify-center rounded-sm border border-gold/30 bg-white/10 px-0.5 backdrop-blur-sm sm:h-16 md:h-20"
         >
-          <span className="text-3xl sm:text-4xl font-bold text-white tabular-nums">
+          <span className="text-xl font-bold tabular-nums leading-none text-white sm:text-3xl md:text-4xl">
             {value}
           </span>
         </motion.div>
       </div>
-      <p className="mt-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-gold/70">
+      <p className="mt-1.5 text-[9px] font-semibold uppercase tracking-[0.15em] text-gold/70 sm:mt-2 sm:text-[10px] sm:tracking-[0.2em]">
         {label}
       </p>
     </div>
@@ -51,8 +63,8 @@ export default function Countdown() {
   }, []);
 
   return (
-    <section className="gradient-navy py-16 sm:py-20">
-      <div className="mx-auto max-w-4xl px-4 text-center">
+    <section className="gradient-navy overflow-x-hidden py-16 sm:py-20">
+      <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -62,24 +74,37 @@ export default function Countdown() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gold mb-3">
             The Summit Begins In
           </p>
-          <h2 className="text-xl sm:text-2xl font-bold text-white mb-10">
+          <h2 className="mb-8 text-base font-bold leading-snug text-white sm:mb-10 sm:text-2xl">
             15–17 February 2027 · Chennai, India
           </h2>
 
-          <div className="flex items-end justify-center gap-4 sm:gap-6">
-            <Unit value={pad(time.days)} label="Days" />
-            <span className="text-3xl font-light text-gold/60 mb-7 pb-1">:</span>
+          <div
+            className="mx-auto flex w-full max-w-md items-end justify-center gap-1 sm:max-w-none sm:gap-4 md:gap-6"
+            role="timer"
+            aria-label={`Summit begins in ${time.days} days, ${time.hours} hours, ${time.minutes} minutes, and ${time.seconds} seconds`}
+          >
+            <Unit value={String(time.days)} label="Days" />
+            <Colon />
             <Unit value={pad(time.hours)} label="Hours" />
-            <span className="text-3xl font-light text-gold/60 mb-7 pb-1">:</span>
+            <Colon />
             <Unit value={pad(time.minutes)} label="Minutes" />
-            <span className="text-3xl font-light text-gold/60 mb-7 pb-1">:</span>
+            <Colon />
             <Unit value={pad(time.seconds)} label="Seconds" />
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-white/50">
+          <div className="mt-8 flex flex-col items-center justify-center gap-2 text-sm text-white/50 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-x-8 sm:gap-y-3">
             <span>🏛 ITC Grand Chola, Chennai</span>
             <span>⚓ Marina Coastal Waters</span>
             <span>🌐 115+ Nations</span>
+          </div>
+
+          <div className="mt-6 sm:hidden">
+            <Link
+              href="/register"
+              className="inline-flex items-center justify-center px-5 py-2 bg-gold text-navy text-xs font-bold rounded-sm hover:bg-gold-light transition-colors shadow-lg shadow-gold/20"
+            >
+              Register
+            </Link>
           </div>
         </motion.div>
       </div>

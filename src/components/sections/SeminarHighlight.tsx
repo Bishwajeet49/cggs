@@ -30,13 +30,13 @@ const themes = [
 
 export default function SeminarHighlight() {
   return (
-    <section className="bg-white py-20">
+    <section className="overflow-x-clip bg-white py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <motion.div
-            initial={{ opacity: 0, x: -32 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             className="relative order-2 lg:order-1"
@@ -50,7 +50,7 @@ export default function SeminarHighlight() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-navy text-white px-4 py-3 rounded-sm shadow-lg">
+            <div className="absolute bottom-0 right-0 bg-navy text-white px-4 py-3 rounded-sm shadow-lg sm:-bottom-4 sm:-right-4">
               <p className="text-xs font-bold uppercase tracking-wider text-gold">
                 WCGS 2027
               </p>
@@ -60,8 +60,8 @@ export default function SeminarHighlight() {
 
           {/* Text */}
           <motion.div
-            initial={{ opacity: 0, x: 32 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.15 }}
             className="order-1 lg:order-2"

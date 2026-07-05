@@ -11,7 +11,7 @@ export default function PublicLayout({
     <>
       <LenisProvider />
       <Header />
-      <main className="min-h-screen pt-[72px]">{children}</main>
+      <main className="min-h-screen overflow-x-clip pt-[var(--header-height)]">{children}</main>
       <Footer />
     </>
   );
