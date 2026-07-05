@@ -1,0 +1,108 @@
+{
+  "delegate": {
+    "name": "Cdr. James Mitchell",
+    "country": "United Kingdom",
+    "category": "Official Delegate",
+    "country_flag": "🇬🇧"
+  },
+  "status": "confirmed",
+  "arrival": {
+    "airline": "British Airways",
+    "airline_code": "BA",
+    "flight_number": "BA 143",
+    "aircraft": "Boeing 787 Dreamliner",
+    "date": "Feb 14, 2027",
+    "arrival_time": "06:45",
+    "terminal": "Terminal 2",
+    "gate": "Gate 14",
+    "airport": "Chennai International Airport (MAA)",
+    "seat": "12A",
+    "class": "Business",
+    "booking_reference": "CGGSBA0847",
+    "origin": "London Heathrow (LHR)",
+    "destination": "Chennai (MAA)",
+    "status": "confirmed"
+  },
+  "departure": {
+    "airline": "British Airways",
+    "airline_code": "BA",
+    "flight_number": "BA 144",
+    "date": "Feb 18, 2027",
+    "departure_time": "23:10",
+    "terminal": "Terminal 2",
+    "gate": "TBA",
+    "airport": "Chennai International Airport (MAA)",
+    "seat": "12A",
+    "class": "Business",
+    "booking_reference": "CGGSBA0847",
+    "destination": "London Heathrow (LHR)",
+    "status": "confirmed"
+  },
+  "pickup": {
+    "status": "assigned",
+    "meeting_point": "Arrivals Hall B — CGGS Welcome Desk",
+    "pickup_time": "07:00",
+    "date": "Feb 14, 2027",
+    "estimated_travel_time": "35 minutes",
+    "destination": "ITC Grand Chola Hotel",
+    "vehicle_type": "Toyota Innova Crysta",
+    "vehicle_number": "TN09 AB 1234",
+    "driver_name": "Ramesh Kumar",
+    "driver_phone": "+91 98410 55231",
+    "nameplate": "CGGS-0847 · James Mitchell"
+  },
+  "liaison_officer": {
+    "name": "Lt. Cdr. Priya Sharma",
+    "rank": "Lieutenant Commander",
+    "unit": "Indian Coast Guard, Chennai Region",
+    "phone": "+91 98400 12345",
+    "whatsapp": "+91 98400 12345",
+    "email": "priya.sharma@cggs2027.in",
+    "assigned_country": "United Kingdom",
+    "availability": "24/7 during summit"
+  },
+  "instructions": [
+    {
+      "id": "customs",
+      "icon": "shield",
+      "title": "Customs & Immigration",
+      "detail": "Proceed to the dedicated CGGS delegate lane at immigration. Present your e-visa and official invitation letter. Average processing time is 15 minutes."
+    },
+    {
+      "id": "baggage",
+      "icon": "luggage",
+      "title": "Baggage Collection",
+      "detail": "Baggage carousel assignment will be displayed on arrival boards. For lost baggage, contact the BA desk at the airport or call your liaison officer."
+    },
+    {
+      "id": "documents",
+      "icon": "file",
+      "title": "Required Documents",
+      "detail": "Keep ready: Valid passport, e-visa printout, CGGS official invitation letter, and delegate ID card."
+    },
+    {
+      "id": "meeting",
+      "icon": "map-pin",
+      "title": "Meeting Point",
+      "detail": "Proceed to Arrivals Hall B after collecting baggage. Look for the CGGS Welcome Desk with the Indian Coast Guard emblem banner."
+    },
+    {
+      "id": "emergency",
+      "icon": "phone",
+      "title": "Emergency Contact",
+      "detail": "CGGS Operations Centre: +91 44 2345 6789 (24/7). Indian Coast Guard emergency: +91 44 2575 5555."
+    }
+  ],
+  "airport_map": {
+    "arrival_gate": "Gate 14, Terminal 2",
+    "immigration": "Level 1 — International Arrivals",
+    "baggage": "Carousel 4–6, Level 1",
+    "cggs_desk": "Arrivals Hall B, Ground Level",
+    "pickup_zone": "Zone C, Drop & Pick-up Area"
+  },
+  "emergency_contacts": [
+    { "label": "CGGS Ops Centre", "number": "+91 44 2345 6789" },
+    { "label": "Indian Coast Guard", "number": "+91 44 2575 5555" },
+    { "label": "Airport Helpdesk", "number": "+91 44 2256 0551" }
+  ]
+}

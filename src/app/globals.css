@@ -93,3 +93,9 @@ html {
   outline: 2px solid #C5A028;
   outline-offset: 2px;
 }
+
+/* ── Delegate pass hologram shimmer ─────────────────────────── */
+@keyframes pass-shimmer {
+  0%, 100% { background-position: 200% 50%; }
+  50% { background-position: -100% 50%; }
+}

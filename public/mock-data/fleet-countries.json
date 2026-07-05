@@ -1,0 +1,173 @@
+{
+  "countries": [
+    {
+      "country_id": "FC-IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "code": "IN",
+      "coast_guard_name": "Indian Coast Guard",
+      "ships_participating": 6,
+      "delegates": 45,
+      "ships": ["ICGS Samudra Paheredar", "ICGS Vikram", "ICGS Sachet", "ICGS Varad", "ICGS C-421", "MV Rajhauns"],
+      "representatives": [
+        { "name": "DG Paramesh Sivamani", "role": "Director General, Indian Coast Guard" },
+        { "name": "Vice Admiral A. K. Harbola", "role": "Deputy Director General (Operations)" }
+      ],
+      "description": "Host nation and reviewing authority for ICGFR 2027, celebrating 50 years of the Indian Coast Guard."
+    },
+    {
+      "country_id": "FC-JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "code": "JP",
+      "coast_guard_name": "Japan Coast Guard",
+      "ships_participating": 4,
+      "delegates": 12,
+      "ships": ["JCG Akitsushima", "JCG Shikishima", "JCG Kunisaki", "JCG Hateruma"],
+      "representatives": [
+        { "name": "Vice Admiral Kanosue Hiroaki", "role": "Commandant, Japan Coast Guard" }
+      ],
+      "description": "Inaugural host of the first International Coast Guard Fleet Review in 2017."
+    },
+    {
+      "country_id": "FC-US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "code": "US",
+      "coast_guard_name": "United States Coast Guard",
+      "ships_participating": 3,
+      "delegates": 15,
+      "ships": ["USCGC Midgett", "USCGC Bertholf", "USCGC Waesche"],
+      "representatives": [
+        { "name": "Vice Admiral Kevin Lunday", "role": "Deputy Commandant for Operations" }
+      ],
+      "description": "Representing the world's largest coast guard with advanced national security cutters."
+    },
+    {
+      "country_id": "FC-KR",
+      "name": "Republic of Korea",
+      "flag": "🇰🇷",
+      "code": "KR",
+      "coast_guard_name": "Korea Coast Guard",
+      "ships_participating": 3,
+      "delegates": 8,
+      "ships": ["KCG Taean", "KCG Sambong", "KCG Haedong"],
+      "representatives": [
+        { "name": "Commissioner Kim Jun-seok", "role": "Commissioner, Korea Coast Guard" }
+      ],
+      "description": "Leading environmental protection and oil spill response capabilities in the fleet."
+    },
+    {
+      "country_id": "FC-PH",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "code": "PH",
+      "coast_guard_name": "Philippine Coast Guard",
+      "ships_participating": 2,
+      "delegates": 7,
+      "ships": ["PCG Teresa Magbanua", "PCG Gabriela Silang"],
+      "representatives": [
+        { "name": "Admiral Ronnie Gil Gavan", "role": "Commandant, Philippine Coast Guard" }
+      ],
+      "description": "Showcasing multi-role response vessels for humanitarian and disaster relief missions."
+    },
+    {
+      "country_id": "FC-IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "code": "IT",
+      "coast_guard_name": "Corpo delle Capitanerie di Porto",
+      "ships_participating": 2,
+      "delegates": 8,
+      "ships": ["ICS Thaon di Revel", "ICS Dattilo"],
+      "representatives": [
+        { "name": "Vice Admiral Nicola Carlone", "role": "Director General, Corps of Port Captains" }
+      ],
+      "description": "Former CGGS host nation bringing Mediterranean patrol expertise to the Bay of Bengal."
+    },
+    {
+      "country_id": "FC-MY",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "code": "MY",
+      "coast_guard_name": "Malaysian Maritime Enforcement Agency",
+      "ships_participating": 2,
+      "delegates": 6,
+      "ships": ["MMEA KD Pekan", "MMEA KD Marlin"],
+      "representatives": [
+        { "name": "Director General Ahmad Puzi", "role": "Director General, MMEA" }
+      ],
+      "description": "Patrolling one of the world's busiest shipping lanes — the Straits of Malacca."
+    },
+    {
+      "country_id": "FC-AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "code": "AU",
+      "coast_guard_name": "Australian Border Force — Maritime Unit",
+      "ships_participating": 2,
+      "delegates": 8,
+      "ships": ["ABFC Cape Byron", "ABFC Cape Nelson"],
+      "representatives": [
+        { "name": "Commissioner Michael Outram", "role": "Commissioner, Australian Border Force" }
+      ],
+      "description": "Representing Indo-Pacific maritime border security and surveillance capabilities."
+    },
+    {
+      "country_id": "FC-LK",
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "code": "LK",
+      "coast_guard_name": "Sri Lanka Coast Guard",
+      "ships_participating": 2,
+      "delegates": 5,
+      "ships": ["SLCG Nandimithra", "SLCG Samudura"],
+      "representatives": [
+        { "name": "DG Kapila Samarasinghe", "role": "Director General, SLCG" }
+      ],
+      "description": "Regional partner enhancing Indian Ocean maritime domain awareness."
+    },
+    {
+      "country_id": "FC-BD",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "code": "BD",
+      "coast_guard_name": "Bangladesh Coast Guard",
+      "ships_participating": 2,
+      "delegates": 5,
+      "ships": ["BAS Tenaga", "BAS Ruposhi Bangla"],
+      "representatives": [
+        { "name": "Director General Abu Musa", "role": "Director General, BCG" }
+      ],
+      "description": "Bay of Bengal neighbour participating with modern fast intercept craft."
+    },
+    {
+      "country_id": "FC-SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "code": "SG",
+      "coast_guard_name": "Police Coast Guard, Singapore",
+      "ships_participating": 1,
+      "delegates": 7,
+      "ships": ["PCG PH-class Patrol Craft"],
+      "representatives": [
+        { "name": "Commissioner Tan Kai Wen", "role": "Commissioner, Police Coast Guard" }
+      ],
+      "description": "Compact but highly capable maritime law enforcement force in Southeast Asia."
+    },
+    {
+      "country_id": "FC-GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "code": "GB",
+      "coast_guard_name": "HM Coastguard",
+      "ships_participating": 1,
+      "delegates": 10,
+      "ships": ["HM Coastguard SAR Vessel"],
+      "representatives": [
+        { "name": "DG Kirsty Bashford", "role": "Director General, HM Coastguard" }
+      ],
+      "description": "World's oldest coast guard organisation, bringing centuries of maritime rescue heritage."
+    }
+  ]
+}

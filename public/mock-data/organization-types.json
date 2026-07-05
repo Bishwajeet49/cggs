@@ -1,0 +1,12 @@
+[
+  { "id": "ot-001", "value": "coast_guard", "label": "Coast Guard" },
+  { "id": "ot-002", "value": "navy", "label": "Navy" },
+  { "id": "ot-003", "value": "ministry_defence", "label": "Ministry of Defence" },
+  { "id": "ot-004", "value": "maritime_admin", "label": "Maritime Administration" },
+  { "id": "ot-005", "value": "government_dept", "label": "Government Department" },
+  { "id": "ot-006", "value": "international_org", "label": "International Organization" },
+  { "id": "ot-007", "value": "media", "label": "Media" },
+  { "id": "ot-008", "value": "research_institute", "label": "Research Institute" },
+  { "id": "ot-009", "value": "academic", "label": "Academic Institution" },
+  { "id": "ot-010", "value": "other", "label": "Other" }
+]

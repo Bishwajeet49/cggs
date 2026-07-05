@@ -1,0 +1,283 @@
+{
+  "hero": {
+    "title": "Travel & Stay",
+    "subtitle": "Accommodation & Delegate Hospitality",
+    "description": "Support for international delegates attending the 5th Coast Guard Global Summit — official hotels, airport assistance, and ground transportation arranged by the CGGS Secretariat.",
+    "primary_cta_label": "View Venue",
+    "primary_cta_href": "#venue",
+    "secondary_cta_label": "Delegate Login",
+    "secondary_cta_href": "/login"
+  },
+  "overview": {
+    "intro": "The CGGS 2027 Secretariat has made comprehensive arrangements to ensure a seamless experience for all official delegates, media representatives, and participating nations. From official accommodation and airport reception to dedicated liaison officers and curated hospitality — every detail has been professionally coordinated for this landmark international summit in Chennai.",
+    "cards": [
+      {
+        "id": "hotels",
+        "icon": "hotel",
+        "title": "Official Hotels",
+        "description": "Five-star partner hotels designated by the Secretariat for delegate accommodation, with dedicated summit liaison desks and priority check-in."
+      },
+      {
+        "id": "airport",
+        "icon": "plane",
+        "title": "Airport Assistance",
+        "description": "Official reception at Chennai International Airport with immigration guidance, dedicated pickup counters, and multilingual liaison officers."
+      },
+      {
+        "id": "transport",
+        "icon": "car",
+        "title": "Transportation",
+        "description": "Coordinated airport pickups, hotel transfers, summit shuttles, and dedicated transport for Fleet Review and official events."
+      },
+      {
+        "id": "hospitality",
+        "icon": "utensils",
+        "title": "Hospitality",
+        "description": "Curated meal arrangements including breakfast, working lunches, official receptions, and the CGGS 2027 Gala Dinner."
+      },
+      {
+        "id": "liaison",
+        "icon": "user",
+        "title": "Liaison Officers",
+        "description": "Country-assigned liaison officers available 24/7 to assist delegates with travel, protocol, and on-ground coordination throughout the summit."
+      }
+    ]
+  },
+  "venue": {
+    "name": "ITC Grand Chola — Rajendra Chola Hall",
+    "address": "63, Anna Salai (Mount Road), Guindy, Chennai 600032, Tamil Nadu, India",
+    "coordinates": "13.0108° N, 80.2206° E",
+    "map_url": "https://maps.google.com/?q=ITC+Grand+Chola+Chennai",
+    "directions_url": "https://maps.google.com/directions?destination=ITC+Grand+Chola+Chennai",
+    "nearby_hotels": ["ITC Grand Chola", "The Leela Palace Chennai", "Taj Coromandel"],
+    "airport_distance": "15 km from Chennai International Airport (MAA)",
+    "airport_travel_time": "35–50 minutes (off-peak)",
+    "venue_travel_time": "10–25 minutes from official hotels"
+  },
+  "airport": {
+    "name": "Chennai International Airport",
+    "iata_code": "MAA",
+    "arrival_terminal": "International Arrivals — Terminal 4 (T4). Follow signage to the Arrivals Hall after immigration and baggage collection.",
+    "immigration_guidance": "Delegates travelling on official CGGS invitation should carry their invitation letter and passport. A dedicated CGGS immigration facilitation desk will be available in the International Arrivals area during summit dates (14–18 February 2027).",
+    "taxi_information": "Pre-paid taxi counters are located in the Arrivals Hall. Official delegates are strongly advised to use CGGS-arranged pickup services rather than independent taxis.",
+    "official_pickup_counter": "CGGS Official Pickup Counter — International Arrivals Hall, near Exit Gate 3. Look for the CGGS 2027 signage and Indian Coast Guard liaison officers holding country nameplates.",
+    "emergency_contacts": [
+      "Airport Police: 100",
+      "Airport Medical: +91 44 2256 1818",
+      "CGGS Travel Desk: +91 44 2815 0000 (24/7 during summit)"
+    ],
+    "arrival_tips": [
+      "Complete your arrival details in the Delegate Portal at least 72 hours before travel.",
+      "Carry a printed or digital copy of your CGGS invitation letter for immigration.",
+      "Proceed directly to the CGGS Official Pickup Counter — do not accept unsolicited transport offers.",
+      "Liaison officers will display your country nameplate at the designated meeting point.",
+      "Allow 45–60 minutes for immigration and baggage collection during peak arrival windows."
+    ]
+  },
+  "transport": {
+    "intro": "The CGGS Secretariat operates a coordinated ground transportation network for all official delegates. From airport reception to summit venues and official events, dedicated vehicles and trained drivers ensure safe, punctual, and protocol-appropriate travel throughout your stay.",
+    "services": [
+      {
+        "id": "shuttle",
+        "title": "Official Shuttle Services",
+        "description": "Scheduled shuttle services between official hotels and the summit venue during session hours."
+      },
+      {
+        "id": "airport_pickup",
+        "title": "Airport Pickup",
+        "description": "Pre-arranged meet-and-greet at Chennai International Airport with dedicated vehicles for each delegation."
+      },
+      {
+        "id": "hotel_transfer",
+        "title": "Hotel Transfers",
+        "description": "Point-to-point transfers between official hotels and all summit venues, including late-evening return services."
+      },
+      {
+        "id": "fleet_review",
+        "title": "Fleet Review Transport",
+        "description": "Dedicated convoy transport to Chennai Port Trust and Marina viewing areas for the International Fleet Review."
+      },
+      {
+        "id": "seminar",
+        "title": "Seminar Transportation",
+        "description": "Coordinated transport for World Coast Guard Seminar sessions and associated working group meetings."
+      }
+    ],
+    "flow": [
+      { "id": "airport", "label": "Airport", "description": "Chennai International Airport (MAA)" },
+      { "id": "pickup", "label": "Official Pickup", "description": "CGGS meet-and-greet & vehicle assignment" },
+      { "id": "hotel", "label": "Hotel", "description": "Official partner hotel check-in" },
+      { "id": "venue", "label": "Summit Venue", "description": "ITC Grand Chola & session venues" },
+      { "id": "events", "label": "Official Events", "description": "Fleet Review, Seminar & Gala" }
+    ]
+  },
+  "meals": {
+    "intro": "The CGGS Secretariat has arranged comprehensive hospitality for all official delegates throughout the summit period. Meal services are coordinated across official hotels and summit venues to accommodate diverse dietary requirements and protocol seating arrangements.",
+    "items": [
+      {
+        "id": "breakfast",
+        "title": "Breakfast",
+        "description": "Complimentary breakfast at official hotels from 06:30–09:30 IST during the summit period.",
+        "icon": "coffee"
+      },
+      {
+        "id": "lunch",
+        "title": "Lunch",
+        "description": "Working lunches served at summit venues on Days 1–3, with vegetarian and international options.",
+        "icon": "utensils"
+      },
+      {
+        "id": "dinner",
+        "title": "Dinner",
+        "description": "Curated dinner arrangements at official hotels and designated summit dining venues.",
+        "icon": "moon"
+      },
+      {
+        "id": "coffee",
+        "title": "Coffee Breaks",
+        "description": "Refreshment breaks during all plenary sessions, seminars, and working group meetings.",
+        "icon": "cup"
+      },
+      {
+        "id": "reception",
+        "title": "Official Reception",
+        "description": "Welcome reception hosted by the Indian Coast Guard on the evening of 15 February 2027.",
+        "icon": "wine"
+      },
+      {
+        "id": "gala",
+        "title": "Gala Dinner",
+        "description": "CGGS 2027 Gala Dinner — a landmark evening celebrating 50 years of the Indian Coast Guard.",
+        "icon": "star"
+      }
+    ],
+    "login_note": "Personalised meal schedules, seating arrangements, and detailed menus are available exclusively through the Delegate Portal after registration confirmation."
+  },
+  "important_info": [
+    {
+      "id": "visa",
+      "title": "Visa Guidance",
+      "description": "Official delegates should apply for an Indian Conference Visa (e-Conference Visa available for eligible nationalities). The Secretariat will provide supporting invitation letters upon registration approval.",
+      "icon": "passport"
+    },
+    {
+      "id": "advisory",
+      "title": "Travel Advisory",
+      "description": "Chennai is a major metropolitan city with excellent connectivity. Delegates are advised to arrive by 14 February 2027 for pre-summit coordination meetings.",
+      "icon": "alert"
+    },
+    {
+      "id": "security",
+      "title": "Security Guidelines",
+      "description": "All summit venues operate under enhanced security protocols coordinated with Tamil Nadu Police and Central Armed Police Forces. Valid delegate credentials are required for venue access.",
+      "icon": "shield"
+    },
+    {
+      "id": "dress",
+      "title": "Dress Code",
+      "description": "Business formal for plenary sessions and seminars. National dress or service uniform for official ceremonies. Black tie / national formal for the Gala Dinner.",
+      "icon": "shirt"
+    },
+    {
+      "id": "weather",
+      "title": "Weather",
+      "description": "February in Chennai: 24–32°C, partly cloudy with occasional light showers. Light cotton formal wear recommended. Humidity levels moderate.",
+      "icon": "cloud"
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency Numbers",
+      "description": "Police: 100 · Ambulance: 108 · Fire: 101 · CGGS 24/7 Helpline: +91 44 2815 0000",
+      "icon": "phone"
+    },
+    {
+      "id": "medical",
+      "title": "Medical Support",
+      "description": "On-site medical teams at all summit venues. Apollo Hospitals (Guindy) is the designated emergency facility, 3 km from the principal venue.",
+      "icon": "heart"
+    }
+  ],
+  "delegate_portal": {
+    "headline": "Already Registered?",
+    "subheadline": "Access Your Personalized Travel & Stay Dashboard",
+    "preview_items": [
+      { "label": "Assigned Hotel", "locked": true },
+      { "label": "Room Number", "locked": true },
+      { "label": "Hotel Map", "locked": true },
+      { "label": "Hotel Manager Contact", "locked": true },
+      { "label": "Flight Details", "locked": true },
+      { "label": "Airport Pickup", "locked": true },
+      { "label": "Driver Information", "locked": true },
+      { "label": "Live Vehicle Tracking", "locked": true },
+      { "label": "Liaison Officer", "locked": true },
+      { "label": "Meal Schedule", "locked": true },
+      { "label": "Food Menu", "locked": true },
+      { "label": "QR Delegate Pass", "locked": true },
+      { "label": "Notifications", "locked": true }
+    ],
+    "login_label": "Login to Delegate Portal",
+    "login_href": "/login",
+    "register_label": "Register as Delegate",
+    "register_href": "/register"
+  },
+  "feature_comparison": {
+    "public_website": [
+      "Official Hotels",
+      "Venue Information",
+      "Airport Guide",
+      "General Transport Information",
+      "FAQ"
+    ],
+    "delegate_portal": [
+      "Personal Hotel Assignment",
+      "Room Number",
+      "Driver Details",
+      "Live Vehicle Tracking",
+      "Flight Information",
+      "Pickup Schedule",
+      "Meal Timetable",
+      "Hotel Contacts",
+      "Liaison Officer",
+      "Personalized Notifications"
+    ]
+  },
+  "contacts": {
+    "travel_helpdesk": {
+      "id": "travel",
+      "title": "Travel Helpdesk",
+      "email": "travel@cggs2027.gov.in",
+      "phone": "+91 44 2815 1001",
+      "hours": "Mon–Fri 09:00–18:00 IST · 24/7 during summit"
+    },
+    "accommodation_helpdesk": {
+      "id": "accommodation",
+      "title": "Accommodation Helpdesk",
+      "email": "accommodation@cggs2027.gov.in",
+      "phone": "+91 44 2815 1002",
+      "hours": "Mon–Fri 09:00–18:00 IST · 24/7 during summit"
+    },
+    "transportation_helpdesk": {
+      "id": "transport",
+      "title": "Transportation Helpdesk",
+      "email": "transport@cggs2027.gov.in",
+      "phone": "+91 44 2815 1003",
+      "hours": "Mon–Fri 09:00–18:00 IST · 24/7 during summit"
+    },
+    "emergency_contact": "CGGS 24/7 Emergency Helpline",
+    "emergency_phone": "+91 44 2815 0000"
+  },
+  "stats": [
+    { "value": 3, "label": "Official Hotels" },
+    { "value": 15, "label": "Km to Airport" },
+    { "value": 24, "label": "Hour Support", "suffix": "/7" },
+    { "value": 57, "label": "Nations Served" }
+  ],
+  "closing_cta": {
+    "headline": "Ready for CGGS 2027?",
+    "description": "Registered delegates can securely access their complete travel itinerary through the Delegate Portal.",
+    "login_label": "Login",
+    "login_href": "/login",
+    "register_label": "Register",
+    "register_href": "/register"
+  }
+}

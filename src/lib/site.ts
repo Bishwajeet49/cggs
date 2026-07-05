@@ -85,6 +85,7 @@ export const siteConfig = {
     "/seminar",
     "/village",
     "/accommodation",
+    "/travel-and-stay",
     "/media",
     "/contact",
     "/register",

@@ -1,0 +1,185 @@
+{
+  "preview_clock": "2027-02-15T08:45:00+05:30",
+  "announcements": [
+    {
+      "id": "ann-001",
+      "type": "warning",
+      "title": "Registration Under Review",
+      "message": "Credentials are being verified by the CGGS Secretariat. Full portal access unlocks upon approval."
+    },
+    {
+      "id": "ann-002",
+      "type": "info",
+      "title": "Fleet Review Rehearsal",
+      "message": "Maritime rehearsal for ICGFR 2027 begins tomorrow at Chennai Port Trust. Delegates with clearance will receive transport details."
+    },
+    {
+      "id": "ann-003",
+      "type": "info",
+      "title": "Weather Advisory",
+      "message": "Partly cloudy conditions expected on Day 1. Light cotton attire recommended for outdoor segments."
+    },
+    {
+      "id": "ann-004",
+      "type": "info",
+      "title": "Transport Update",
+      "message": "Airport pickup windows for international delegates will be confirmed 72 hours before arrival."
+    }
+  ],
+  "weather": {
+    "city": "Chennai",
+    "temp_c": 28,
+    "feels_like_c": 31,
+    "condition": "Partly Cloudy",
+    "humidity_pct": 78,
+    "wind_kmh": 14,
+    "sunrise": "06:12",
+    "sunset": "18:04",
+    "sea_condition": "Calm · Bay of Bengal",
+    "venue": "ITC Grand Chola, Chennai"
+  },
+  "quick_access": [
+    {
+      "id": "schedule",
+      "label": "My Schedule",
+      "href": "/portal/schedule",
+      "primary": "Next Event",
+      "secondary": "09:30 Opening Ceremony",
+      "action": "Open"
+    },
+    {
+      "id": "qr_pass",
+      "label": "QR Pass",
+      "href": "/portal/registration",
+      "primary": "Ready to Download",
+      "secondary": "Pending verification",
+      "action": "Open"
+    },
+    {
+      "id": "travel",
+      "label": "Travel & Stay",
+      "href": "/portal/travel/arrival",
+      "primary": "Hotel",
+      "secondary": "Pending confirmation",
+      "action": "View Details"
+    },
+    {
+      "id": "fleet",
+      "label": "Fleet Review",
+      "href": "/fleet-review",
+      "primary": "Day 3 Highlight",
+      "secondary": "Feb 17 · Chennai Harbour",
+      "action": "Explore"
+    },
+    {
+      "id": "notifications",
+      "label": "Notifications",
+      "href": "/portal/notifications",
+      "primary": "3 New",
+      "secondary": "Secretariat updates",
+      "action": "View"
+    },
+    {
+      "id": "venue_map",
+      "label": "Venue Map",
+      "href": "#",
+      "primary": "Coming Soon",
+      "secondary": "ITC Grand Chola",
+      "action": null,
+      "disabled": true
+    }
+  ],
+  "today_progress": [
+    { "id": "tp-01", "label": "Registration", "time": "08:30", "status": "completed" },
+    { "id": "tp-02", "label": "Opening Ceremony", "time": "09:30", "status": "current" },
+    { "id": "tp-03", "label": "Seminar Session I", "time": "11:30", "status": "upcoming" },
+    { "id": "tp-04", "label": "Official Luncheon", "time": "13:00", "status": "upcoming" },
+    { "id": "tp-05", "label": "Panel Discussion", "time": "14:30", "status": "upcoming" },
+    { "id": "tp-06", "label": "Welcome Dinner", "time": "19:00", "status": "upcoming" }
+  ],
+  "live_event": {
+    "enabled": true,
+    "title": "Opening Ceremony",
+    "subtitle": "Inaugural Session & Presidential Handover",
+    "location": "Rajendra Chola Hall",
+    "watch_href": "/portal/schedule"
+  },
+  "travel_status": [
+    {
+      "id": "arrival",
+      "label": "Arrival",
+      "status": "Pending",
+      "confirmed": false,
+      "href": "/portal/travel/arrival",
+      "action": "View Details"
+    },
+    {
+      "id": "accommodation",
+      "label": "Accommodation",
+      "status": "Not Confirmed",
+      "confirmed": false,
+      "href": "/portal/travel/accommodation",
+      "action": "View Details"
+    },
+    {
+      "id": "transport",
+      "label": "Transport",
+      "status": "Not Assigned",
+      "confirmed": false,
+      "href": "/portal/travel/transport",
+      "action": "Pickup Information"
+    },
+    {
+      "id": "liaison",
+      "label": "Liaison Officer",
+      "status": "Awaiting Assignment",
+      "confirmed": false,
+      "href": "/portal/profile",
+      "action": "Contact"
+    }
+  ],
+  "featured_events": [
+    {
+      "id": "fe-001",
+      "featured": true,
+      "live": true,
+      "date_label": "Feb 15, 2027",
+      "day_label": "Day 1",
+      "time": "09:30",
+      "title": "Opening Ceremony",
+      "subtitle": "Inaugural Session & Presidential Handover",
+      "speaker": "Prime Minister of India",
+      "location": "Rajendra Chola Hall",
+      "type": "plenary",
+      "href": "/portal/schedule"
+    },
+    {
+      "id": "fe-002",
+      "featured": false,
+      "live": false,
+      "date_label": "Feb 9, 2027",
+      "day_label": "Pre-Summit",
+      "time": "19:00",
+      "title": "Welcome Reception",
+      "subtitle": "Official welcome for heads of delegation",
+      "speaker": null,
+      "location": "ITC Grand Chola",
+      "type": "gala",
+      "href": "/portal/schedule"
+    },
+    {
+      "id": "fe-003",
+      "featured": true,
+      "live": false,
+      "date_label": "Feb 17, 2027",
+      "day_label": "Day 3",
+      "time": "08:00",
+      "title": "International Fleet Review",
+      "subtitle": "ICGFR 2027 · Chennai Harbour",
+      "speaker": "Director General, Indian Coast Guard",
+      "location": "Chennai Port Trust / Marina Coastal Waters",
+      "type": "fleet_review",
+      "href": "/fleet-review"
+    }
+  ]
+}

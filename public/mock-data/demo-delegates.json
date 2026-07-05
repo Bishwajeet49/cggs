@@ -1,0 +1,34 @@
+{
+  "delegates": [
+    {
+      "id": "india",
+      "demoLabel": "Indian Delegate",
+      "email": "paramesh.sivamani@icg.gov.in",
+      "password": "cggs2027",
+      "delegateId": "DLG-IND-2027-0001",
+      "registrationNumber": "CGGS2027-IND-0001",
+      "firstName": "Paramesh",
+      "lastName": "Sivamani",
+      "title": "Director General",
+      "category": "head_of_delegation",
+      "country": "India",
+      "organization": "Indian Coast Guard",
+      "profilePhotoUrl": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg"
+    },
+    {
+      "id": "japan",
+      "demoLabel": "Japanese Delegate",
+      "email": "hiroaki.kanosue@kcga.jp",
+      "password": "cggs2027",
+      "delegateId": "DLG-JPN-2027-0042",
+      "registrationNumber": "CGGS2027-JPN-0042",
+      "firstName": "Hiroaki",
+      "lastName": "Kanosue",
+      "title": "Vice Admiral",
+      "category": "head_of_delegation",
+      "country": "Japan",
+      "organization": "Japan Coast Guard",
+      "profilePhotoUrl": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg"
+    }
+  ]
+}

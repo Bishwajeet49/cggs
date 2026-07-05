@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Home } from "lucide-react";
+import { ChevronRight, Home, Ship } from "lucide-react";
 
 export interface BreadcrumbItem {
   label: string;
@@ -15,6 +16,9 @@ interface EventHeroProps {
   subtitle: string;
   breadcrumbs: BreadcrumbItem[];
   backgroundClass?: string;
+  backgroundImage?: string;
+  backgroundImageAlt?: string;
+  imageObjectPosition?: string;
   ctaLabel?: string;
   ctaHref?: string;
   secondaryCtaLabel?: string;
@@ -29,6 +33,9 @@ export default function EventHero({
   subtitle,
   breadcrumbs,
   backgroundClass = "gradient-navy",
+  backgroundImage,
+  backgroundImageAlt,
+  imageObjectPosition = "center 30%",
   ctaLabel,
   ctaHref,
   secondaryCtaLabel,
@@ -36,62 +43,103 @@ export default function EventHero({
   badge,
   children,
 }: EventHeroProps) {
+  const hasBanner = Boolean(backgroundImage);
+
   return (
     <section
-      className={`relative min-h-[56vh] flex flex-col justify-end overflow-hidden pt-20 ${backgroundClass}`}
+      className={`relative flex flex-col overflow-hidden pt-16 ${
+        hasBanner
+          ? "min-h-[480px] sm:min-h-[520px] lg:min-h-[560px]"
+          : backgroundClass
+      }`}
       aria-label="Page hero"
     >
-      {/* Animated maritime grid overlay */}
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.04]"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(197,160,40,1) 1px, transparent 1px), linear-gradient(90deg, rgba(197,160,40,1) 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
-        }}
-      />
-
-      {/* Radial glow */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-gold/5 blur-[80px]" />
-      </div>
-
-      {/* Decorative wave at bottom */}
-      <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-16 overflow-hidden">
-        <svg
-          viewBox="0 0 1440 64"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          className="w-full h-full"
-        >
-          <path
-            d="M0,32 C360,64 720,0 1080,32 C1260,48 1380,40 1440,32 L1440,64 L0,64 Z"
-            fill="white"
-            fillOpacity="0.03"
+      {hasBanner && backgroundImage ? (
+        <>
+          <Image
+            src={backgroundImage}
+            alt={backgroundImageAlt ?? title}
+            fill
+            className="object-cover sm:object-right"
+            style={{ objectPosition: imageObjectPosition }}
+            priority
+            sizes="100vw"
           />
-        </svg>
-      </div>
+          <div className="absolute inset-0 bg-linear-to-r from-navy/75 via-navy/50 to-transparent lg:from-navy/65" />
+          <div className="absolute inset-0 bg-linear-to-t from-navy/45 via-transparent to-navy/15" />
+        </>
+      ) : (
+        <>
+          {/* Animated maritime grid overlay */}
+          <div
+            className="pointer-events-none absolute inset-0 opacity-[0.04]"
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(197,160,40,1) 1px, transparent 1px), linear-gradient(90deg, rgba(197,160,40,1) 1px, transparent 1px)",
+              backgroundSize: "60px 60px",
+            }}
+          />
 
-      <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 pb-12 pt-12">
+          {/* Radial glow */}
+          <div className="pointer-events-none absolute inset-0">
+            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-gold/5 blur-[80px]" />
+          </div>
+
+          {/* Ship watermark — right side, blended into background */}
+          <div
+            className="pointer-events-none absolute right-6 top-1/2 -translate-y-1/2 hidden sm:block"
+            aria-hidden="true"
+          >
+            <Ship
+              className="h-36 w-36 md:h-44 md:w-44 lg:h-52 lg:w-52 text-white opacity-[0.05]"
+              strokeWidth={0.75}
+            />
+          </div>
+
+          {/* Decorative wave at bottom */}
+          <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-10 overflow-hidden">
+            <svg
+              viewBox="0 0 1440 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              className="w-full h-full"
+            >
+              <path
+                d="M0,32 C360,64 720,0 1080,32 C1260,48 1380,40 1440,32 L1440,64 L0,64 Z"
+                fill="white"
+                fillOpacity="0.03"
+              />
+            </svg>
+          </div>
+        </>
+      )}
+
+      <div
+        className={`relative mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 sm:px-6 ${
+          hasBanner
+            ? "justify-between pb-12 pt-6"
+            : "pb-8 pt-6"
+        }`}
+      >
         {/* Breadcrumb */}
         <motion.nav
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
           aria-label="Breadcrumb"
-          className="mb-8"
+          className={hasBanner ? "relative z-10 shrink-0" : "mb-6"}
         >
-          <ol className="flex items-center gap-1.5 text-xs text-white/50">
+          <ol className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-relaxed text-white/50">
             <li>
-              <Link href="/" className="flex items-center gap-1 hover:text-gold transition-colors">
-                <Home className="h-3 w-3" />
+              <Link href="/" className="flex items-center gap-1.5 hover:text-gold transition-colors">
+                <Home className="h-3 w-3 shrink-0" />
                 Home
               </Link>
             </li>
             {breadcrumbs.map((crumb, i) => (
-              <li key={i} className="flex items-center gap-1.5">
-                <ChevronRight className="h-3 w-3 text-white/30" />
+              <li key={i} className="flex items-center gap-2">
+                <ChevronRight className="h-3 w-3 shrink-0 text-white/30" aria-hidden="true" />
                 {crumb.href ? (
                   <Link href={crumb.href} className="hover:text-gold transition-colors">
                     {crumb.label}
@@ -104,6 +152,7 @@ export default function EventHero({
           </ol>
         </motion.nav>
 
+        <div className={hasBanner ? "max-w-2xl shrink-0 text-left" : undefined}>
         {/* Badge */}
         {badge && (
           <motion.div
@@ -185,12 +234,31 @@ export default function EventHero({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="mt-8"
+            className="mt-6"
           >
             {children}
           </motion.div>
         )}
+        </div>
       </div>
+
+      {hasBanner && (
+        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-10 overflow-hidden">
+          <svg
+            viewBox="0 0 1440 64"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            className="h-full w-full"
+          >
+            <path
+              d="M0,32 C360,64 720,0 1080,32 C1260,48 1380,40 1440,32 L1440,64 L0,64 Z"
+              fill="white"
+              fillOpacity="0.08"
+            />
+          </svg>
+        </div>
+      )}
     </section>
   );
 }

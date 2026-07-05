@@ -1,0 +1,17 @@
+{
+  "event": "International Coast Guard Fleet Review 2027",
+  "location": "Chennai Coastline, Bay of Bengal",
+  "date": "2027-02-17",
+  "temperature_c": 28,
+  "condition": "Partly Cloudy",
+  "wind_speed_kmh": 14,
+  "humidity_percent": 72,
+  "sea_state": 2,
+  "sea_state_label": "Slight — Small wavelets, crests glassy",
+  "visibility": "Good — 10+ km",
+  "sunrise": "06:28 IST",
+  "sunset": "18:14 IST",
+  "tide_high": "09:45 IST · 1.2m",
+  "tide_low": "15:30 IST · 0.4m",
+  "updated_at": "2027-02-17 06:00 IST"
+}

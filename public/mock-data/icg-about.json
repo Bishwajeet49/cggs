@@ -1,0 +1,194 @@
+{
+  "about": {
+    "tagline": "Bharatiya Tatrakshak — the Nation's maritime sentinel",
+    "motto_sanskrit": "वयम् रक्षामः",
+    "motto_english": "Vayam Rakshamah — We Protect",
+    "mission": "To protect our ocean and offshore wealth including oil, fish and minerals. To assist mariners in distress and safeguard life and property at sea. To enforce maritime laws with respect to sea, poaching, smuggling and narcotics. To preserve marine environment and ecology and protect rare species. To collect scientific data and back-up the navy during war.",
+    "description": "The Indian Coast Guard (ICG) is a maritime armed force of the Union operating under the Ministry of Defence. Mandated to protect India's maritime and other national interests across territorial waters, the contiguous zone, and the exclusive economic zone, the ICG works in close coordination with the Indian Navy, Customs, fisheries authorities, coastal police, and international coast guard agencies.",
+    "established_interim": "1 February 1977",
+    "established_formal": "18 August 1978",
+    "coast_guard_day": "1 February",
+    "parent_agency": "Ministry of Defence, Government of India",
+    "headquarters": "Coast Guard Headquarters (CGHQ), New Delhi",
+    "director_general": "Director General Paramesh Sivamani — 26th Director General, Indian Coast Guard",
+    "image_url": "/icg/icg-flag.svg",
+    "image_alt": "Flag of the Indian Coast Guard"
+  },
+  "missions": [
+    {
+      "id": "offshore",
+      "icon": "🛢",
+      "title": "Offshore & Installation Protection",
+      "description": "Ensuring the safety and protection of artificial islands, offshore terminals, installations, and other structures in India's maritime zones."
+    },
+    {
+      "id": "sar",
+      "icon": "🚁",
+      "title": "Search & Rescue",
+      "description": "Providing protection and assistance to fishermen and mariners at sea while in distress — serving as the National Maritime SAR Coordinating Authority."
+    },
+    {
+      "id": "environment",
+      "icon": "🌊",
+      "title": "Marine Environment Protection",
+      "description": "Preserving and protecting the marine ecology and environment, including pollution control and response to oil spills and maritime disasters."
+    },
+    {
+      "id": "enforcement",
+      "icon": "⚖",
+      "title": "Maritime Law Enforcement",
+      "description": "Assisting Customs and other authorities in anti-smuggling operations and enforcing enactments in force across India's maritime zones."
+    },
+    {
+      "id": "security",
+      "icon": "🛡",
+      "title": "Coastal Security",
+      "description": "Coordinating coastal security between central and state agencies as Lead Intelligence Agency for coastal and sea borders."
+    },
+    {
+      "id": "defence",
+      "icon": "⚓",
+      "title": "National Defence Support",
+      "description": "Collecting scientific data and, during hostilities, operating under the operational control of the Indian Navy to safeguard national interests."
+    }
+  ],
+  "history": [
+    {
+      "id": "1960s",
+      "sort_order": 1,
+      "year": "1960s",
+      "title": "Origins — A Need for a Dedicated Force",
+      "description": "Since the 1960s, the Indian Navy advocated for an auxiliary service for maritime law enforcement. Sea-borne smuggling threatened India's domestic economy, and deploying high-value naval warships for patrol duties was not optimal.",
+      "image_url": "/icg/icg-patrol-vessel.jpg",
+      "image_alt": "Indian Coast Guard patrol vessel"
+    },
+    {
+      "id": "1971",
+      "sort_order": 2,
+      "year": "1971",
+      "title": "Nagchaudhuri Committee",
+      "description": "The committee identified the need to patrol India's vast coastline, maintain a registry of offshore fishing vessels, and establish a well-equipped force to intercept vessels engaged in illegal activities."
+    },
+    {
+      "id": "1974",
+      "sort_order": 3,
+      "year": "1974–75",
+      "title": "Rustamji Committee",
+      "description": "Chaired by Shri KF Rustamji, IPS, the committee strongly recommended setting up a Coast Guard-type organisation for general superintendence and policing of India's sea areas. The discovery of oil at Bombay High further reinforced this need."
+    },
+    {
+      "id": "1977",
+      "sort_order": 4,
+      "year": "1977",
+      "title": "Interim Indian Coast Guard Formed",
+      "description": "On 1 February 1977, the interim Indian Coast Guard came into being with two frigates (IN Ships Kirpan and Kuthar) and five patrol boats transferred from the Navy and Home Ministry — a fleet of just seven ships for surveillance across Indian waters and the EEZ.",
+      "highlight": true,
+      "image_url": "/icg/icg-ship-action.jpg",
+      "image_alt": "Indian Coast Guard ship at sea"
+    },
+    {
+      "id": "1978",
+      "sort_order": 5,
+      "year": "1978",
+      "title": "Coast Guard Act — Formal Establishment",
+      "description": "The Coast Guard Act, 1978 was enacted on 18 August 1978, formally inaugurating the ICG as an independent armed force of the Union. Vice Admiral V. A. Kamath of the Indian Navy was appointed the founding Director General.",
+      "highlight": true
+    },
+    {
+      "id": "1999",
+      "sort_order": 6,
+      "year": "1999",
+      "title": "MV Alondra Rainbow — Anti-Piracy Success",
+      "description": "The ICG achieved a historic operational success by recapturing the hijacked MV Alondra Rainbow at high seas off Kochi — the first successful prosecution of armed pirates in over a century."
+    },
+    {
+      "id": "2008",
+      "sort_order": 7,
+      "year": "2008",
+      "title": "Post-Mumbai Expansion",
+      "description": "Following the 2008 Mumbai terror attacks, the Government initiated a major programme to expand ICG force levels, assets, and infrastructure for enhanced protection and surveillance of Indian waters."
+    },
+    {
+      "id": "2017",
+      "sort_order": 8,
+      "year": "2017",
+      "title": "India at CGGS Tokyo",
+      "description": "India participated in the inaugural Coast Guard Global Summit in Tokyo, joining the global network of coast guard agencies committed to maritime safety, security, and environmental protection."
+    },
+    {
+      "id": "2027",
+      "sort_order": 9,
+      "year": "2027",
+      "title": "Golden Jubilee & CGGS Presidency",
+      "description": "India hosts the 5th Coast Guard Global Summit in Chennai, assuming the CGGS Presidency while celebrating 50 years of the Indian Coast Guard — from seven ships in 1977 to a multi-dimensional maritime force.",
+      "highlight": true,
+      "image_url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg",
+      "image_alt": "Director General Paramesh Sivamani, Indian Coast Guard"
+    }
+  ],
+  "regions": [
+    { "id": "nw", "name": "North-West Region", "code": "NW", "hq": "Gandhinagar", "seaboard": "Western Seaboard" },
+    { "id": "w", "name": "Western Region", "code": "W", "hq": "Mumbai", "seaboard": "Western Seaboard" },
+    { "id": "e", "name": "Eastern Region", "code": "E", "hq": "Chennai", "seaboard": "Eastern Seaboard" },
+    { "id": "ne", "name": "North-East Region", "code": "NE", "hq": "Kolkata", "seaboard": "Eastern Seaboard" },
+    { "id": "an", "name": "Andaman & Nicobar Region", "code": "A&N", "hq": "Port Blair", "seaboard": "Direct to CGHQ" }
+  ],
+  "fleet_stats": [
+    { "label": "Offshore Patrol Vessels", "value": "25+", "icon": "⛴" },
+    { "label": "Fast Patrol Vessels", "value": "43+", "icon": "🚤" },
+    { "label": "Aircraft", "value": "77+", "icon": "✈" },
+    { "label": "Coast Guard Stations", "value": "42", "icon": "🏢" },
+    { "label": "Pollution Control Vessels", "value": "4", "icon": "♻" },
+    { "label": "Daily Deployments", "value": "55–60", "icon": "📡" }
+  ],
+  "leadership": {
+    "name": "Director General Paramesh Sivamani",
+    "rank": "Director General",
+    "title": "26th Director General, Indian Coast Guard",
+    "message": "Guided by our motto \"Vayam Rakshamah\" — \"We Protect\", Bharatiya Tatrakshak remains steadfast in its commitment to preserving the sovereignty, security, and maritime integrity of Bharat. In an evolving maritime environment marked by emerging challenges and opportunities, the force continues to uphold the highest standards of professionalism, vigilance, and service to the Nation.",
+    "image_url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg",
+    "image_alt": "Director General Paramesh Sivamani, Indian Coast Guard"
+  },
+  "gallery": [
+    {
+      "id": "g1",
+      "url": "/icg/icg-ship-shaunak.jpg",
+      "alt": "ICGS Shaunak offshore patrol vessel",
+      "caption": "ICGS Shaunak — Samarth-class offshore patrol vessel on international deployment",
+      "credit": "Wikimedia Commons / CC BY-SA"
+    },
+    {
+      "id": "g2",
+      "url": "/icg/icg-firefighting.jpg",
+      "alt": "Indian Coast Guard ships dousing fire at sea",
+      "caption": "Pollution response and firefighting operations at sea",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "id": "g3",
+      "url": "/icg/icg-ship-action.jpg",
+      "alt": "Indian Coast Guard ship at sea in action",
+      "caption": "Maritime surveillance and law enforcement patrol",
+      "credit": "Wikimedia Commons / CC BY-SA"
+    },
+    {
+      "id": "g4",
+      "url": "/icg/icg-patrol-vessel.jpg",
+      "alt": "Indian Coast Guard patrol vessel",
+      "caption": "Coastal patrol vessel on maritime duty",
+      "credit": "Wikimedia Commons / CC BY-SA"
+    }
+  ],
+  "golden_jubilee": {
+    "title": "50 Years of Service to the Nation",
+    "years": "1977 — 2027",
+    "description": "From seven ships patrolling India's waters in 1977 to a modern multi-dimensional force with over 150 surface units and 77 aircraft, the Indian Coast Guard marks its Golden Jubilee in 2027 — celebrated on the world stage as India hosts the 5th Coast Guard Global Summit in Chennai.",
+    "milestones": [
+      { "year": "1977", "event": "ICG Established" },
+      { "year": "1978", "event": "Coast Guard Act" },
+      { "year": "1999", "event": "Anti-Piracy Triumph" },
+      { "year": "2017", "event": "1st CGGS Tokyo" },
+      { "year": "2027", "event": "Golden Jubilee & CGGS Chennai", "active": true }
+    ]
+  }
+}

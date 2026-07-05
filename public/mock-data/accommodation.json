@@ -1,0 +1,110 @@
+{
+  "status": "confirmed",
+  "hotel": {
+    "name": "ITC Grand Chola",
+    "rating": 5,
+    "address": "63, Mount Road, Guindy, Chennai, Tamil Nadu 600032",
+    "phone": "+91 44 2220 0000",
+    "website": "itchotels.com",
+    "description": "A luxury heritage hotel inspired by the grand Chola architecture, offering world-class amenities and the finest hospitality in Chennai.",
+    "distance_to_venue": "3.2 km from Chennai Trade Centre",
+    "travel_time_to_venue": "12 min by car",
+    "image_placeholder": "itc_grand_chola"
+  },
+  "room": {
+    "room_number": "1412",
+    "floor": "14th Floor",
+    "room_type": "Deluxe King — Delegate Block",
+    "wifi_name": "CGGS-Delegate",
+    "wifi_password": "CGGS2027@ICG",
+    "breakfast_included": true,
+    "check_in": "Feb 14, 2027",
+    "check_in_time": "14:00",
+    "check_out": "Feb 18, 2027",
+    "check_out_time": "12:00",
+    "early_checkin_arranged": true,
+    "early_checkin_time": "08:00",
+    "special_requests": ["High-floor room", "Non-smoking", "Extra pillows"],
+    "status": "confirmed"
+  },
+  "poc": {
+    "name": "Mr. Vikram Nair",
+    "designation": "Guest Relations Manager",
+    "phone": "+91 99400 88771",
+    "email": "vikram.nair@itchotels.com",
+    "reception": "+91 44 2220 0000",
+    "helpdesk": "+91 44 2220 0099",
+    "helpdesk_label": "24x7 Help Desk"
+  },
+  "location": {
+    "lat": 13.0067,
+    "lng": 80.2206,
+    "venue_lat": 13.0569,
+    "venue_lng": 80.2425,
+    "google_maps_url": "https://maps.google.com/?q=ITC+Grand+Chola+Chennai",
+    "walking_time": "N/A — vehicle recommended",
+    "landmarks": ["Guindy National Park (500m)", "DMS Metro Station (900m)", "Phoenix Marketcity (1.2 km)"]
+  },
+  "meals": [
+    {
+      "id": "breakfast",
+      "type": "Breakfast",
+      "time": "07:00 – 09:30",
+      "location": "Peshwa Restaurant, Level 1",
+      "menu": "Continental + South Indian Buffet",
+      "dress_code": null,
+      "included": true
+    },
+    {
+      "id": "lunch",
+      "type": "Delegate Lunch",
+      "time": "13:00 – 14:30",
+      "location": "Chennai Trade Centre, Banquet Hall A",
+      "menu": "Multi-cuisine buffet — vegetarian and non-vegetarian options",
+      "dress_code": null,
+      "included": true
+    },
+    {
+      "id": "high_tea",
+      "type": "High Tea",
+      "time": "16:30 – 17:30",
+      "location": "Exhibition Village, Pavilion Zone",
+      "menu": "Assorted snacks, finger sandwiches, Indian sweets, tea & coffee",
+      "dress_code": null,
+      "included": true
+    },
+    {
+      "id": "welcome_dinner",
+      "type": "Welcome Reception Dinner",
+      "time": "19:30 – 22:00",
+      "location": "ITC Grand Chola, Grand Ballroom",
+      "menu": "Multi-cuisine gala — South Indian specialities, live counters",
+      "dress_code": "Business Formal",
+      "included": true
+    },
+    {
+      "id": "gala_dinner",
+      "type": "Gala Dinner",
+      "time": "20:00 – 23:00",
+      "location": "Leela Palace Chennai, Ballroom",
+      "menu": "Formal state dinner — seven-course menu",
+      "dress_code": "Black Tie / Service Formal",
+      "included": true
+    }
+  ],
+  "amenities": [
+    { "id": "wifi", "label": "High-Speed Wi-Fi", "available": true },
+    { "id": "gym", "label": "Fitness Centre", "available": true },
+    { "id": "pool", "label": "Swimming Pool", "available": true },
+    { "id": "business", "label": "Business Centre", "available": true },
+    { "id": "laundry", "label": "Laundry Service", "available": true },
+    { "id": "medical", "label": "Medical Assistance", "available": true },
+    { "id": "concierge", "label": "24x7 Concierge", "available": true },
+    { "id": "spa", "label": "Spa & Wellness", "available": true }
+  ],
+  "next_module": {
+    "label": "Transport",
+    "href": "/portal/travel/transport",
+    "description": "View your vehicle assignment and today's pickup schedule"
+  }
+}

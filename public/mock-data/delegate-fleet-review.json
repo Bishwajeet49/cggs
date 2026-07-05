@@ -1,0 +1,119 @@
+{
+  "status": "upcoming",
+  "delegate_category": "Official Delegate",
+  "viewing_area": "Chennai Port Trust VIP Gallery — Zone B",
+  "purpose": "The International Coast Guard Fleet Review is a ceremonial display of maritime unity, where coast guard vessels from participating nations assemble in formation to be reviewed by the supreme reviewing authority — a tradition that symbolises international solidarity on the high seas.",
+  "importance": "ICGFR 2027 carries special significance as it coincides with the Golden Jubilee of the Indian Coast Guard and marks the largest fleet review ever conducted in the Indian Ocean Region, with 57 nations and 48 vessels participating.",
+  "viewing_pass": {
+    "viewing_zone": "VIP Gallery — Zone B (Port Side)",
+    "seat_number": "B-142",
+    "reporting_time": "07:30 IST",
+    "entry_gate": "Gate 3 — Chennai Port Trust",
+    "security_level": "Level 2 — Enhanced Screening",
+    "qr_delegate_id": "DLG-2027-00482",
+    "qr_registration_number": "CGGS-REG-2027-48291"
+  },
+  "formation": {
+    "lead_ship": "ICGS Samudra Paheredar",
+    "indian_fleet": {
+      "label": "Indian Coast Guard Fleet",
+      "description": "Six Indian Coast Guard vessels form the central column, led by the reviewing vessel ICGS Samudra Paheredar at the apex of the formation.",
+      "ships": ["ICGS Samudra Paheredar", "ICGS Vikram", "ICGS Sachet", "ICGS Varad", "ICGS C-421", "MV Rajhauns"]
+    },
+    "international_fleet": {
+      "label": "International Fleet",
+      "description": "42 international vessels arranged in two flanking columns, steaming in order of arrival with national ensigns at the masthead and coloured bunting from bow to stern.",
+      "ships": ["JCG Akitsushima", "USCGC Midgett", "KCG Taean", "PCG Teresa Magbanua", "ICS Thaon di Revel", "SLCG Nandimithra"]
+    },
+    "formation_order": [
+      { "position": 1, "ship_name": "ICGS Samudra Paheredar", "country": "India" },
+      { "position": 2, "ship_name": "ICGS Vikram", "country": "India" },
+      { "position": 3, "ship_name": "JCG Akitsushima", "country": "Japan" },
+      { "position": 4, "ship_name": "USCGC Midgett", "country": "United States" },
+      { "position": 5, "ship_name": "KCG Taean", "country": "Republic of Korea" },
+      { "position": 6, "ship_name": "PCG Teresa Magbanua", "country": "Philippines" },
+      { "position": 7, "ship_name": "ICS Thaon di Revel", "country": "Italy" },
+      { "position": 8, "ship_name": "SLCG Nandimithra", "country": "Sri Lanka" }
+    ]
+  },
+  "route_map": {
+    "title": "Fleet Review Route & Viewing Areas",
+    "description": "The reviewing vessel proceeds along the designated route from Chennai Port Trust Wharf through the review anchorage, passing all 48 vessels in formation.",
+    "markers": [
+      { "id": "m1", "label": "VIP Gallery B", "x": 72, "y": 35, "type": "viewing", "color": "bg-gold" },
+      { "id": "m2", "label": "Marina Beach", "x": 25, "y": 55, "type": "viewing", "color": "bg-emerald-500" },
+      { "id": "m3", "label": "Gate 3", "x": 65, "y": 70, "type": "gate", "color": "bg-navy" },
+      { "id": "m4", "label": "Gate 1", "x": 40, "y": 75, "type": "gate", "color": "bg-navy" },
+      { "id": "m5", "label": "Restricted Zone", "x": 50, "y": 25, "type": "restricted", "color": "bg-red-500" },
+      { "id": "m6", "label": "Fleet Anchorage", "x": 48, "y": 40, "type": "fleet", "color": "bg-blue-600" },
+      { "id": "m7", "label": "Emergency Exit", "x": 85, "y": 65, "type": "exit", "color": "bg-orange-500" }
+    ],
+    "legend": [
+      { "label": "Viewing Area", "color": "bg-gold" },
+      { "label": "Public Viewing", "color": "bg-emerald-500" },
+      { "label": "Entry Gate", "color": "bg-navy" },
+      { "label": "Restricted", "color": "bg-red-500" },
+      { "label": "Fleet Route", "color": "bg-blue-600" },
+      { "label": "Emergency Exit", "color": "bg-orange-500" }
+    ],
+    "maps_url": "https://maps.google.com/?q=Chennai+Port+Trust"
+  },
+  "transport": {
+    "assigned_pickup": "Fleet Review Shuttle — Route FR-02",
+    "vehicle": "Toyota Coaster — Executive",
+    "vehicle_number": "TN-07-FR-2027",
+    "driver_name": "R. Venkatesh",
+    "driver_phone": "+91 98400 12345",
+    "reporting_time": "06:45 IST",
+    "pickup_point": "ITC Grand Chola — Main Portico",
+    "navigation_url": "https://maps.google.com/?q=ITC+Grand+Chola+Chennai"
+  },
+  "safety_guidelines": [
+    { "id": "sg1", "title": "Carry Delegate Pass", "description": "Your Fleet Review viewing pass and summit delegate credentials are mandatory for entry to all restricted viewing areas.", "icon": "badge" },
+    { "id": "sg2", "title": "Arrive 30 Minutes Early", "description": "Report to your designated gate at least 30 minutes before the scheduled reporting time to complete security screening.", "icon": "clock" },
+    { "id": "sg3", "title": "Follow Security Instructions", "description": "Comply with all instructions from coast guard security personnel and port authority officials at all times.", "icon": "shield" },
+    { "id": "sg4", "title": "Photography Guidelines", "description": "Personal photography is permitted. Professional media equipment requires separate press accreditation.", "icon": "camera" },
+    { "id": "sg5", "title": "Restricted Areas", "description": "Do not enter marked restricted zones on the wharf or aboard vessels without explicit authorisation.", "icon": "ban" },
+    { "id": "sg6", "title": "Emergency Assembly Point", "description": "In case of emergency, proceed immediately to Assembly Point Alpha near Gate 3 — follow coast guard personnel directions.", "icon": "alert" }
+  ],
+  "downloads": [
+    { "id": "dl1", "title": "Fleet Review Guide", "description": "Complete delegate guide for ICGFR 2027 including ceremony protocol and viewing instructions.", "file_type": "PDF", "size": "4.2 MB" },
+    { "id": "dl2", "title": "Programme PDF", "description": "Official Fleet Review programme with timings, formation details, and aerial display schedule.", "file_type": "PDF", "size": "1.8 MB" },
+    { "id": "dl3", "title": "Venue Map", "description": "Detailed map of Chennai Port Trust viewing areas, gates, and shuttle drop-off points.", "file_type": "PDF", "size": "3.1 MB" },
+    { "id": "dl4", "title": "Safety Manual", "description": "Maritime safety guidelines, emergency procedures, and assembly point locations.", "file_type": "PDF", "size": "2.4 MB" },
+    { "id": "dl5", "title": "Emergency Contacts", "description": "Quick reference card with all Fleet Review emergency and help desk contacts.", "file_type": "PDF", "size": "0.5 MB" }
+  ],
+  "faqs": [
+    { "id": "fq1", "question": "What time should delegates report?", "answer": "Delegates assigned to VIP Gallery Zone B should report at Gate 3 by 07:30 IST. Shuttle departures from ITC Grand Chola begin at 06:00 IST." },
+    { "id": "fq2", "question": "Can cameras be carried?", "answer": "Personal cameras and smartphones are permitted. Professional camera equipment, drones, and tripods require separate media accreditation from the Fleet Review Secretariat." },
+    { "id": "fq3", "question": "Where is the viewing area?", "answer": "Your assigned viewing area is VIP Gallery Zone B at Chennai Port Trust. Seat B-142 is on the port side with unobstructed views of the fleet formation." },
+    { "id": "fq4", "question": "What should I wear?", "answer": "Formal uniform for military and coast guard delegates; business attire for civilian delegates. Traditional dress is welcome. Comfortable footwear is recommended." },
+    { "id": "fq5", "question": "How do I reach the venue?", "answer": "Complimentary shuttle buses operate from ITC Grand Chola from 06:00 IST. Your assigned pickup is at 06:45 IST at the Main Portico. Alternatively, taxis may drop at Gate 3." },
+    { "id": "fq6", "question": "What happens if weather conditions change?", "answer": "The Fleet Review will proceed in Sea State 3 or below. Updates will be sent via the delegate portal and SMS. Indoor viewing arrangements are available as contingency." }
+  ],
+  "emergency_contacts": [
+    { "id": "ec1", "name": "Fleet Review Secretariat", "role": "Primary Contact", "unit": "CGGS 2027 Secretariat", "phone": "+91 44 2345 6789", "email": "fleetreview@cggs2027.in" },
+    { "id": "ec2", "name": "Fleet Review Help Desk", "role": "On-Site Assistance", "unit": "Chennai Port Trust — Gate 3", "phone": "+91 44 2345 6790", "whatsapp": "+91 98765 43210" },
+    { "id": "ec3", "name": "Emergency Medical", "role": "Medical Officer", "unit": "ICG Medical Team — On Site", "phone": "+91 44 2345 6791" },
+    { "id": "ec4", "name": "Transport Help", "role": "Transport Coordinator", "unit": "Delegate Transport Cell", "phone": "+91 44 2345 6792", "whatsapp": "+91 98765 43211" },
+    { "id": "ec5", "name": "Cdr. Ananya Sharma", "role": "Liaison Officer", "unit": "Your Assigned Liaison", "phone": "+91 98765 12345", "email": "liaison.sharma@cggs2027.in" }
+  ],
+  "programme_today": [
+    { "time": "07:30", "activity": "Delegate Arrival & Security Screening", "status": "upcoming" },
+    { "time": "08:00", "activity": "Boarding Reviewing Vessel — Guard of Honour", "status": "upcoming" },
+    { "time": "08:30", "activity": "Fleet Formation Complete — Review Commences", "status": "upcoming" },
+    { "time": "09:00", "activity": "Presidential Review Ceremony", "status": "upcoming" },
+    { "time": "10:00", "activity": "Sail Past — All 48 Vessels", "status": "upcoming" },
+    { "time": "11:00", "activity": "Joint Maritime SAR Demonstration", "status": "upcoming" },
+    { "time": "11:45", "activity": "Aerial Fly Past — Coast Guard Aircraft", "status": "upcoming" },
+    { "time": "12:15", "activity": "Ceremonial Close & Return to Port", "status": "upcoming" }
+  ],
+  "gallery_images": [
+    { "id": "FG-01", "url": "/previous_summit_img/4th Coast Guard Global Summit.jpg", "caption": "International fleet assembled in formation", "category": "fleet" },
+    { "id": "FG-02", "url": "/previous_summit_img/Coast Guard Global Summit - 3rd Working Level Meeting.jpg", "caption": "Presidential review ceremony", "category": "ceremony" },
+    { "id": "FG-03", "url": "/previous_summit_img/Coast Guard Global Summit - 1st Working Level Meeting.jpg", "caption": "International delegations at review", "category": "delegations" },
+    { "id": "FG-04", "url": "/previous_summit_img/Coast Guard Global Summit - 2nd Working Level Meeting.jpg", "caption": "Coast Guard vessels on parade", "category": "ships" },
+    { "id": "FG-05", "url": "/previous_summit_img/online Symposium.jpg", "caption": "Aerial display — Coast Guard aircraft", "category": "aircraft" },
+    { "id": "FG-06", "url": "/previous_summit_img/ Coast Guard Global Summit - 2nd Working Level Meeting.jpg", "caption": "Joint SAR demonstration exercise", "category": "fleet" }
+  ]
+}

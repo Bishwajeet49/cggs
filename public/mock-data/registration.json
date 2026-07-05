@@ -1,0 +1,198 @@
+{
+  "status": "pending_verification",
+  "estimated_approval": "Expected within 3–5 working days.",
+  "progress_steps": [
+    {
+      "id": "submitted",
+      "label": "Registration Submitted",
+      "state": "completed",
+      "completed_at": "2026-11-18T14:32:00+05:30"
+    },
+    {
+      "id": "documents_verified",
+      "label": "Documents Verified",
+      "state": "completed",
+      "completed_at": "2026-11-20T11:15:00+05:30"
+    },
+    {
+      "id": "secretariat_review",
+      "label": "Secretariat Review",
+      "state": "current"
+    },
+    {
+      "id": "approval",
+      "label": "Approval",
+      "state": "pending"
+    },
+    {
+      "id": "pass_activated",
+      "label": "Delegate Pass Activated",
+      "state": "pending"
+    }
+  ],
+  "checklist": [
+    { "id": "submitted", "label": "Registration Submitted", "completed": true },
+    { "id": "documents", "label": "Documents Uploaded", "completed": true },
+    { "id": "review", "label": "Secretariat Review", "completed": true },
+    { "id": "approval", "label": "Approval Pending", "completed": false },
+    { "id": "pass", "label": "Delegate Pass Activated", "completed": false }
+  ],
+  "delegate": {
+    "delegate_id": "DLG-2027-0847",
+    "registration_number": "REG-GBR-2027-0847",
+    "registered_at": "2026-11-18T14:32:00+05:30",
+    "category": "official_delegate",
+    "first_name": "James",
+    "last_name": "Mitchell",
+    "profile_photo_url": "",
+    "country": "United Kingdom",
+    "organization": "Royal Navy",
+    "rank_designation": "Commander",
+    "passport_number_masked": "*****4892",
+    "email": "j.mitchell@mod.gov.uk",
+    "phone": "+44 7700 900482"
+  },
+  "events": [
+    { "id": "opening_ceremony", "title": "Opening Ceremony", "date": "Feb 15, 2027", "selected": true },
+    { "id": "fleet_review", "title": "International Fleet Review", "date": "Feb 17, 2027", "selected": true },
+    { "id": "coast_guard_seminar", "title": "World Coast Guard Seminar", "date": "Feb 15–16, 2027", "selected": true },
+    { "id": "exhibition_village", "title": "Exhibition Village", "date": "Feb 15–17, 2027", "selected": true },
+    { "id": "welcome_reception", "title": "Welcome Reception", "date": "Feb 14, 2027", "selected": true },
+    { "id": "cultural_evening", "title": "Cultural Evening", "date": "Feb 16, 2027", "selected": true },
+    { "id": "official_dinner", "title": "Gala Dinner", "date": "Feb 16, 2027", "selected": true }
+  ],
+  "travel": {
+    "arrival_date": "Feb 14, 2027 · 06:45 IST",
+    "arrival_flight": "BA 143 · London Heathrow → Chennai",
+    "departure_date": "Feb 18, 2027 · 23:10 IST",
+    "departure_flight": "BA 144 · Chennai → London Heathrow",
+    "airport": "Chennai International Airport (MAA)",
+    "status": "pending"
+  },
+  "accommodation": {
+    "hotel": "ITC Grand Chola",
+    "room_type": "Deluxe King · Delegate Block",
+    "check_in": "Feb 14, 2027",
+    "check_out": "Feb 18, 2027",
+    "status": "pending"
+  },
+  "transport": {
+    "pickup_location": "Chennai International Airport · Arrivals Hall B",
+    "pickup_time": "Feb 14, 2027 · 07:30 IST",
+    "assigned_vehicle": "To be assigned",
+    "driver": "To be assigned",
+    "status": "pending"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": "Passport",
+      "file_name": "passport_mitchell_j.pdf",
+      "uploaded_at": "2026-11-18T14:28:00+05:30",
+      "status": "verified"
+    },
+    {
+      "id": "profile_photo",
+      "label": "Profile Photo",
+      "file_name": "photo_mitchell_j.jpg",
+      "uploaded_at": "2026-11-18T14:25:00+05:30",
+      "status": "verified"
+    },
+    {
+      "id": "official_letter",
+      "label": "Official Letter",
+      "file_name": "mod_endorsement_letter.pdf",
+      "uploaded_at": "2026-11-18T14:30:00+05:30",
+      "status": "verified"
+    },
+    {
+      "id": "invitation_letter",
+      "label": "Invitation Letter",
+      "file_name": "cggs_invitation_0847.pdf",
+      "uploaded_at": "2026-11-19T09:00:00+05:30",
+      "status": "verified"
+    },
+    {
+      "id": "visa",
+      "label": "Visa",
+      "file_name": "india_evisa_mitchell.pdf",
+      "uploaded_at": "2026-11-22T16:45:00+05:30",
+      "status": "pending"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-001",
+      "message": "Your registration has been submitted successfully.",
+      "timestamp": "2026-11-18T14:32:00+05:30",
+      "read": true
+    },
+    {
+      "id": "notif-002",
+      "message": "Passport verification completed by the CGGS Secretariat.",
+      "timestamp": "2026-11-20T11:15:00+05:30",
+      "read": true
+    },
+    {
+      "id": "notif-003",
+      "message": "Accommodation request received — assignment pending.",
+      "timestamp": "2026-11-21T10:00:00+05:30",
+      "read": false
+    },
+    {
+      "id": "notif-004",
+      "message": "Transport allocation will be confirmed 72 hours before arrival.",
+      "timestamp": "2026-11-22T08:30:00+05:30",
+      "read": false
+    }
+  ],
+  "downloads": [
+    {
+      "id": "receipt",
+      "label": "Registration Receipt",
+      "file_name": "CGGS2027_Registration_Receipt.pdf",
+      "format": "PDF",
+      "size_kb": 248,
+      "available": true
+    },
+    {
+      "id": "summary",
+      "label": "Registration Summary",
+      "file_name": "CGGS2027_Registration_Summary.pdf",
+      "format": "PDF",
+      "size_kb": 412,
+      "available": true
+    },
+    {
+      "id": "invitation",
+      "label": "Invitation Letter",
+      "file_name": "CGGS2027_Invitation_Letter.pdf",
+      "format": "PDF",
+      "size_kb": 186,
+      "available": true
+    },
+    {
+      "id": "pass",
+      "label": "Delegate Pass",
+      "file_name": "CGGS2027_Delegate_Pass.pdf",
+      "format": "PDF",
+      "size_kb": 320,
+      "available": false
+    },
+    {
+      "id": "calendar",
+      "label": "Summit Calendar",
+      "file_name": "CGGS2027_Schedule.ics",
+      "format": "ICS",
+      "size_kb": 24,
+      "available": true
+    }
+  ],
+  "support": {
+    "secretariat_email": "registration@cggs2027.in",
+    "secretariat_phone": "+91 44 2345 6789",
+    "emergency_phone": "+91 98765 43210",
+    "faq_href": "/faq",
+    "contact_href": "/contact"
+  }
+}

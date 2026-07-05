@@ -1,0 +1,41 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Common questions about travel, accommodation, and hospitality arrangements for CGGS 2027.",
+  "items": [
+    {
+      "id": "faq-001",
+      "question": "Which hotels are officially designated for CGGS 2027?",
+      "answer": "The Secretariat has designated three official partner hotels in Chennai: ITC Grand Chola, The Leela Palace Chennai, and Taj Coromandel. All are five-star properties within 10–14 km of the summit venue. Final hotel assignments are made by the Secretariat based on delegation size, protocol requirements, and availability."
+    },
+    {
+      "id": "faq-002",
+      "question": "How will airport pickup work?",
+      "answer": "Upon arrival at Chennai International Airport (MAA), delegates should proceed to the CGGS Official Pickup Counter in the International Arrivals Hall (near Exit Gate 3). A liaison officer will display your country nameplate, and a pre-assigned vehicle with driver details will be waiting. Pickup arrangements are confirmed 48 hours before arrival — details are available in the Delegate Portal."
+    },
+    {
+      "id": "faq-003",
+      "question": "Will transportation be provided throughout the summit?",
+      "answer": "Yes. Official delegates receive coordinated ground transportation including airport pickup, hotel-to-venue shuttles during session hours, dedicated transport for the International Fleet Review, and return services after evening events. Transport schedules are published in the Delegate Portal once hotel assignments are confirmed."
+    },
+    {
+      "id": "faq-004",
+      "question": "How are hotels allocated to delegates?",
+      "answer": "Hotel allocation is managed by the CGGS Accommodation Secretariat based on delegation category, protocol seniority, group size, and special requirements indicated during registration. Delegates may express a hotel preference during registration, but final assignments are at the discretion of the Secretariat. Room numbers and hotel details are shared exclusively via the Delegate Portal."
+    },
+    {
+      "id": "faq-005",
+      "question": "Can delegates request special meals or dietary accommodations?",
+      "answer": "Yes. Dietary requirements including vegetarian, vegan, halal, kosher, and allergy-specific meals can be indicated during delegate registration. Special meal requests should be submitted at least 14 days before arrival. Personalised meal schedules and menus are available in the Delegate Portal after registration confirmation."
+    },
+    {
+      "id": "faq-006",
+      "question": "When will hotel assignments be shared?",
+      "answer": "Hotel assignments are typically confirmed 7–10 days before the delegate's arrival date. Once allocated, you will receive a notification via the Delegate Portal and email with your hotel name, room number, check-in details, and hotel point of contact. Early arrivals (before 14 February) should contact the Accommodation Helpdesk directly."
+    },
+    {
+      "id": "faq-007",
+      "question": "How do I access my personalised travel details?",
+      "answer": "Log in to the Delegate Portal at cggs2027.gov.in using your registration credentials. Navigate to Travel & Stay to view your assigned hotel, flight details, airport pickup schedule, driver information, live vehicle tracking, liaison officer contact, and meal timetable. If you have not yet registered, complete the delegate registration form first."
+    }
+  ]
+}

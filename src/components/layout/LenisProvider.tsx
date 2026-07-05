@@ -15,6 +15,8 @@ export default function LenisProvider() {
       smoothWheel: true,
     });
 
+    (window as Window & { __cggsLenis?: Lenis }).__cggsLenis = lenis;
+
     let rafId: number;
     const raf = (time: number) => {
       lenis.raf(time);
@@ -24,6 +26,7 @@ export default function LenisProvider() {
 
     return () => {
       cancelAnimationFrame(rafId);
+      delete (window as Window & { __cggsLenis?: Lenis }).__cggsLenis;
       lenis.destroy();
     };
   }, []);

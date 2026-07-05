@@ -1,8 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Building2, Navigation, Plane } from "lucide-react";
+
+const HOST_CITY_POSTER = "/host_city_chenni.png";
 
 const venueDetails = [
   {
@@ -52,29 +55,21 @@ export default function VenueSection() {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-          {/* Map placeholder */}
+          {/* Host city poster */}
           <motion.div
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <div className="relative aspect-[4/3] rounded-sm overflow-hidden bg-navy/5 border border-gray-100">
-              {/* Stylised map placeholder */}
-              <div
-                className="absolute inset-0 flex flex-col items-center justify-center"
-                style={{
-                  background:
-                    "linear-gradient(135deg, #E8F4F8 0%, #C8DFF0 50%, #A8C8E8 100%)",
-                }}
-              >
-                <div className="text-6xl mb-4">🗺</div>
-                <p className="text-sm font-semibold text-navy">Chennai, Tamil Nadu</p>
-                <p className="text-xs text-slate mt-1">13.0827° N, 80.2707° E</p>
-                <div className="mt-4 px-4 py-2 bg-navy text-white text-xs font-medium rounded-sm">
-                  ⚓ ITC Grand Chola · Marina Beach
-                </div>
-              </div>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-sm border border-gray-100 bg-navy/5 shadow-sm">
+              <Image
+                src={HOST_CITY_POSTER}
+                alt="Chennai, India — host city of the 5th Coast Guard Global Summit 2027"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
             </div>
             <a
               href="https://maps.google.com/?q=ITC+Grand+Chola+Chennai"

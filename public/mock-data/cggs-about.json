@@ -1,0 +1,217 @@
+{
+  "about": {
+    "tagline": "United towards realizing safe, secure and clean oceans",
+    "mission": "The Coast Guard Global Summit (CGGS) is a non-binding, voluntary, independent and non-political platform of dialogue and cooperation among the coast guards and agencies representing coastguard functions of the world.",
+    "description": "Originally conceived in 2017 by the Japan Coast Guard and The Nippon Foundation, CGGS brings together representatives from coast guard agencies worldwide as first responders and front-line actors. The summit fosters inter-regional and international cooperation on maritime safety, security, environmental protection, and human resource development — sharing expertise and best practices to address emerging global maritime challenges.",
+    "objectives": [
+      "Foster inter-regional and international cooperation among coast guard agencies",
+      "Address challenges in maritime safety, security, and environmental protection",
+      "Advance human resource development in coast guard operations",
+      "Share expertise and best practices in a cooperative, non-political manner",
+      "Seek solutions to emerging challenges facing the world's oceans"
+    ],
+    "secretariat": "The Japan Coast Guard serves as the permanent CGGS Secretariat, coordinating summit activities and the CGGS Information Sharing Site (CGGS-ISS).",
+    "co_founders": [
+      "Japan Coast Guard (JCG)",
+      "The Nippon Foundation"
+    ],
+    "pillars": [
+      {
+        "id": "safety",
+        "icon": "⚓",
+        "title": "Maritime Safety & Emergency Response",
+        "description": "Developing strategies for Maritime Search and Rescue (M-SAR), managing marine accidents, and strengthening global emergency response frameworks."
+      },
+      {
+        "id": "environment",
+        "icon": "🌊",
+        "title": "Marine Environment Protection",
+        "description": "Coordinating rapid responses to large-scale marine pollution incidents, oil spills, and advancing climate change adaptation in maritime domains."
+      },
+      {
+        "id": "enforcement",
+        "icon": "🛡",
+        "title": "Maritime Law Enforcement",
+        "description": "Joint actions to counter transnational maritime crimes including piracy, armed robbery, trafficking, and IUU fishing."
+      },
+      {
+        "id": "capacity",
+        "icon": "🤝",
+        "title": "Interoperability & Capacity Building",
+        "description": "Enhancing Maritime Domain Awareness (MDA), sharing technical assistance, and standardising training protocols across nations."
+      }
+    ]
+  },
+  "history": [
+    {
+      "id": "cggs-2017",
+      "sort_order": 1,
+      "type": "summit",
+      "title": "1st Coast Guard Global Summit",
+      "edition": 1,
+      "host": "Japan Coast Guard",
+      "date": "September 14, 2017",
+      "date_iso": "2017-09-14",
+      "location": "Tokyo, Japan",
+      "participants": "38 coast guard agencies and related organizations from 34 countries",
+      "theme": "United towards realizing safe, secure and clean oceans",
+      "summary": "The inaugural summit established CGGS as a global network of coast guard agencies. Discussions focused on maritime safety, security, and environmental protection, concluding with the adoption of the Joint Statement of the 1st Coast Guard Global Summit.",
+      "outcomes": ["Joint Statement adopted", "Global coast guard cooperation framework established"],
+      "image_url": "/previous_summit_img/1st Coast Guard Global Summit.jpg",
+      "image_alt": "Group photograph from the 1st Coast Guard Global Summit in Tokyo, 2017"
+    },
+    {
+      "id": "wlm-2019",
+      "sort_order": 2,
+      "type": "working_meeting",
+      "title": "Coast Guard Global Summit — 1st Working Level Meeting",
+      "host": "Japan Coast Guard",
+      "date": "March 25–26, 2019",
+      "date_iso": "2019-03-25",
+      "location": "Tokyo, Japan",
+      "participants": "54 coast guard agencies and related organizations from 50 countries",
+      "summary": "This working-level meeting focused on establishing a framework for global cooperation and communication among coast guards, laying groundwork for the 2nd Global Summit.",
+      "image_url": "/previous_summit_img/Coast Guard Global Summit - 1st Working Level Meeting.jpg",
+      "image_alt": "Participants at the 1st CGGS Working Level Meeting in Tokyo, 2019"
+    },
+    {
+      "id": "cggs-2019",
+      "sort_order": 3,
+      "type": "summit",
+      "title": "2nd Coast Guard Global Summit",
+      "edition": 2,
+      "host": "Japan Coast Guard / The Nippon Foundation",
+      "date": "November 20–21, 2019",
+      "date_iso": "2019-11-20",
+      "location": "Tokyo, Japan",
+      "participants": "84 coast guard agencies and related organizations from 75 countries",
+      "theme": "Working together for the future of our oceans",
+      "summary": "The 2nd summit reaffirmed international cooperation with a significant expansion in participation. Key topics included human resource development, information sharing, and maritime security. The Joint Statement of the 2nd Coast Guard Global Summit was adopted.",
+      "themes": ["Human Resource Development", "Information Sharing", "Maritime Security"],
+      "outcomes": ["Joint Statement adopted", "Expanded global participation to 75 countries"],
+      "image_url": "/previous_summit_img/2nd Coast Guard Global Summit.jpg",
+      "image_alt": "Group photograph from the 2nd Coast Guard Global Summit in Tokyo, 2019"
+    },
+    {
+      "id": "wlm-2020",
+      "sort_order": 4,
+      "type": "working_meeting",
+      "title": "Coast Guard Global Summit — 2nd Working Level Meeting",
+      "host": "Japan Coast Guard",
+      "date": "November 16–18, 2020",
+      "date_iso": "2020-11-16",
+      "location": "Web Conference",
+      "participants": "90 coast guard agencies and related organizations",
+      "summary": "Conducted online due to the COVID-19 pandemic, this meeting maintained global cooperation momentum and advanced key initiatives including the CGGS Information Sharing Site (CGGS-ISS).",
+      "themes": [
+        "Sharing experience on COVID-19",
+        "Human Resource Development",
+        "CGGS Information Sharing Site (CGGS-ISS)",
+        "Information Sharing Methods"
+      ],
+      "image_url": "/previous_summit_img/ Coast Guard Global Summit - 2nd Working Level Meeting.jpg",
+      "image_alt": "Hybrid video conference at the 2nd CGGS Working Level Meeting, 2020"
+    },
+    {
+      "id": "symposium-2021",
+      "sort_order": 5,
+      "type": "symposium",
+      "title": "Online Symposium",
+      "host": "Japan Coast Guard",
+      "date": "November 25, 2021",
+      "date_iso": "2021-11-25",
+      "location": "Tokyo (Online)",
+      "participants": "40 coast guard organizations",
+      "theme": "Cooperation and Collaboration among Coast Guard Agencies in the Post-COVID-19 Era",
+      "summary": "This online symposium addressed how coast guard agencies could strengthen cooperation and collaboration in the post-pandemic era, maintaining dialogue when in-person gatherings were not possible.",
+      "image_url": "/previous_summit_img/online Symposium.jpg",
+      "image_alt": "Online symposium with coast guard officials participating remotely, 2021"
+    },
+    {
+      "id": "wlm-2022",
+      "sort_order": 6,
+      "type": "working_meeting",
+      "title": "Coast Guard Global Summit — 3rd Working Level Meeting",
+      "host": "Japan Coast Guard",
+      "date": "October 17–19, 2022",
+      "date_iso": "2022-10-17",
+      "location": "Tokyo (Web Conference)",
+      "participants": "101 coast guard agencies and related organizations",
+      "summary": "Building on prior working meetings, participants continued advancing the CGGS-ISS platform, human resource development programmes, and information sharing methodologies.",
+      "themes": [
+        "Sharing experience",
+        "Human Resource Development",
+        "CGGS Information Sharing Site (CGGS-ISS)",
+        "Information Sharing Methods"
+      ],
+      "image_url": "/previous_summit_img/Coast Guard Global Summit - 3rd Working Level Meeting.jpg",
+      "image_alt": "Participants at the 3rd CGGS Working Level Meeting via web conference, 2022"
+    },
+    {
+      "id": "cggs-2023",
+      "sort_order": 7,
+      "type": "summit",
+      "title": "3rd Coast Guard Global Summit",
+      "edition": 3,
+      "host": "Japan Coast Guard / The Nippon Foundation",
+      "date": "October 31 – November 2, 2023",
+      "date_iso": "2023-10-31",
+      "location": "Tokyo, Japan",
+      "participants": "96 coast guard agencies and related organizations from 84 countries",
+      "theme": "The Future of Coast Guard Cooperation: Navigating through Challenges and Opportunities",
+      "summary": "The 3rd summit marked a return to in-person gatherings at scale, with record participation. Discussions centred on Maritime Domain Awareness, human resource development, the CGGS-ISS platform, and climate change. The Joint Statement of the 3rd Coast Guard Global Summit was adopted.",
+      "themes": [
+        "Maritime Domain Awareness",
+        "Human Resource Development",
+        "CGGS Information Sharing Site (CGGS-ISS)",
+        "Climate Change"
+      ],
+      "outcomes": ["Joint Statement adopted", "Record participation from 84 countries"],
+      "image_url": "/previous_summit_img/3rd coast gurad global summit.jpg",
+      "image_alt": "Group photograph from the 3rd Coast Guard Global Summit in Tokyo, 2023"
+    },
+    {
+      "id": "cggs-2024",
+      "sort_order": 8,
+      "type": "summit",
+      "title": "4th Coast Guard Global Summit",
+      "edition": 4,
+      "host": "Japan Coast Guard / The Nippon Foundation",
+      "date": "September 11–13, 2024",
+      "date_iso": "2024-09-11",
+      "location": "Tokyo, Japan",
+      "participants": "110 coast guard agencies and related organizations from 95 countries and regions",
+      "theme": "Cooperation and Collaboration for the Future of our Oceans",
+      "summary": "The 4th summit brought together the largest gathering of coast guard agencies to date, focusing on human resource development, the CGGS-ISS platform, and climate change as central pillars of future cooperation.",
+      "themes": [
+        "Human Resource Development",
+        "CGGS Information Sharing Site (CGGS-ISS)",
+        "Climate Change"
+      ],
+      "image_url": "/previous_summit_img/4th Coast Guard Global Summit.jpg",
+      "image_alt": "Group photograph from the 4th Coast Guard Global Summit in Tokyo, 2024"
+    }
+  ],
+  "india_2027": {
+    "title": "5th Coast Guard Global Summit — Chennai 2027",
+    "subtitle": "India Welcomes the World's Coast Guards",
+    "location": "Chennai, India",
+    "dates": "2027",
+    "significance": "India assumes the CGGS Presidency and hosts the 5th edition for the first time in South Asia, coinciding with the Indian Coast Guard's Golden Jubilee — 50 years of safeguarding India's maritime interests since 1977.",
+    "why_chennai": "Chennai houses the Eastern Regional Headquarters of the Indian Coast Guard, making it an ideal geographic and symbolic hub to demonstrate India's commitment to SAGAR — Security and Growth for All in the Region.",
+    "highlights": [
+      {
+        "title": "World Coast Guard Seminar",
+        "description": "Strategic roundtables where leaders and maritime experts share technological innovations, debate policy frameworks, and establish bilateral action plans."
+      },
+      {
+        "title": "International Coast Guard Fleet Review",
+        "description": "A spectacular assembly of coast guard ships, aircraft, and rescue vessels off the Chennai coast — demonstrating global maritime unity and joint operational capability."
+      },
+      {
+        "title": "Golden Jubilee Celebrations",
+        "description": "Honouring 50 years of the Indian Coast Guard's evolution from a small force into a dominant global maritime guardian."
+      }
+    ]
+  }
+}

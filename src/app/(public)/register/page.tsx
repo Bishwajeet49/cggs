@@ -1,10 +1,10 @@
-import ComingSoon from "@/components/layout/ComingSoon";
+import RegistrationWizard from "@/components/registration/RegistrationWizard";
 
-export default function Page() {
-  return (
-    <ComingSoon
-      title="Delegate Registration"
-      description="Register as an official delegate for CGGS 2027 — Head of Delegation, Official Delegate, Observer, or Media."
-    />
-  );
+export const metadata = {
+  title: "Delegate Registration",
+  description: "Register as an official delegate for the 5th Coast Guard Global Summit (CGGS 2027) — Chennai, India.",
+};
+
+export default function RegisterPage() {
+  return <RegistrationWizard />;
 }

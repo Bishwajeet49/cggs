@@ -21,44 +21,51 @@
     },
     {
       "album_id": "ALB-002",
-      "title": "Key Personalities",
-      "category": "people",
+      "title": "Previous Summits",
+      "category": "summits",
       "images": [
         {
           "gallery_id": "IMG-003",
-          "url": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg",
-          "caption": "DG Paramesh Sivamani — Director General, Indian Coast Guard & CGGS 2027 President",
+          "url": "/previous_summit_img/2nd Coast Guard Global Summit.jpg",
+          "caption": "2nd Coast Guard Global Summit — Tokyo, Japan, November 2019",
           "album_id": "ALB-002"
         },
         {
           "gallery_id": "IMG-004",
-          "url": "/individuals/president_murmur.jpg",
-          "caption": "Smt. Droupadi Murmu — President of India, Supreme Commander of Armed Forces",
+          "url": "/previous_summit_img/4th Coast Guard Global Summit.jpg",
+          "caption": "4th Coast Guard Global Summit — Rome, Italy, September 2025",
           "album_id": "ALB-002"
+        }
+      ]
+    },
+    {
+      "album_id": "ALB-003",
+      "title": "Coast Guard Operations",
+      "category": "operations",
+      "images": [
+        {
+          "gallery_id": "IMG-011",
+          "url": "/icg/icg-ship-shaunak.jpg",
+          "caption": "ICGS Shaunak — Samarth-class offshore patrol vessel on international deployment",
+          "album_id": "ALB-003"
         },
         {
-          "gallery_id": "IMG-005",
-          "url": "/individuals/pm_mopdi.jpg",
-          "caption": "Shri Narendra Modi — Prime Minister of India",
-          "album_id": "ALB-002"
+          "gallery_id": "IMG-012",
+          "url": "/icg/icg-firefighting.jpg",
+          "caption": "Pollution response and firefighting operations at sea",
+          "album_id": "ALB-003"
         },
         {
-          "gallery_id": "IMG-006",
-          "url": "/individuals/Rajnath-Singh-India-Defense-Minister-2023.webp",
-          "caption": "Shri Rajnath Singh — Minister of Defence, Government of India",
-          "album_id": "ALB-002"
+          "gallery_id": "IMG-013",
+          "url": "/icg/icg-ship-action.jpg",
+          "caption": "Maritime surveillance and law enforcement patrol",
+          "album_id": "ALB-003"
         },
         {
-          "gallery_id": "IMG-007",
-          "url": "/individuals/Admiral_Linda_L._Fagan_Coast_Guard_Vice_Commandant.jpg",
-          "caption": "Admiral Linda L. Fagan — Former Commandant, United States Coast Guard",
-          "album_id": "ALB-002"
-        },
-        {
-          "gallery_id": "IMG-008",
-          "url": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg",
-          "caption": "Vice Admiral Kanosue Hiroaki — Japan Coast Guard, CGGS Secretariat",
-          "album_id": "ALB-002"
+          "gallery_id": "IMG-014",
+          "url": "/icg/icg-patrol-vessel.jpg",
+          "caption": "Coastal patrol vessel on maritime duty",
+          "album_id": "ALB-003"
         }
       ]
     }

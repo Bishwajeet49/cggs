@@ -8,3 +8,9 @@ export function getCountries(): Country[] {
 export function getTotalParticipating(): number {
   return countriesData.total_participating;
 }
+
+export function getCountryByName(name: string) {
+  return getCountries().find(
+    (c) => c.name.toLowerCase() === name.toLowerCase()
+  );
+}

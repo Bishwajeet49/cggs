@@ -1,10 +1,15 @@
-import ComingSoon from "@/components/layout/ComingSoon";
+import type { Metadata } from "next";
+import DelegateLoginForm from "@/components/auth/DelegateLoginForm";
 
-export default function Page() {
+export const metadata: Metadata = {
+  title: "Delegate Login",
+  description: "Sign in to the CGGS 2027 Delegate Portal.",
+};
+
+export default function LoginPage() {
   return (
-    <ComingSoon
-      title="Delegate Login"
-      description="Login to the CGGS 2027 Delegate Portal to access your personalised summit experience."
-    />
+    <div className="min-h-[calc(100vh-var(--header-height))] bg-linear-to-b from-[#F0F4F8] to-white">
+      <DelegateLoginForm />
+    </div>
   );
 }

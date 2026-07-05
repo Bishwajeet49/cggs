@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import JsonLd from "@/components/seo/JsonLd";
+import { AuthProvider } from "@/context/AuthContext";
 import { defaultTitle, getSiteUrl, siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -94,7 +95,7 @@ export default function RootLayout({
     <html lang="en-IN" className={geist.variable}>
       <body className="antialiased">
         <JsonLd />
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

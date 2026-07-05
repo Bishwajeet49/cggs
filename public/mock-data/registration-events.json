@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fleet_review",
+    "title": "International Fleet Review",
+    "date": "Feb 10, 2027",
+    "location": "Chennai Harbour",
+    "icon": "anchor",
+    "description": "Witness the grandeur of international coast guard vessels"
+  },
+  {
+    "id": "coast_guard_seminar",
+    "title": "World Coast Guard Seminar",
+    "date": "Feb 11, 2027",
+    "location": "Chennai Trade Centre",
+    "icon": "presentation",
+    "description": "High-level discussions on maritime security and cooperation"
+  },
+  {
+    "id": "exhibition_village",
+    "title": "Exhibition Village",
+    "date": "Feb 10–12, 2027",
+    "location": "Chennai Trade Centre",
+    "icon": "building",
+    "description": "Maritime technology exhibitions and country pavilions"
+  },
+  {
+    "id": "opening_ceremony",
+    "title": "Opening Ceremony",
+    "date": "Feb 10, 2027",
+    "location": "Chennai Trade Centre",
+    "icon": "star",
+    "description": "Grand inaugural ceremony of the 5th CGGS"
+  },
+  {
+    "id": "welcome_reception",
+    "title": "Welcome Reception",
+    "date": "Feb 9, 2027",
+    "location": "ITC Grand Chola",
+    "icon": "glass",
+    "description": "Official welcome reception for all delegates"
+  },
+  {
+    "id": "official_dinner",
+    "title": "Official Dinner",
+    "date": "Feb 11, 2027",
+    "location": "Leela Palace Chennai",
+    "icon": "utensils",
+    "description": "Formal state dinner hosted by the Indian Coast Guard"
+  },
+  {
+    "id": "cultural_evening",
+    "title": "Cultural Evening",
+    "date": "Feb 11, 2027",
+    "location": "Marina Beach Amphitheatre",
+    "icon": "music",
+    "description": "Celebrating Indian culture and maritime heritage"
+  },
+  {
+    "id": "city_parade",
+    "title": "City Parade",
+    "date": "Feb 12, 2027",
+    "location": "Marina Beach Road",
+    "icon": "flag",
+    "description": "International coast guard march through Chennai city"
+  },
+  {
+    "id": "closing_ceremony",
+    "title": "Closing Ceremony",
+    "date": "Feb 12, 2027",
+    "location": "Chennai Trade Centre",
+    "icon": "award",
+    "description": "Valedictory ceremony and signing of the Chennai Declaration"
+  }
+]

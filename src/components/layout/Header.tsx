@@ -25,6 +25,13 @@ const navLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+function navItemClass(active: boolean) {
+  return [
+    "inline-flex h-9 items-center rounded-sm px-3 text-sm leading-none transition-colors",
+    active ? "text-gold" : "text-white/80 hover:text-gold",
+  ].join(" ");
+}
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -71,47 +78,42 @@ export default function Header() {
                   (c) => pathname === c.href || pathname.startsWith(c.href + "/")
                 );
                 return (
-                  /*
-                   * pb-2 extends the wrapper's layout box 8 px below the button.
-                   * The dropdown sits at top-full, so those 8 px form a seamless
-                   * bridge — the cursor never leaves the group while travelling
-                   * from the button into the panel.
-                   */
-                  <div key={link.label} className="group relative pb-2">
-                    <button
-                      className={`flex items-center gap-1 px-3 py-2 text-sm transition-colors rounded-sm ${
-                        isActiveGroup
-                          ? "text-gold"
-                          : "text-white/80 group-hover:text-gold"
-                      }`}
-                      aria-haspopup="true"
-                    >
-                      {link.label}
-                      <ChevronDown className="h-3.5 w-3.5 transition-transform group-hover:rotate-180" />
-                    </button>
+                  <button
+                    key={link.label}
+                    type="button"
+                    className={`group relative m-0 appearance-none border-0 bg-transparent font-inherit cursor-pointer gap-1 ${navItemClass(isActiveGroup)}`}
+                    aria-haspopup="true"
+                  >
+                    {link.label}
+                    <ChevronDown className="h-3.5 w-3.5 shrink-0 transition-transform group-hover:rotate-180" />
 
-                    {/* Dropdown — always in DOM, shown via CSS :hover on the group */}
-                    <div className="pointer-events-none invisible absolute top-full left-0 z-50 w-60 rounded-sm border border-white/10 bg-navy-dark py-1 opacity-0 shadow-xl shadow-navy-dark/80 transition-opacity duration-150 group-hover:pointer-events-auto group-hover:visible group-hover:opacity-100">
-                      {link.children.map((child) => {
-                        const active =
-                          pathname === child.href ||
-                          pathname.startsWith(child.href + "/");
-                        return (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            className={`block px-4 py-2.5 text-sm transition-colors ${
-                              active
-                                ? "text-gold bg-white/5 border-l-2 border-gold pl-3.5"
-                                : "text-white/70 hover:text-gold hover:bg-white/5"
-                            }`}
-                          >
-                            {child.label}
-                          </Link>
-                        );
-                      })}
+                    {/*
+                     * pt-2 on the absolute panel creates a hover bridge without
+                     * affecting nav flex alignment.
+                     */}
+                    <div className="pointer-events-none invisible absolute top-full left-0 z-50 w-60 pt-2 text-left opacity-0 transition-opacity duration-150 group-hover:pointer-events-auto group-hover:visible group-hover:opacity-100">
+                      <div className="rounded-sm border border-white/10 bg-navy-dark py-1 text-left shadow-xl shadow-navy-dark/80">
+                        {link.children.map((child) => {
+                          const active =
+                            pathname === child.href ||
+                            pathname.startsWith(child.href + "/");
+                          return (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              className={`block w-full px-4 py-2.5 text-left text-sm transition-colors ${
+                                active
+                                  ? "text-gold bg-white/5 border-l-2 border-gold pl-3.5"
+                                  : "text-white/70 hover:text-gold hover:bg-white/5"
+                              }`}
+                            >
+                              {child.label}
+                            </Link>
+                          );
+                        })}
+                      </div>
                     </div>
-                  </div>
+                  </button>
                 );
               }
               const active = pathname === link.href;
@@ -119,9 +121,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-3 py-2 text-sm transition-colors rounded-sm ${
-                    active ? "text-gold" : "text-white/80 hover:text-gold"
-                  }`}
+                  className={navItemClass(active)}
                 >
                   {link.label}
                 </Link>

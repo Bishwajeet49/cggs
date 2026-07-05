@@ -1,0 +1,104 @@
+{
+  "status": "assigned",
+  "vehicle": {
+    "type": "Toyota Innova Crysta",
+    "number": "TN09 AB 1234",
+    "color": "White",
+    "capacity": 7,
+    "ac": true,
+    "image_placeholder": "innova_crysta",
+    "status": "assigned"
+  },
+  "driver": {
+    "name": "Ramesh Kumar",
+    "phone": "+91 98410 55231",
+    "experience_years": 12,
+    "languages": ["Tamil", "English", "Hindi"],
+    "emergency_contact": "+91 98410 55230"
+  },
+  "live_tracking": {
+    "enabled": true,
+    "current_status": "en_route",
+    "current_location": "Nungambakkam, Chennai",
+    "eta_minutes": 8,
+    "distance_km": 3.2,
+    "last_updated": "2027-02-15T08:37:00+05:30"
+  },
+  "today_pickup": {
+    "date": "Feb 15, 2027",
+    "pickup_time": "08:30",
+    "pickup_location": "ITC Grand Chola — Hotel Porch",
+    "drop_location": "Chennai Trade Centre — Gate 1",
+    "estimated_arrival": "08:47",
+    "status": "driver_en_route",
+    "notes": "Driver will wait up to 10 minutes. Please be at the porch by 08:28."
+  },
+  "schedule": [
+    {
+      "id": "trip-1",
+      "label": "Hotel → Summit Venue",
+      "from": "ITC Grand Chola",
+      "to": "Chennai Trade Centre",
+      "time": "08:30",
+      "status": "upcoming",
+      "icon": "building"
+    },
+    {
+      "id": "trip-2",
+      "label": "Venue → Lunch",
+      "from": "Chennai Trade Centre",
+      "to": "Banquet Hall A (same venue)",
+      "time": "13:00",
+      "status": "pending",
+      "icon": "utensils"
+    },
+    {
+      "id": "trip-3",
+      "label": "Venue → Fleet Review",
+      "from": "Chennai Trade Centre",
+      "to": "Chennai Port Trust — ICGFR Zone",
+      "time": "14:30",
+      "status": "pending",
+      "icon": "anchor"
+    },
+    {
+      "id": "trip-4",
+      "label": "Fleet Review → Hotel",
+      "from": "Chennai Port Trust",
+      "to": "ITC Grand Chola",
+      "time": "18:00",
+      "status": "pending",
+      "icon": "hotel"
+    },
+    {
+      "id": "trip-5",
+      "label": "Hotel → Gala Dinner",
+      "from": "ITC Grand Chola",
+      "to": "Leela Palace Chennai",
+      "time": "19:30",
+      "status": "pending",
+      "icon": "star"
+    },
+    {
+      "id": "trip-6",
+      "label": "Gala Dinner → Hotel",
+      "from": "Leela Palace Chennai",
+      "to": "ITC Grand Chola",
+      "time": "22:30",
+      "status": "pending",
+      "icon": "home"
+    }
+  ],
+  "emergency_transport": {
+    "number": "+91 44 2345 9999",
+    "medical_number": "+91 44 2345 8888",
+    "helpdesk": "+91 44 2345 6789",
+    "available": "24x7",
+    "response_time": "< 10 minutes"
+  },
+  "prev_module": {
+    "label": "Accommodation",
+    "href": "/portal/travel/accommodation",
+    "description": "View your hotel and room details"
+  }
+}
