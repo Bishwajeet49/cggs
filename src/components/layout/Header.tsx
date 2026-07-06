@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, ChevronDown, User, LogIn } from "lucide-react";
@@ -35,6 +35,8 @@ function navItemClass(active: boolean) {
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const navRef = useRef<HTMLElement>(null);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -42,6 +44,26 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    setOpenDropdown(null);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!openDropdown) return;
+
+    const closeOnOutside = (event: MouseEvent | TouchEvent) => {
+      if (navRef.current?.contains(event.target as Node)) return;
+      setOpenDropdown(null);
+    };
+
+    document.addEventListener("mousedown", closeOnOutside);
+    document.addEventListener("touchstart", closeOnOutside);
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutside);
+      document.removeEventListener("touchstart", closeOnOutside);
+    };
+  }, [openDropdown]);
 
   return (
     <>
@@ -71,27 +93,56 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
+          <nav
+            ref={navRef}
+            className="hidden lg:flex items-center gap-1"
+            aria-label="Main navigation"
+          >
             {navLinks.map((link) => {
               if (link.children) {
                 const isActiveGroup = link.children.some(
                   (c) => pathname === c.href || pathname.startsWith(c.href + "/")
                 );
+                const isOpen = openDropdown === link.label;
+                const panelId = `nav-dropdown-${link.label.toLowerCase().replace(/\s+/g, "-")}`;
+
                 return (
-                  <button
-                    key={link.label}
-                    type="button"
-                    className={`group relative m-0 appearance-none border-0 bg-transparent font-inherit cursor-pointer gap-1 ${navItemClass(isActiveGroup)}`}
-                    aria-haspopup="true"
-                  >
-                    {link.label}
-                    <ChevronDown className="h-3.5 w-3.5 shrink-0 transition-transform group-hover:rotate-180" />
+                  <div key={link.label} className="group relative">
+                    <button
+                      type="button"
+                      className={`m-0 appearance-none border-0 bg-transparent font-inherit cursor-pointer gap-1 ${navItemClass(isActiveGroup)}`}
+                      aria-haspopup="true"
+                      aria-expanded={isOpen}
+                      aria-controls={panelId}
+                      onClick={() =>
+                        setOpenDropdown((current) =>
+                          current === link.label ? null : link.label
+                        )
+                      }
+                    >
+                      {link.label}
+                      <ChevronDown
+                        className={`h-3.5 w-3.5 shrink-0 transition-transform group-hover:rotate-180 ${
+                          isOpen ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
 
                     {/*
-                     * pt-2 on the absolute panel creates a hover bridge without
-                     * affecting nav flex alignment.
+                     * Panel is a sibling of the trigger button (not nested inside it)
+                     * so submenu links remain valid, tappable anchors on touch devices.
+                     * pt-2 creates a hover bridge; group-hover keeps mouse UX;
+                     * isOpen enables tap/click on tablets and touch laptops.
                      */}
-                    <div className="pointer-events-none invisible absolute top-full left-0 z-50 w-60 pt-2 text-left opacity-0 transition-opacity duration-150 group-hover:pointer-events-auto group-hover:visible group-hover:opacity-100">
+                    <div
+                      id={panelId}
+                      role="menu"
+                      className={`absolute top-full left-0 z-50 w-60 pt-2 text-left transition-opacity duration-150 ${
+                        isOpen
+                          ? "pointer-events-auto visible opacity-100"
+                          : "pointer-events-none invisible opacity-0 group-hover:pointer-events-auto group-hover:visible group-hover:opacity-100"
+                      }`}
+                    >
                       <div className="rounded-sm border border-white/10 bg-navy-dark py-1 text-left shadow-xl shadow-navy-dark/80">
                         {link.children.map((child) => {
                           const active =
@@ -101,6 +152,8 @@ export default function Header() {
                             <Link
                               key={child.href}
                               href={child.href}
+                              role="menuitem"
+                              onClick={() => setOpenDropdown(null)}
                               className={`block w-full px-4 py-2.5 text-left text-sm transition-colors ${
                                 active
                                   ? "text-gold bg-white/5 border-l-2 border-gold pl-3.5"
@@ -113,7 +166,7 @@ export default function Header() {
                         })}
                       </div>
                     </div>
-                  </button>
+                  </div>
                 );
               }
               const active = pathname === link.href;
