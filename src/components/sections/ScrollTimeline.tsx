@@ -31,13 +31,7 @@ const TYPE_LABELS: Record<string, string> = {
   press: "Press",
 };
 
-const DAY_THEMES: string[] = [
-  "Arrival & Opening Ceremony",
-  "Maritime Strategy & Cooperation",
-  "Fleet Review & Closing",
-];
-
-const DAY_ICONS = ["⚓", "🌐", "⛵"];
+const DAY_ICONS = ["01", "02", "03"];
 
 interface Props {
   days: SummitDay[];
@@ -55,12 +49,13 @@ function DayCard({ day, index }: { day: SummitDay; index: number }) {
   const y = useTransform(scrollYProgress, [0, 1], [40, 0]);
   const opacity = useTransform(scrollYProgress, [0, 0.5], [0, 1]);
 
-  const date = new Date(day.date);
-  const formattedDate = date.toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+  const displayDate =
+    day.date_label ??
+    new Date(day.date).toLocaleDateString("en-GB", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
 
   /* Show top events, skip pure networking/meal filler */
   const keyEvents = day.events
@@ -71,17 +66,15 @@ function DayCard({ day, index }: { day: SummitDay; index: number }) {
     <motion.div ref={cardRef} style={{ y, opacity }} className="relative">
       {/* ── Day header ── */}
       <div className="flex items-center gap-4 mb-6">
-        <div className="relative z-10 flex items-center justify-center h-14 w-14 rounded-full bg-gold text-navy font-bold text-xl shadow-lg shadow-gold/20 shrink-0">
-          {DAY_ICONS[index]}
+        <div className="relative z-10 flex items-center justify-center h-14 w-14 rounded-full bg-gold text-navy font-bold text-sm shadow-lg shadow-gold/20 shrink-0">
+          {DAY_ICONS[index] ?? String(day.day_number).padStart(2, "0")}
         </div>
         <div>
           <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gold/70 mb-0.5">
-            Day {day.day_number} · {formattedDate}
+            Event {day.day_number} · {displayDate}
           </p>
-          <h3 className="text-xl font-bold text-white leading-tight">
-            {DAY_THEMES[index] ?? day.theme}
-          </h3>
-          <p className="text-xs text-white/40 mt-0.5 italic">{day.theme}</p>
+          <h3 className="text-xl font-bold text-white leading-tight">{day.theme}</h3>
+          {day.venue && <p className="text-xs text-white/40 mt-0.5">{day.venue}</p>}
         </div>
       </div>
 

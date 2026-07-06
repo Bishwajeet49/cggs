@@ -71,12 +71,13 @@ export default function ThreeDayOverview({ days }: Props) {
                   : "border-transparent text-white/50 hover:text-white/80"
               }`}
             >
-              Day {day.day_number}
+              Event {day.day_number}
               <span className="hidden sm:inline text-xs font-normal ml-2 opacity-60">
-                {new Date(day.date).toLocaleDateString("en-GB", {
-                  day: "numeric",
-                  month: "short",
-                })}
+                {day.date_label ??
+                  new Date(day.date).toLocaleDateString("en-GB", {
+                    day: "numeric",
+                    month: "short",
+                  })}
               </span>
             </button>
           ))}
@@ -91,9 +92,14 @@ export default function ThreeDayOverview({ days }: Props) {
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 0.35 }}
             >
-              <p className="text-gold/80 text-sm font-semibold uppercase tracking-wider mb-6">
-                Theme: {days[active].theme}
+              <p className="text-gold/80 text-sm font-semibold uppercase tracking-wider mb-1">
+                {days[active].theme}
               </p>
+              <p className="text-white/50 text-xs mb-1">{days[active].date_label}</p>
+              {days[active].venue && (
+                <p className="text-white/40 text-xs mb-6">{days[active].venue}</p>
+              )}
+              {!days[active].venue && <div className="mb-6" />}
 
               <div className="space-y-3">
                 {days[active].events

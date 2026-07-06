@@ -1,14 +1,17 @@
 {
     "summit": "5th Coast Guard Global Summit (CGGS 2027)",
     "location": "Chennai, India",
-    "venue": "ITC Grand Chola & Chennai Coastline",
+    "venue": "ITC Grand Chola, The Leela Palace & Chennai Port",
     "time_zone": "IST (UTC+5:30)",
     "currency": "INR",
     "schedule": [
       {
         "day_number": 1,
-        "date": "2027-02-15",
-        "theme": "Global Maritime Diplomacy & Security Frameworks",
+        "date": "2027-02-25",
+        "date_end": "2027-02-27",
+        "date_label": "25th – 27th February 2027",
+        "theme": "World Coast Guard Seminar",
+        "venue": "ITC Grand Chola",
         "events": [
           {
             "event_id": "CGGS-D1-01",
@@ -27,7 +30,7 @@
             "type": "plenary",
             "title": "Inaugural Session & Presidential Handover Ceremony",
             "description": "Official opening ceremony of the 5th CGGS. Keynote address by the Prime Minister of India and ceremonial handover of the CGGS Presidency from Italy/Japan to India.",
-            "location": "Rajendra Chola Hall",
+            "location": "Rajendra Chola Hall, ITC Grand Chola",
             "speakers": [
               {
                 "name": "Narendra Modi",
@@ -56,7 +59,7 @@
             "type": "networking",
             "title": "Networking Coffee Break & Official Family Photo",
             "description": "Group photograph of all Heads of Delegations followed by morning refreshments.",
-            "location": "The Courtyard",
+            "location": "The Courtyard, ITC Grand Chola",
             "speakers": []
           },
           {
@@ -66,7 +69,7 @@
             "type": "seminar",
             "title": "World Coast Guard Seminar - Session I: Emerging Multilateral Threats",
             "description": "Strategic evaluation of evolving transnational risks, maritime piracy patterns, and collaborative response strategies.",
-            "location": "Rajendra Chola Hall",
+            "location": "Rajendra Chola Hall, ITC Grand Chola",
             "speakers": [
               {
                 "name": "Admiral Linda L. Fagan",
@@ -89,7 +92,7 @@
             "type": "meal",
             "title": "Official Welcome Luncheon",
             "description": "Hosted by the Ministry of Defence, Government of India.",
-            "location": "Sangam Restaurant",
+            "location": "Sangam Restaurant, ITC Grand Chola",
             "speakers": []
           },
           {
@@ -99,7 +102,7 @@
             "type": "panel",
             "title": "Panel Discussion: Digitalization of Maritime Domain Awareness (MDA)",
             "description": "Integrating AI, satellite payloads, and automated tracking networks to suppress Illegal, Unreported, and Unregulated (IUU) fishing.",
-            "location": "Tanjore Hall",
+            "location": "Tanjore Hall, ITC Grand Chola",
             "speakers": [
               {
                 "name": "Rear Admiral Ronnie Tay",
@@ -122,15 +125,18 @@
             "type": "gala",
             "title": "Presidential Welcome Dinner & Cultural Showcase",
             "description": "A formal diplomatic dinner accompanied by traditional Indian cultural performances.",
-            "location": "Chola Lawns",
+            "location": "Chola Lawns, ITC Grand Chola",
             "speakers": []
           }
         ]
       },
       {
         "day_number": 2,
-        "date": "2027-02-16",
-        "theme": "Tactical Interoperability & Environmental Protection",
+        "date": "2027-02-24",
+        "date_end": "2027-02-25",
+        "date_label": "24th – 25th February 2027",
+        "theme": "Coast Guard Global Summit",
+        "venue": "The Leela Palace",
         "events": [
           {
             "event_id": "CGGS-D2-01",
@@ -139,7 +145,7 @@
             "type": "seminar",
             "title": "World Coast Guard Seminar - Session II: Guarding the Blue Environment",
             "description": "Technical presentations detailing rapid response metrics for large-scale maritime oil spills and toxic waste containment.",
-            "location": "Rajendra Chola Hall",
+            "location": "Maharaja Ballroom, The Leela Palace",
             "speakers": [
                 {
                     "name": "Vice Admiral Kanosue Hiroaki",
@@ -161,7 +167,7 @@
             "end_time": "11:30",
             "type": "networking",
             "title": "Morning Coffee Break",
-            "location": "The Courtyard",
+            "location": "The Garden Court, The Leela Palace",
             "speakers": []
           },
           {
@@ -171,7 +177,7 @@
             "type": "presentation",
             "title": "Special Session: Indian Coast Guard's Deep Sea Firefighting Protocols",
             "description": "A direct iteration expanding on the 4th CGGS 'Guardians Against the Blaze' brief, highlighting real-time disaster management systems.",
-            "location": "Rajendra Chola Hall",
+            "location": "Maharaja Ballroom, The Leela Palace",
             "speakers": [
               {
                 "name": "Inspector General Yoginder Dhaka",
@@ -187,7 +193,7 @@
             "end_time": "14:30",
             "type": "meal",
             "title": "Networking Luncheon",
-            "location": "Sangam Restaurant",
+            "location": "Jamavar Restaurant, The Leela Palace",
             "speakers": []
           },
           {
@@ -197,7 +203,7 @@
             "type": "bilateral",
             "title": "Bilateral & Multilateral Side-Desk Assemblies",
             "description": "Closed-door slots designated for signing country-specific MoUs and regional treaties like the India-Italy Strategic Action Plan updates.",
-            "location": "Executive Meeting Rooms 1-10",
+            "location": "Executive Meeting Rooms 1-10, The Leela Palace",
             "speakers": []
           },
           {
@@ -207,7 +213,7 @@
             "type": "gala",
             "title": "Indian Coast Guard Golden Jubilee Gala Dinner",
             "description": "Special ceremonial banquet commemorating the 50th Anniversary of the founding of the Indian Coast Guard (1977–2027).",
-            "location": "Grand Ballrooms A & B",
+            "location": "Grand Ballroom A & B, The Leela Palace",
             "speakers": [
               {
                 "name": "Rajnath Singh",
@@ -221,8 +227,11 @@
       },
       {
         "day_number": 3,
-        "date": "2027-02-17",
-        "theme": "Operational Synergy: International Fleet Review",
+        "date": "2027-02-18",
+        "date_end": "2027-02-27",
+        "date_label": "18th – 27th February 2027",
+        "theme": "International Coast Guard Fleet Review",
+        "venue": "Chennai Port",
         "events": [
           {
             "event_id": "CGGS-D3-01",
@@ -258,7 +267,7 @@
             "type": "plenary",
             "title": "Concluding Plenary & Signing of the Chennai Joint Declaration",
             "description": "Formulation and collective signing of the global maritime code resolution. Closing remarks by the CGGS Secretariat.",
-            "location": "Rajendra Chola Hall",
+            "location": "Chennai Port Trust Conference Hall",
             "speakers": [
               {
                 "name": "DG Paramesh Sivamani",
@@ -281,7 +290,7 @@
             "type": "press",
             "title": "Joint Global Press Conference",
             "description": "Media brief updating domestic and international press agencies on the outcomes of the 5th CGGS.",
-            "location": "Chanakya Media Centre",
+            "location": "Chennai Port Trust Media Centre",
             "speakers": []
           }
         ]

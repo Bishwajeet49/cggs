@@ -33,7 +33,10 @@ export interface ScheduleEvent {
 export interface SummitDay {
   day_number: number;
   date: string;
+  date_end?: string;
+  date_label: string;
   theme: string;
+  venue?: string;
   events: ScheduleEvent[];
 }
 
@@ -42,6 +45,6 @@ export interface SummitSchedule {
   location: string;
   venue: string;
   time_zone: string;
-  dates: { start: string; end: string };
+  dates: { start: string; end: string; label?: string };
   schedule: SummitDay[];
 }

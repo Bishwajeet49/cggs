@@ -506,15 +506,14 @@ function EventModal({ event, onClose }: { event: ScheduleEvent; onClose: () => v
 // ─── Day Tab ──────────────────────────────────────────────────────────────────
 
 function DayTab({ day, active, onClick }: { day: SummitDay; active: boolean; onClick: () => void }) {
-  const d = new Date(day.date);
-  const dayName = d.toLocaleDateString("en-US", { weekday: "short" });
-  const dayNum = d.getDate();
-  const month = d.toLocaleDateString("en-US", { month: "long" });
+  const displayDate =
+    day.date_label ??
+    new Date(day.date).toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" });
 
   return (
     <button
       onClick={onClick}
-      className={`group flex-1 min-w-[100px] flex flex-col items-center gap-1 px-5 py-4 border-b-2 transition-all ${
+      className={`group flex-1 min-w-[120px] flex flex-col items-center gap-1 px-4 py-4 border-b-2 transition-all ${
         active
           ? "border-gold bg-gold/4 text-navy"
           : "border-transparent text-slate hover:text-navy hover:bg-navy/3"
@@ -525,20 +524,21 @@ function DayTab({ day, active, onClick }: { day: SummitDay; active: boolean; onC
           active ? "text-gold" : "text-slate/60 group-hover:text-gold/70"
         }`}
       >
-        Day {day.day_number}
-      </span>
-      <span className={`text-lg font-black transition-colors ${active ? "text-navy" : "text-slate/70"}`}>
-        {dayNum}
-      </span>
-      <span className={`text-[11px] transition-colors ${active ? "text-navy/60" : "text-slate/50"}`}>
-        {dayName}, {month.slice(0, 3)}
+        Event {day.day_number}
       </span>
       <span
-        className={`text-[10px] leading-tight text-center mt-1 max-w-[110px] hidden sm:block transition-colors ${
+        className={`text-[11px] font-semibold leading-snug text-center transition-colors ${
+          active ? "text-navy" : "text-slate/70"
+        }`}
+      >
+        {displayDate}
+      </span>
+      <span
+        className={`text-[10px] leading-tight text-center mt-1 max-w-[140px] hidden sm:block transition-colors ${
           active ? "text-gold/80" : "text-slate/40 group-hover:text-slate/60"
         }`}
       >
-        {day.theme.split(":")[0]}
+        {day.theme}
       </span>
     </button>
   );
@@ -555,8 +555,9 @@ function DayOverviewCard({
   index: number;
   onClick: () => void;
 }) {
-  const d = new Date(day.date);
-  const dateStr = d.toLocaleDateString("en-US", { weekday: "long", day: "numeric", month: "long" });
+  const dateStr =
+    day.date_label ??
+    new Date(day.date).toLocaleDateString("en-US", { weekday: "long", day: "numeric", month: "long" });
   const keyEvents = day.events.filter((e) => isFeatured(e.type)).slice(0, 2);
   const allKeyEvents = keyEvents.length > 0 ? keyEvents : day.events.slice(0, 2);
 
@@ -586,8 +587,12 @@ function DayOverviewCard({
           <div className="mt-3 h-px" style={{ background: "linear-gradient(90deg, rgba(197,160,40,0.5), transparent)" }} />
         </div>
 
-        {/* Theme */}
-        <p className="text-xs font-semibold text-gold/80 mb-4 leading-relaxed">{day.theme}</p>
+        {/* Theme & venue */}
+        <p className="text-xs font-semibold text-gold/80 mb-1 leading-relaxed">{day.theme}</p>
+        {day.venue && (
+          <p className="text-[11px] text-white/40 mb-4">{day.venue}</p>
+        )}
+        {!day.venue && <div className="mb-4" />}
 
         {/* Highlight events */}
         <div className="space-y-2.5 mb-5">
@@ -671,7 +676,10 @@ export default function SchedulePage() {
       >
         <div className="flex flex-wrap gap-3">
           {[
-            { icon: Calendar, text: "15–17 February 2027" },
+            {
+              icon: Calendar,
+              text: schedule.dates.label ?? `${schedule.dates.start} – ${schedule.dates.end}`,
+            },
             { icon: MapPin, text: schedule.venue },
             { icon: Clock, text: schedule.time_zone },
           ].map(({ icon: Icon, text }) => (
@@ -711,8 +719,11 @@ export default function SchedulePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-3 flex items-center gap-3">
           <Anchor className="h-4 w-4 text-gold shrink-0" />
           <p className="text-sm text-navy">
-            <span className="font-bold text-gold">Day {activeDay} — </span>
-            <span className="font-medium">{currentDay?.theme}</span>
+            <span className="font-bold text-gold">{currentDay?.theme} — </span>
+            <span className="font-medium">
+              {currentDay?.date_label}
+              {currentDay?.venue ? ` · ${currentDay.venue}` : ""}
+            </span>
           </p>
         </div>
       </div>
