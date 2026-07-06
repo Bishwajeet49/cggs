@@ -1,4 +1,7 @@
 import type { RegistrationFormData, RegisteredDelegate } from "@/types/registration";
+import { EMPTY_REGISTRATION } from "@/types/registration";
+import type { MockUser } from "@/types/auth";
+import demoPrefillData from "../../public/mock-data/demo-registration-prefill.json";
 import hotelsData from "../../public/mock-data/hotels.json";
 import orgTypesData from "../../public/mock-data/organization-types.json";
 import delegateCategoriesData from "../../public/mock-data/delegate-categories.json";
@@ -18,6 +21,16 @@ export function getDelegateCategories() {
 
 export function getRegistrationEvents() {
   return registrationEventsData;
+}
+
+/** Phase 1 demo defaults — prefilled but fully editable in the registration wizard. */
+export function createInitialRegistrationData(): RegistrationFormData {
+  const prefill = demoPrefillData as Pick<RegistrationFormData, "personal" | "organization">;
+  return {
+    ...EMPTY_REGISTRATION,
+    personal: { ...EMPTY_REGISTRATION.personal, ...prefill.personal },
+    organization: { ...EMPTY_REGISTRATION.organization, ...prefill.organization },
+  };
 }
 
 function generateSequentialId(): string {
@@ -88,4 +101,37 @@ export function clearRegistration(): void {
   if (typeof window !== "undefined") {
     localStorage.removeItem("cggs_registration");
   }
+}
+
+/** Map a completed registration to the portal auth user (includes profile photo). */
+export function registeredDelegateToMockUser(delegate: RegisteredDelegate): MockUser {
+  const { personal, organization } = delegate.formData;
+  return {
+    delegateId: delegate.delegateId,
+    firstName: personal.firstName,
+    lastName: personal.lastName,
+    title: organization.rankDesignation || undefined,
+    category: delegate.formData.category ?? "official_delegate",
+    country: personal.nationality || organization.country,
+    organization: organization.organizationName,
+    registrationNumber: delegate.registrationNumber,
+    profilePhotoUrl: personal.profilePhotoUrl || undefined,
+    email: personal.email || undefined,
+  };
+}
+
+/** Backfill profile photo from stored registration when auth session is missing it. */
+export function enrichAuthUserFromRegistration(user: MockUser): MockUser {
+  if (user.profilePhotoUrl) return user;
+
+  const reg = getStoredRegistration();
+  if (!reg || reg.delegateId !== user.delegateId) return user;
+
+  const { personal, organization } = reg.formData;
+  return {
+    ...user,
+    profilePhotoUrl: personal.profilePhotoUrl || undefined,
+    title: user.title || organization.rankDesignation || undefined,
+    email: user.email || personal.email || undefined,
+  };
 }

@@ -26,6 +26,7 @@ import {
 import HeroBackground from "@/components/portal/dashboard/HeroBackground";
 import RotatingAnnouncements from "@/components/portal/dashboard/RotatingAnnouncements";
 import DelegatePassWidget from "@/components/portal/dashboard/DelegatePassWidget";
+import { enrichAuthUserFromRegistration } from "@/services/registration";
 
 // ── Constants ──────────────────────────────────────────────────
 
@@ -127,10 +128,14 @@ export default function DashboardPage() {
   const featuredEvents = getDashboardFeaturedEvents();
 
   useEffect(() => {
-    if (authUser) setUser(authUser);
+    if (authUser) setUser(enrichAuthUserFromRegistration(authUser));
     else {
       const stored = localStorage.getItem("cggs_auth_user");
-      if (stored) { try { setUser(JSON.parse(stored)); } catch {} }
+      if (stored) {
+        try {
+          setUser(enrichAuthUserFromRegistration(JSON.parse(stored)));
+        } catch { /* ignore */ }
+      }
     }
   }, [authUser]);
 

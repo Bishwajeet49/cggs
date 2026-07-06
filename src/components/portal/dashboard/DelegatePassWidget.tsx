@@ -92,6 +92,7 @@ export default function DelegatePassWidget({
                   alt={fullName}
                   width={56}
                   height={72}
+                  unoptimized={profilePhotoUrl.startsWith("data:")}
                   className="h-full w-full object-cover object-top"
                 />
               ) : (

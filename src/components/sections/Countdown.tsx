@@ -3,8 +3,9 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { Anchor, Building2, Globe } from "lucide-react";
 
-const TARGET = new Date("2027-02-15T09:00:00+05:30");
+const TARGET = new Date("2027-02-18T09:00:00+05:30");
 
 function pad(n: number) {
   return String(n).padStart(2, "0");
@@ -72,10 +73,10 @@ export default function Countdown() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gold mb-3">
-            The Summit Begins In
+            Event Dates
           </p>
           <h2 className="mb-8 text-base font-bold leading-snug text-white sm:mb-10 sm:text-2xl">
-            15–17 February 2027 · Chennai, India
+            18th – 27th Feb 2027 · Chennai, India
           </h2>
 
           <div
@@ -93,9 +94,16 @@ export default function Countdown() {
           </div>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-2 text-sm text-white/50 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-x-8 sm:gap-y-3">
-            <span>🏛 ITC Grand Chola, Chennai</span>
-            <span>⚓ Marina Coastal Waters</span>
-            <span>🌐 115+ Nations</span>
+            {[
+              { icon: Building2, text: "ITC Grand Chola, Chennai" },
+              { icon: Anchor, text: "Marina Coastal Waters" },
+              { icon: Globe, text: "115+ Nations" },
+            ].map(({ icon: Icon, text }) => (
+              <span key={text} className="inline-flex items-center gap-1.5">
+                <Icon className="h-3.5 w-3.5 shrink-0 text-gold" aria-hidden="true" />
+                {text}
+              </span>
+            ))}
           </div>
 
           <div className="mt-6 sm:hidden">

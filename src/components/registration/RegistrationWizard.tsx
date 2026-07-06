@@ -8,8 +8,8 @@ import StepIndicator from "./StepIndicator";
 import Step1Category from "./steps/Step1Category";
 import Step2Personal from "./steps/Step2Personal";
 import Step3Organization from "./steps/Step3Organization";
-import { EMPTY_REGISTRATION, type RegistrationFormData, type DelegateCategory } from "@/types/registration";
-import { submitRegistration } from "@/services/registration";
+import type { RegistrationFormData, DelegateCategory } from "@/types/registration";
+import { createInitialRegistrationData, submitRegistration } from "@/services/registration";
 
 type ValidationErrors = Record<string, string>;
 
@@ -78,7 +78,7 @@ export default function RegistrationWizard() {
   const router = useRouter();
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
-  const [data, setData] = useState<RegistrationFormData>(EMPTY_REGISTRATION);
+  const [data, setData] = useState<RegistrationFormData>(createInitialRegistrationData);
   const [errors, setErrors] = useState<ValidationErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 

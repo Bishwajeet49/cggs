@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 import type { MockUser } from "@/types/auth";
+import { enrichAuthUserFromRegistration } from "@/services/registration";
 
 interface AuthContextValue {
   user: MockUser | null;
@@ -24,7 +25,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const stored = localStorage.getItem("cggs_auth_user");
     if (stored) {
       try {
-        setUser(JSON.parse(stored));
+        setUser(enrichAuthUserFromRegistration(JSON.parse(stored)));
       } catch {
         localStorage.removeItem("cggs_auth_user");
       }
@@ -32,8 +33,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = useCallback((userData: MockUser) => {
-    setUser(userData);
-    localStorage.setItem("cggs_auth_user", JSON.stringify(userData));
+    const enriched = enrichAuthUserFromRegistration(userData);
+    setUser(enriched);
+    localStorage.setItem("cggs_auth_user", JSON.stringify(enriched));
   }, []);
 
   const logout = useCallback(() => {

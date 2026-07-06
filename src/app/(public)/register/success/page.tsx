@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import DelegateIDCard from "@/components/registration/DelegateIDCard";
 import QRCodeDisplay from "@/components/registration/QRCodeDisplay";
-import { getStoredRegistration } from "@/services/registration";
+import { getStoredRegistration, registeredDelegateToMockUser } from "@/services/registration";
 import { useAuth } from "@/context/AuthContext";
 import { downloadDelegateBadgePdf } from "@/lib/downloadDelegateBadge";
 import type { RegisteredDelegate } from "@/types/registration";
@@ -71,15 +71,7 @@ function SuccessContent() {
     if (!delegate) return;
     setIsRedirecting(true);
     const { personal, organization } = delegate.formData;
-    login({
-      delegateId: delegate.delegateId,
-      firstName: personal.firstName,
-      lastName: personal.lastName,
-      category: delegate.formData.category ?? "official_delegate",
-      country: personal.nationality || organization.country,
-      organization: organization.organizationName,
-      registrationNumber: delegate.registrationNumber,
-    });
+    login(registeredDelegateToMockUser(delegate));
     await new Promise((r) => setTimeout(r, 800));
     router.push("/portal/dashboard");
   }, [delegate, login, router]);

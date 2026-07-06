@@ -32,6 +32,7 @@ export default function DelegateAvatar({
   const ringClass = ring ? "ring-4 ring-gold/10" : "";
 
   if (user?.profilePhotoUrl) {
+    const isDataUrl = user.profilePhotoUrl.startsWith("data:");
     return (
       <div
         className={`relative shrink-0 overflow-hidden rounded-full border-2 border-gold/45 bg-navy-mid ${cfg.box} ${ringClass} ${className}`}
@@ -41,6 +42,7 @@ export default function DelegateAvatar({
           alt={initials}
           width={cfg.img}
           height={cfg.img}
+          unoptimized={isDataUrl}
           className="h-full w-full object-cover object-top"
         />
       </div>
