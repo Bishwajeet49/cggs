@@ -10,6 +10,7 @@ import { useAuth } from "@/context/AuthContext";
 import {
   getDemoDelegates,
   demoDelegateToMockUser,
+  getQuickAccessDisplay,
   validateDemoCredentials,
 } from "@/services/demoAuth";
 import type { DemoDelegate } from "@/types/auth";
@@ -121,7 +122,8 @@ export default function DelegateLoginForm() {
               </p>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {demoDelegates.map((delegate) => {
-                  const country = getCountryByName(delegate.country);
+                  const display = getQuickAccessDisplay(delegate);
+                  const country = getCountryByName(display.country);
                   const isSelected = selectedDemo === delegate.id;
                   return (
                     <button
@@ -136,8 +138,8 @@ export default function DelegateLoginForm() {
                     >
                       <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg border border-gray-200 bg-white">
                         <Image
-                          src={delegate.profilePhotoUrl}
-                          alt={delegate.demoLabel}
+                          src={display.profilePhotoUrl ?? "/logos/5h_cggs_summit_logo.png"}
+                          alt={`${display.firstName} ${display.lastName}`}
                           width={56}
                           height={56}
                           className="h-full w-full object-cover object-top"
@@ -145,11 +147,11 @@ export default function DelegateLoginForm() {
                       </div>
                       <div className="min-w-0 flex-1">
                         <p className="truncate text-sm font-bold text-navy">
-                          {delegate.title} {delegate.lastName}
+                          {display.title} {display.lastName}
                         </p>
-                        <p className="truncate text-xs text-slate/60">{delegate.organization}</p>
+                        <p className="truncate text-xs text-slate/60">{display.organization}</p>
                         <p className="mt-1 flex items-center gap-1 text-[10px] font-semibold text-gold">
-                          {country?.flag} {delegate.demoLabel}
+                          {country?.flag} {display.demoLabel}
                         </p>
                       </div>
                       {isSelected && (

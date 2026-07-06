@@ -1,4 +1,9 @@
-import type { DemoDelegate, DemoDelegatesData, MockUser } from "@/types/auth";
+import type {
+  DemoDelegate,
+  DemoDelegatesData,
+  DemoQuickAccessDisplay,
+  MockUser,
+} from "@/types/auth";
 import demoData from "../../public/mock-data/demo-delegates.json";
 
 export const CATEGORY_LABELS: Record<string, string> = {
@@ -16,17 +21,31 @@ export function getDemoDelegateById(id: string): DemoDelegate | undefined {
   return getDemoDelegates().find((d) => d.id === id);
 }
 
+export function getQuickAccessDisplay(delegate: DemoDelegate): DemoQuickAccessDisplay {
+  const qa = delegate.quickAccess;
+  return {
+    firstName: qa?.firstName ?? delegate.firstName,
+    lastName: qa?.lastName ?? delegate.lastName,
+    title: qa?.title ?? delegate.title,
+    organization: qa?.organization ?? delegate.organization,
+    country: qa?.country ?? delegate.country,
+    demoLabel: qa?.demoLabel ?? delegate.demoLabel,
+    profilePhotoUrl: qa?.profilePhotoUrl ?? delegate.profilePhotoUrl,
+  };
+}
+
 export function demoDelegateToMockUser(delegate: DemoDelegate): MockUser {
+  const display = getQuickAccessDisplay(delegate);
   return {
     delegateId: delegate.delegateId,
-    firstName: delegate.firstName,
-    lastName: delegate.lastName,
-    title: delegate.title,
+    firstName: display.firstName,
+    lastName: display.lastName,
+    title: display.title,
     category: delegate.category,
-    country: delegate.country,
-    organization: delegate.organization,
+    country: display.country,
+    organization: display.organization,
     registrationNumber: delegate.registrationNumber,
-    profilePhotoUrl: delegate.profilePhotoUrl,
+    profilePhotoUrl: display.profilePhotoUrl,
     email: delegate.email,
   };
 }

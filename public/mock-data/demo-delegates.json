@@ -1,34 +1,50 @@
 {
   "delegates": [
     {
-      "id": "india",
-      "demoLabel": "Indian Delegate",
-      "email": "paramesh.sivamani@icg.gov.in",
+      "id": "uk",
+      "demoLabel": "British Delegate",
+      "email": "james.morrison@demo.maritime.gov.uk",
       "password": "cggs2027",
-      "delegateId": "DLG-IND-2027-0001",
-      "registrationNumber": "CGGS2027-IND-0001",
-      "firstName": "Paramesh",
-      "lastName": "Sivamani",
-      "title": "Director General",
+      "delegateId": "DLG-GBR-2027-0001",
+      "registrationNumber": "CGGS2027-GBR-0001",
+      "firstName": "James",
+      "lastName": "Morrison",
+      "title": "Commander",
       "category": "head_of_delegation",
-      "country": "India",
-      "organization": "Indian Coast Guard",
-      "profilePhotoUrl": "/individuals/DG_Paramesh_Sivamani-Director_General_Indian_Coast_Guard_CGGS_2027_President.jpg"
+      "country": "United Kingdom",
+      "organization": "Maritime Security Directorate",
+      "quickAccess": {
+        "firstName": "James",
+        "lastName": "Morrison",
+        "title": "Commander",
+        "organization": "Maritime Security Directorate",
+        "country": "United Kingdom",
+        "demoLabel": "British Delegate Demo",
+        "profilePhotoUrl": "/individuals/demo_user_1_profile.jpg"
+      }
     },
     {
       "id": "japan",
       "demoLabel": "Japanese Delegate",
-      "email": "hiroaki.kanosue@kcga.jp",
+      "email": "kenji.tanaka@demo.kcga.jp",
       "password": "cggs2027",
       "delegateId": "DLG-JPN-2027-0042",
       "registrationNumber": "CGGS2027-JPN-0042",
-      "firstName": "Hiroaki",
-      "lastName": "Kanosue",
-      "title": "Vice Admiral",
+      "firstName": "Kenji",
+      "lastName": "Tanaka",
+      "title": "Captain",
       "category": "head_of_delegation",
       "country": "Japan",
       "organization": "Japan Coast Guard",
-      "profilePhotoUrl": "/individuals/Vice_Admiral_Kanosue_Hiroaki.jpg"
+      "quickAccess": {
+        "firstName": "Kenji",
+        "lastName": "Tanaka",
+        "title": "Captain",
+        "organization": "Japan Coast Guard",
+        "country": "Japan",
+        "demoLabel": "Japanese Delegate Demo",
+        "profilePhotoUrl": "/individuals/demo_user_2_profile.png"
+      }
     }
   ]
 }

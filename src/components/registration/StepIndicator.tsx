@@ -11,12 +11,7 @@ interface Step {
 const STEPS: Step[] = [
   { label: "Category", short: "Cat" },
   { label: "Personal", short: "Per" },
-  { label: "Organization", short: "Org" },
-  { label: "Events", short: "Evt" },
-  { label: "Travel", short: "Trv" },
-  { label: "Accommodation", short: "Acc" },
-  { label: "Emergency", short: "Emg" },
-  { label: "Review", short: "Rev" },
+  { label: "Organisation", short: "Org" },
 ];
 
 interface StepIndicatorProps {

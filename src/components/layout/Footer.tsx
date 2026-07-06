@@ -12,7 +12,7 @@ const quickLinks = [
 ];
 
 const infoLinks = [
-  { label: "Accommodation & Travel", href: "/accommodation" },
+  // { label: "Accommodation & Travel", href: "/accommodation" }, // hidden for now
   { label: "Media & Gallery", href: "/media" },
   { label: "Contact Us", href: "/contact" },
   { label: "Delegate Registration", href: "/register" },

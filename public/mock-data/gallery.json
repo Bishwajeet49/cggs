@@ -1,4 +1,94 @@
 {
+  "page": {
+    "intro": "Explore official photos, videos, and press coverage from the Coast Guard Global Summit — from the inaugural gathering in Tokyo (2017) to the record-breaking 4th edition in Rome (2025), and the road to Chennai 2027.",
+    "sources": [
+      {
+        "name": "CGGS Official Website",
+        "url": "https://cggs.go.jp/",
+        "description": "Japan Coast Guard Secretariat — events archive and official summit imagery"
+      },
+      {
+        "name": "Japan Coast Guard Press Releases",
+        "url": "https://www.kaiho.mlit.go.jp/e/topics_archive/",
+        "description": "Official photo galleries and summaries from CGGS summits"
+      }
+    ],
+    "stats": {
+      "photos": 27,
+      "videos": 5,
+      "summits_covered": 4,
+      "press_releases": 6
+    }
+  },
+  "categories": [
+    { "id": "all", "label": "All Photos" },
+    { "id": "official", "label": "Official" },
+    { "id": "summits", "label": "Past Summits" },
+    { "id": "rome-2025", "label": "4th CGGS — Rome" },
+    { "id": "operations", "label": "Maritime Operations" }
+  ],
+  "videos": [
+    {
+      "video_id": "VID-001",
+      "youtube_id": "KDOXUleIr14",
+      "title": "Coast Guard Global Summit — Official Overview",
+      "description": "Official CGGS channel overview of the Coast Guard Global Summit platform and its mission of international maritime cooperation.",
+      "thumbnail": "/media/video-thumbs/KDOXUleIr14.jpg",
+      "source": "Coast Guard Global Summit (YouTube)",
+      "source_url": "https://www.youtube.com/watch?v=KDOXUleIr14",
+      "category": "official",
+      "date": "2024-01-01",
+      "featured": true
+    },
+    {
+      "video_id": "VID-002",
+      "youtube_id": "fitocBOwobM",
+      "title": "Prime Minister Giorgia Meloni at the 4th CGGS, Rome 2025",
+      "description": "Italian Prime Minister Giorgia Meloni addresses heads of coast guards from 99 countries at the 4th Coast Guard Global Summit in Rome — the first CGGS hosted outside Japan.",
+      "thumbnail": "/media/video-thumbs/fitocBOwobM.jpg",
+      "source": "Agenzia Italia News",
+      "source_url": "https://www.youtube.com/watch?v=fitocBOwobM",
+      "category": "rome-2025",
+      "date": "2025-09-11",
+      "featured": true
+    },
+    {
+      "video_id": "VID-003",
+      "youtube_id": "kceP4ncEfOs",
+      "title": "India at the Coast Guard Global Summit, Rome",
+      "description": "Coverage of India's participation at the 4th CGGS in Rome, where India was confirmed as host of the 5th edition in 2027.",
+      "thumbnail": "/media/video-thumbs/kceP4ncEfOs.jpg",
+      "source": "Our State, Our Nation",
+      "source_url": "https://www.youtube.com/watch?v=kceP4ncEfOs",
+      "category": "rome-2025",
+      "date": "2025-09-12",
+      "featured": false
+    },
+    {
+      "video_id": "VID-004",
+      "youtube_id": "AIvwAkgwuQM",
+      "title": "India to Host 5th CGGS in Chennai, 2027",
+      "description": "News coverage announcing India's presidency and Chennai as host city for the landmark 5th Coast Guard Global Summit.",
+      "thumbnail": "/media/video-thumbs/AIvwAkgwuQM.jpg",
+      "source": "Bharat 24",
+      "source_url": "https://www.youtube.com/watch?v=AIvwAkgwuQM",
+      "category": "official",
+      "date": "2025-09-15",
+      "featured": true
+    },
+    {
+      "video_id": "VID-005",
+      "youtube_id": "rXX8MVJByMw",
+      "title": "5th Coast Guard Global Summit 2027 — India Preview",
+      "description": "Overview of the upcoming 5th CGGS in Chennai, coinciding with the Indian Coast Guard Golden Jubilee.",
+      "thumbnail": "/media/video-thumbs/rXX8MVJByMw.jpg",
+      "source": "Pratiyogita Darpan Official",
+      "source_url": "https://www.youtube.com/watch?v=rXX8MVJByMw",
+      "category": "official",
+      "date": "2025-10-01",
+      "featured": false
+    }
+  ],
   "albums": [
     {
       "album_id": "ALB-001",
@@ -9,63 +99,197 @@
           "gallery_id": "IMG-001",
           "url": "/banners/banner-1.png",
           "caption": "5th Coast Guard Global Summit 2027 — Official Banner",
-          "album_id": "ALB-001"
+          "album_id": "ALB-001",
+          "credit": "CGGS 2027 Secretariat"
         },
         {
           "gallery_id": "IMG-002",
           "url": "/banners/banner-2.png",
           "caption": "CGGS 2027 — International Maritime Summit, Chennai",
-          "album_id": "ALB-001"
+          "album_id": "ALB-001",
+          "credit": "CGGS 2027 Secretariat"
+        },
+        {
+          "gallery_id": "IMG-003",
+          "url": "/media/cggs-official/cggs-home-hero.jpg",
+          "caption": "Coast Guard Global Summit — international delegates at official summit venue",
+          "album_id": "ALB-001",
+          "credit": "CGGS Official Website (cggs.go.jp)"
         }
       ]
     },
     {
       "album_id": "ALB-002",
-      "title": "Previous Summits",
+      "title": "CGGS Event Archive",
       "category": "summits",
       "images": [
         {
-          "gallery_id": "IMG-003",
-          "url": "/previous_summit_img/2nd Coast Guard Global Summit.jpg",
-          "caption": "2nd Coast Guard Global Summit — Tokyo, Japan, November 2019",
-          "album_id": "ALB-002"
+          "gallery_id": "IMG-010",
+          "url": "/media/cggs-events/1st-cggs.jpg",
+          "caption": "1st Coast Guard Global Summit — Tokyo, Japan, September 2017",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
         },
         {
-          "gallery_id": "IMG-004",
+          "gallery_id": "IMG-011",
+          "url": "/media/cggs-events/1st-wlm-2018.jpg",
+          "caption": "Coast Guard Global Summit — 1st Working Level Meeting, 2018",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-012",
+          "url": "/media/cggs-events/2nd-cggs.jpg",
+          "caption": "2nd Coast Guard Global Summit — Tokyo, Japan, November 2019",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-013",
+          "url": "/media/cggs-events/2nd-wlm-2020.jpg",
+          "caption": "2nd Working Level Meeting — Web Conference, November 2020",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-014",
+          "url": "/media/cggs-events/online-symposium.jpg",
+          "caption": "Online Symposium — Cooperation in the Post-COVID-19 Era, November 2021",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-015",
+          "url": "/media/cggs-events/3rd-wlm.jpg",
+          "caption": "3rd Working Level Meeting — Tokyo, October 2022",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-016",
+          "url": "/media/cggs-events/3rd-cggs.jpg",
+          "caption": "3rd Coast Guard Global Summit — Tokyo, Japan, October–November 2023",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-017",
+          "url": "/media/cggs-events/cggs-summit-group.jpg",
+          "caption": "Heads of delegation at the Coast Guard Global Summit",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Website (cggs.go.jp)"
+        },
+        {
+          "gallery_id": "IMG-018",
+          "url": "/previous_summit_img/1st Coast Guard Global Summit.jpg",
+          "caption": "1st CGGS group photograph — 38 agencies from 34 countries, Tokyo 2017",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Archive"
+        },
+        {
+          "gallery_id": "IMG-019",
+          "url": "/previous_summit_img/2nd Coast Guard Global Summit.jpg",
+          "caption": "2nd CGGS group photograph — 84 agencies from 75 countries, Tokyo 2019",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Archive"
+        },
+        {
+          "gallery_id": "IMG-020",
+          "url": "/previous_summit_img/3rd coast gurad global summit.jpg",
+          "caption": "3rd CGGS group photograph — 96 agencies from 84 countries, Tokyo 2023",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Archive"
+        },
+        {
+          "gallery_id": "IMG-021",
           "url": "/previous_summit_img/4th Coast Guard Global Summit.jpg",
-          "caption": "4th Coast Guard Global Summit — Rome, Italy, September 2025",
-          "album_id": "ALB-002"
+          "caption": "4th CGGS — Rome, Italy, September 2025",
+          "album_id": "ALB-002",
+          "credit": "CGGS Official Archive"
         }
       ]
     },
     {
       "album_id": "ALB-003",
+      "title": "4th CGGS — Rome, Italy 2025",
+      "category": "rome-2025",
+      "images": [
+        {
+          "gallery_id": "IMG-030",
+          "url": "/media/cggs-4th-rome/rome-summit-1.jpg",
+          "caption": "Group photograph — Heads of delegation at the 4th Coast Guard Global Summit, Rome",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        },
+        {
+          "gallery_id": "IMG-031",
+          "url": "/media/cggs-4th-rome/rome-summit-2.png",
+          "caption": "Video message from Prime Minister Shigeru Ishiba of Japan",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        },
+        {
+          "gallery_id": "IMG-032",
+          "url": "/media/cggs-4th-rome/rome-summit-3.png",
+          "caption": "Speech by Admiral Yoshio Seguchi, Commandant of the Japan Coast Guard",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        },
+        {
+          "gallery_id": "IMG-033",
+          "url": "/media/cggs-4th-rome/rome-summit-4.png",
+          "caption": "Greetings to President Giorgia Meloni of Italy",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        },
+        {
+          "gallery_id": "IMG-034",
+          "url": "/media/cggs-4th-rome/rome-summit-5.png",
+          "caption": "Handover ceremony — CGGS host presidency transferred to India for 2027",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        },
+        {
+          "gallery_id": "IMG-035",
+          "url": "/media/cggs-4th-rome/rome-summit-6.png",
+          "caption": "Presentation of Pioneer Activities — coast guard initiatives from participating nations",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        },
+        {
+          "gallery_id": "IMG-036",
+          "url": "/media/cggs-4th-rome/rome-summit-7.png",
+          "caption": "Report on the progress of Coast Guard Global Human Resource Development",
+          "album_id": "ALB-003",
+          "credit": "Japan Coast Guard Press Release, September 2025"
+        }
+      ]
+    },
+    {
+      "album_id": "ALB-004",
       "title": "Coast Guard Operations",
       "category": "operations",
       "images": [
         {
-          "gallery_id": "IMG-011",
+          "gallery_id": "IMG-040",
           "url": "/icg/icg-ship-shaunak.jpg",
           "caption": "ICGS Shaunak — Samarth-class offshore patrol vessel on international deployment",
-          "album_id": "ALB-003"
+          "album_id": "ALB-004",
+          "credit": "Indian Coast Guard"
         },
         {
-          "gallery_id": "IMG-012",
+          "gallery_id": "IMG-041",
           "url": "/icg/icg-firefighting.jpg",
           "caption": "Pollution response and firefighting operations at sea",
-          "album_id": "ALB-003"
+          "album_id": "ALB-004",
+          "credit": "Indian Coast Guard"
         },
         {
-          "gallery_id": "IMG-013",
+          "gallery_id": "IMG-042",
           "url": "/icg/icg-ship-action.jpg",
           "caption": "Maritime surveillance and law enforcement patrol",
-          "album_id": "ALB-003"
-        },
-        {
-          "gallery_id": "IMG-014",
-          "url": "/icg/icg-patrol-vessel.jpg",
-          "caption": "Coastal patrol vessel on maritime duty",
-          "album_id": "ALB-003"
+          "album_id": "ALB-004",
+          "credit": "Indian Coast Guard"
         }
       ]
     }

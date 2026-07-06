@@ -20,7 +20,7 @@ const navLinks = [
       { label: "Exhibition Village", href: "/village" },
     ],
   },
-  { label: "Accommodation", href: "/accommodation" },
+  // { label: "Accommodation", href: "/accommodation" }, // hidden for now
   { label: "Media", href: "/media" },
   { label: "Contact", href: "/contact" },
 ];

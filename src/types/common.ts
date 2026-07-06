@@ -31,6 +31,7 @@ export interface NewsItem {
   content: string;
   author: string;
   tags: string[];
+  source_url?: string;
 }
 
 export interface GalleryImage {
@@ -38,6 +39,7 @@ export interface GalleryImage {
   url: string;
   caption: string;
   album_id: string;
+  credit?: string;
 }
 
 export interface GalleryAlbum {
@@ -45,4 +47,33 @@ export interface GalleryAlbum {
   title: string;
   category: string;
   images: GalleryImage[];
+}
+
+export interface GalleryVideo {
+  video_id: string;
+  youtube_id: string;
+  title: string;
+  description: string;
+  thumbnail: string;
+  source: string;
+  source_url: string;
+  category: string;
+  date: string;
+  featured: boolean;
+}
+
+export interface GalleryCategory {
+  id: string;
+  label: string;
+}
+
+export interface MediaPageInfo {
+  intro: string;
+  sources: { name: string; url: string; description: string }[];
+  stats: {
+    photos: number;
+    videos: number;
+    summits_covered: number;
+    press_releases: number;
+  };
 }

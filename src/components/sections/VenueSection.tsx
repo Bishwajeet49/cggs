@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 import { MapPin, Building2, Navigation, Plane } from "lucide-react";
 
 const HOST_CITY_POSTER = "/host_city_chenni.png";
@@ -108,6 +107,7 @@ export default function VenueSection() {
               );
             })}
 
+            {/* Accommodation page hidden for now
             <div className="mt-6">
               <Link
                 href="/accommodation"
@@ -116,6 +116,7 @@ export default function VenueSection() {
                 Accommodation & Travel →
               </Link>
             </div>
+            */}
           </motion.div>
         </div>
       </div>

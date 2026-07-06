@@ -8,15 +8,12 @@ import StepIndicator from "./StepIndicator";
 import Step1Category from "./steps/Step1Category";
 import Step2Personal from "./steps/Step2Personal";
 import Step3Organization from "./steps/Step3Organization";
-import Step4Travel from "./steps/Step4Travel";
-import Step5Accommodation from "./steps/Step5Accommodation";
-import Step6Events from "./steps/Step6Events";
-import Step7Emergency from "./steps/Step7Emergency";
-import Step8Review from "./steps/Step8Review";
 import { EMPTY_REGISTRATION, type RegistrationFormData, type DelegateCategory } from "@/types/registration";
 import { submitRegistration } from "@/services/registration";
 
 type ValidationErrors = Record<string, string>;
+
+const LAST_STEP = 2;
 
 function validateStep(step: number, data: RegistrationFormData): ValidationErrors {
   const errors: ValidationErrors = {};
@@ -54,22 +51,15 @@ function validateStep(step: number, data: RegistrationFormData): ValidationError
     if (!o.rankDesignation.trim()) errors.rankDesignation = "Rank / Designation is required";
   }
 
-  if (step === 6) {
-    const e = data.emergency;
-    if (!e.fullName.trim()) errors.fullName = "Emergency contact name is required";
-    if (!e.relationship) errors.relationship = "Relationship is required";
-    if (!e.phoneNumber.trim()) errors.phoneNumber = "Phone number is required";
-    if (!e.country) errors.country = "Country is required";
-  }
-
-  if (step === 7) {
-    const d = data.declaration;
-    if (!d.infoCorrect || !d.privacyPolicy || !d.termsConditions) {
-      errors.declaration = "Please accept all declarations to submit";
-    }
-  }
-
   return errors;
+}
+
+function validateAllSteps(data: RegistrationFormData): ValidationErrors {
+  return {
+    ...validateStep(0, data),
+    ...validateStep(1, data),
+    ...validateStep(2, data),
+  };
 }
 
 const slideVariants = {
@@ -100,7 +90,7 @@ export default function RegistrationWizard() {
     }
     setErrors({});
     setDirection(1);
-    setStep((s) => Math.min(s + 1, 7));
+    setStep((s) => Math.min(s + 1, LAST_STEP));
   }, [step, data]);
 
   const goPrev = useCallback(() => {
@@ -117,7 +107,7 @@ export default function RegistrationWizard() {
   }, []);
 
   const handleSubmit = useCallback(async () => {
-    const errs = validateStep(7, data);
+    const errs = validateAllSteps(data);
     if (Object.keys(errs).length > 0) {
       setErrors(errs);
       return;
@@ -136,30 +126,8 @@ export default function RegistrationWizard() {
     (organization: RegistrationFormData["organization"]) => setData((d) => ({ ...d, organization })),
     []
   );
-  const updateTravel = useCallback(
-    (travel: RegistrationFormData["travel"]) => setData((d) => ({ ...d, travel })),
-    []
-  );
-  const updateAccommodation = useCallback(
-    (accommodation: RegistrationFormData["accommodation"]) => setData((d) => ({ ...d, accommodation })),
-    []
-  );
-  const updateEvents = useCallback(
-    (selectedEvents: string[]) => setData((d) => ({ ...d, selectedEvents })),
-    []
-  );
-  const updateEmergency = useCallback(
-    (emergency: RegistrationFormData["emergency"]) => setData((d) => ({ ...d, emergency })),
-    []
-  );
-  const updateDeclaration = useCallback(
-    (field: keyof RegistrationFormData["declaration"], value: boolean) =>
-      setData((d) => ({ ...d, declaration: { ...d.declaration, [field]: value } })),
-    []
-  );
 
-  const isLastStep = step === 7;
-  const isFirstStep = step === 0;
+  const isLastStep = step === LAST_STEP;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#F0F4F8] to-white pt-24 pb-16">
@@ -214,40 +182,6 @@ export default function RegistrationWizard() {
                     errors={errors}
                   />
                 )}
-                {step === 3 && (
-                  <Step6Events
-                    selected={data.selectedEvents}
-                    onChange={updateEvents}
-                  />
-                )}
-                {step === 4 && (
-                  <Step4Travel
-                    data={data.travel}
-                    onChange={updateTravel}
-                    errors={errors}
-                  />
-                )}
-                {step === 5 && (
-                  <Step5Accommodation
-                    data={data.accommodation}
-                    onChange={updateAccommodation}
-                    errors={errors}
-                  />
-                )}
-                {step === 6 && (
-                  <Step7Emergency
-                    data={data.emergency}
-                    onChange={updateEmergency}
-                    errors={errors}
-                  />
-                )}
-                {step === 7 && (
-                  <Step8Review
-                    data={data}
-                    errors={errors}
-                    onDeclarationChange={updateDeclaration}
-                  />
-                )}
               </motion.div>
             </AnimatePresence>
           </div>
@@ -274,10 +208,10 @@ export default function RegistrationWizard() {
                     {isSubmitting ? (
                       <>
                         <Loader2 className="h-4 w-4 animate-spin" />
-                        Submitting...
+                        Generating credentials...
                       </>
                     ) : (
-                      "Submit Registration"
+                      "Complete Registration"
                     )}
                   </button>
                 ) : (

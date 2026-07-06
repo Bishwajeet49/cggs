@@ -1,0 +1,150 @@
+{
+  "page": {
+    "eyebrow": "Get in Touch",
+    "title": "Contact Us",
+    "subtitle": "Reach the CGGS 2027 Secretariat and the Indian Coast Guard Regional Headquarters (East), Chennai — the host organisation for the 5th Coast Guard Global Summit.",
+    "source_note": "Contact details sourced from the official Indian Coast Guard website (indiancoastguard.gov.in) and Google Maps, as of February 2026."
+  },
+  "organizer": {
+    "name": "Indian Coast Guard Regional Headquarters (East)",
+    "name_tamil": "இந்திய கடலோர பாதுகாப்பு படை, மண்டலத் தலைமையகம்",
+    "commander": "Commander Coast Guard Region (East)",
+    "hours": "Open 24 hours",
+    "website": "https://www.indiancoastguard.gov.in/east/contact-us-east"
+  },
+  "address": {
+    "title": "Indian Coast Guard Regional Headquarters (East)",
+    "line1": "Rajaji Salai, Near Napier Bridge",
+    "line2": "Port Trust Officers Quarters, Sathya Nagar, Chennai Port Trust",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600009",
+    "plus_code": "379Q+G64",
+    "country": "India",
+    "maps_url": "https://www.google.com/maps/place/Indian+Coast+Guard+Regional+Headquarters/@13.0687728,80.2880725,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5268bad456d805:0xe2f226d8f384354!8m2!3d13.0687728!4d80.2880725",
+    "coordinates": {
+      "lat": 13.0687728,
+      "lng": 80.2880725
+    },
+    "map_embed_url": "https://maps.google.com/maps?q=13.0687728,80.2880725&hl=en&z=17&output=embed"
+  },
+  "secretariat": {
+    "name": "CGGS 2027 Secretariat",
+    "description": "For delegate registration, official invitations, media accreditation, and summit logistics enquiries.",
+    "email": "secretariat@cggs2027.in",
+    "phone": "+91-44-2345-6789",
+    "hours": "Mon–Fri, 09:00 – 18:00 IST"
+  },
+  "primary_channels": [
+    {
+      "id": "main-phone",
+      "icon": "phone",
+      "label": "Main Line",
+      "value": "+91-44-25395011",
+      "href": "tel:+914425395011",
+      "note": "Regional HQ switchboard"
+    },
+    {
+      "id": "exchange",
+      "icon": "phone",
+      "label": "Telephone Exchange",
+      "value": "+91-44-25393999",
+      "href": "tel:+914425393999",
+      "note": "Round-the-clock"
+    },
+    {
+      "id": "ops",
+      "icon": "radio",
+      "label": "Operations Centre",
+      "value": "+91-44-25395016",
+      "href": "tel:+914425395016",
+      "note": "Maritime operations"
+    },
+    {
+      "id": "fax",
+      "icon": "fax",
+      "label": "Fax",
+      "value": "+91-44-23460423",
+      "href": null,
+      "note": "Official correspondence"
+    }
+  ],
+  "emails": [
+    {
+      "id": "rhq",
+      "label": "Regional Headquarters",
+      "address": "rhq-east@indiancoastguard.nic.in",
+      "href": "mailto:rhq-east@indiancoastguard.nic.in"
+    },
+    {
+      "id": "ops",
+      "label": "Operations",
+      "address": "ops-east@indiancoastguard.nic.in",
+      "href": "mailto:ops-east@indiancoastguard.nic.in"
+    },
+    {
+      "id": "tech",
+      "label": "Technical",
+      "address": "tech-east@indiancoastguard.nic.in",
+      "href": "mailto:tech-east@indiancoastguard.nic.in"
+    },
+    {
+      "id": "pna",
+      "label": "Personnel & Administration",
+      "address": "pna-east@indiancoastguard.nic.in",
+      "href": "mailto:pna-east@indiancoastguard.nic.in"
+    },
+    {
+      "id": "mrcc",
+      "label": "MRCC Chennai",
+      "address": "mrcc-east@indiancoastguard.nic.in",
+      "href": "mailto:mrcc-east@indiancoastguard.nic.in"
+    }
+  ],
+  "departments": [
+    {
+      "name": "Staff Officer to COMCG (East)",
+      "contact": "Commandant Ritvik Pandey",
+      "phone": "+91-44-23460401",
+      "href": "tel:+914423460401"
+    },
+    {
+      "name": "Chief of Staff, Eastern Region",
+      "contact": "DIG KR Deepak Kumar, TM",
+      "phone": "+91-44-29550143",
+      "href": "tel:+914429550143"
+    },
+    {
+      "name": "Chief Staff Officer (Ops)",
+      "contact": "DIG MM Syed",
+      "phone": "+91-44-29551004",
+      "href": "tel:+914429551004"
+    },
+    {
+      "name": "Regional Public Relations Officer",
+      "contact": "Commandant Ravindran Biju",
+      "phone": "+91-44-29550158",
+      "href": "tel:+914429550158"
+    },
+    {
+      "name": "COMSTAN",
+      "contact": "Communications Station",
+      "phone": "+91-44-25395019",
+      "href": "tel:+914425395019"
+    },
+    {
+      "name": "MRCC Chennai",
+      "contact": "Maritime Rescue Coordination Centre",
+      "phone": "+91-44-25395018",
+      "href": "tel:+914425395018"
+    }
+  ],
+  "enquiry_topics": [
+    "Delegate Registration",
+    "Media Accreditation",
+    "Official Invitation",
+    "Fleet Review",
+    "Accommodation & Travel",
+    "General Enquiry"
+  ]
+}

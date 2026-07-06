@@ -11,6 +11,16 @@ export interface MockUser {
   email?: string;
 }
 
+export interface DemoQuickAccessDisplay {
+  firstName: string;
+  lastName: string;
+  title: string;
+  organization: string;
+  country: string;
+  demoLabel: string;
+  profilePhotoUrl?: string;
+}
+
 export interface DemoDelegate {
   id: string;
   demoLabel: string;
@@ -24,7 +34,9 @@ export interface DemoDelegate {
   category: string;
   country: string;
   organization: string;
-  profilePhotoUrl: string;
+  profilePhotoUrl?: string;
+  /** Fictional display-only identity for login quick-access cards */
+  quickAccess?: DemoQuickAccessDisplay;
 }
 
 export interface DemoDelegatesData {

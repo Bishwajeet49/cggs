@@ -3,16 +3,41 @@
     {
       "news_id": "NEWS-001",
       "title": "India Assumes CGGS Presidency — 5th Summit Confirmed for Chennai 2027",
-      "date": "2026-11-15",
+      "date": "2025-09-12",
       "category": "Announcement",
-      "thumbnail": "/banners/banner-1.png",
-      "summary": "The Indian Coast Guard formally assumes the Presidency of the Coast Guard Global Summit from Italy and Japan, confirming Chennai as host city for the landmark 5th edition.",
-      "content": "In a historic ceremony at the Indian Coast Guard headquarters in New Delhi, Director General Paramesh Sivamani formally received the CGGS Presidency, marking India's first time hosting this prestigious international forum.",
+      "thumbnail": "/media/cggs-4th-rome/rome-summit-5.png",
+      "summary": "At the closing of the 4th Coast Guard Global Summit in Rome, it was formally decided that India will host the 5th edition in 2027 — marking the first time CGGS is held in South Asia.",
+      "content": "The handover ceremony at the 4th CGGS in Rome, Italy transferred the CGGS host presidency to India. The Indian Coast Guard will lead the 5th Coast Guard Global Summit in Chennai, coinciding with the Golden Jubilee of the Indian Coast Guard — 50 years of maritime service since 1977.",
       "author": "CGGS Secretariat",
-      "tags": ["Presidency", "Chennai", "Announcement"]
+      "tags": ["Presidency", "Chennai", "India", "Handover"],
+      "source_url": "https://www.kaiho.mlit.go.jp/e/topics_archive/article7700.html"
     },
     {
       "news_id": "NEWS-002",
+      "title": "4th CGGS Rome Sets Record — 115 Agencies from 99 Countries Participate",
+      "date": "2025-09-12",
+      "category": "Summit",
+      "thumbnail": "/media/cggs-4th-rome/rome-summit-1.jpg",
+      "summary": "The 4th Coast Guard Global Summit in Rome, Italy (10–12 September 2025) brought together 115 heads of coast guards and related organizations from 99 countries — the highest participation in CGGS history.",
+      "content": "Co-chaired by Admiral Yoshio Seguchi of the Japan Coast Guard and the Commandant of the Italian Coast Guard, the summit operated under the theme of leveraging coast guard functions to enhance Maritime Domain Awareness. Leaders recalled the importance of strengthening cooperation, supported the promotion of the Online Program for Coast Guard Global Human Resource Development, and deepened understanding of MDA utilization cases worldwide.",
+      "author": "Japan Coast Guard",
+      "tags": ["4th CGGS", "Rome", "Record Participation", "MDA"],
+      "source_url": "https://www.kaiho.mlit.go.jp/e/topics_archive/article7700.html"
+    },
+    {
+      "news_id": "NEWS-003",
+      "title": "Heads of Coast Guards from Seven Oceans Gather in Italy for 4th CGGS",
+      "date": "2025-09-10",
+      "category": "Summit",
+      "thumbnail": "/media/cggs-4th-rome/rome-summit-4.png",
+      "summary": "For the first time since its inception in 2017, the Coast Guard Global Summit is hosted outside Japan — in Rome, Italy, from 10–12 September 2025.",
+      "content": "Launched in 2017 at the proposal of the Japan Coast Guard and The Nippon Foundation, CGGS serves as a forum for dialogue and cooperation where heads of the world's coast guard agencies gather to address global maritime challenges. The 4th edition in Rome marks a historic milestone as the first summit hosted by a European nation, bridging European and Indo-Pacific maritime security frameworks.",
+      "author": "Japan Coast Guard",
+      "tags": ["4th CGGS", "Italy", "International", "Maritime Security"],
+      "source_url": "https://www.kaiho.mlit.go.jp/e/topics_archive/article7664.html"
+    },
+    {
+      "news_id": "NEWS-004",
       "title": "Over 115 Nations Confirm Participation — Record Delegation for CGGS 2027",
       "date": "2026-12-01",
       "category": "Participation",
@@ -23,7 +48,7 @@
       "tags": ["Participation", "International", "Record"]
     },
     {
-      "news_id": "NEWS-003",
+      "news_id": "NEWS-005",
       "title": "International Coast Guard Fleet Review to be Held off Chennai Coast",
       "date": "2027-01-10",
       "category": "Fleet Review",
@@ -34,7 +59,7 @@
       "tags": ["Fleet Review", "Maritime", "Chennai"]
     },
     {
-      "news_id": "NEWS-004",
+      "news_id": "NEWS-006",
       "title": "Golden Jubilee Gala: 50 Years of the Indian Coast Guard Celebrated at CGGS 2027",
       "date": "2027-01-20",
       "category": "Golden Jubilee",

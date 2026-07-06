@@ -84,8 +84,8 @@ export const siteConfig = {
     "/fleet-review",
     "/seminar",
     "/village",
-    "/accommodation",
-    "/travel-and-stay",
+    // "/accommodation", // hidden for now
+    // "/travel-and-stay", // hidden for now
     "/media",
     "/contact",
     "/register",
